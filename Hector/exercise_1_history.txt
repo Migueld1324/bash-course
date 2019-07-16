@@ -1,0 +1,264 @@
+    1  clear
+    2  mkdir C
+    3  cd C
+    4  mkdir Programs
+    5  mkdir Windows
+    6  mkdir Users
+    7  cd Programs/
+    8  mkdir chrome
+    9  mkdir ares
+   10  mkdir spotify
+   11  mkdir word
+   12  mkdir excel
+   13  mkdir powerpoint
+   14  mkdir access
+   15  mkdir edge
+   16  mkdir calculator
+   17  mkdir calendar
+   18  cd chrome
+   19  touch file1
+   20  touch file2
+   21  ls
+   22  cd ..
+   23  cp chrome/file1 ares/
+   24  cp chrome/file2 ares/
+   25  cp chrome/file1 spotify/
+   26  cp chrome/file2 spotify/
+   27  cp chrome/file1 word/
+   28  cp chrome/file2 word/
+   29  cp chrome/file1 excel/
+   30  cp chrome/file2 excel/
+   31  cp chrome/file1 powerpoint/
+   32  cp chrome/file2 powerpoint/
+   33  cp chrome/file1 access/
+   34  cp chrome/file2 access/
+   35  cp chrome/file1 edge/
+   36  cp chrome/file2 edge/
+   37  cp chrome/file1 calculator/
+   38  cp chrome/file2 calculator/
+   39  cp chrome/file1 calendar/
+   40  cp chrome/file2 calendar/
+   41  cd edge/
+   42  ls
+   43  cd ..
+   44  mkdir debug
+   45  rm -r debug/
+   46  cd ..
+   47  cd Windows/
+   48  mkdir debug
+   49  mkdir app
+   50  mkdir boot
+   51  mkdir diagnostics
+   52  mkdir help
+   53  cd debug/
+   54  touch file1 file2 file3 file4 file5 file6 file7 file8 file9 file10
+   55  cd ..
+   56  cd app/
+   57  touch file1 file2 file3 file4 file5 file6 file7 file8 file9 file10
+   58  cd ..
+   59  cd boot/
+   60  touch file1 file2 file3 file4 file5 file6 file7 file8 file9 file10
+   61  cd ..
+   62  cd diagnostics/
+   63  touch file1 file2 file3 file4 file5 file6 file7 file8 file9 file10
+   64  cd ..
+   65  cd help/
+   66  touch file1 file2 file3 file4 file5 file6 file7 file8 file9 file10
+   67  ls
+   68  cd ..
+   69  mkdir System32
+   70  cd System32/
+   71  touch file1 file2 file3 file4 file5 file6 file7 file8 file9 file10 file11 file12 file13 file14 file15
+   72  ls
+   73  cp -r ../debug .
+   74  ls
+   75  cd debug/
+   76  ls
+   77  cd ..
+   78  cp -r ../app .
+   79  cp -r ../boot .
+   80  cp -r ../diagnostics/ .
+   81  cp -r ../help/ .
+   82  ls
+   83  cd help/
+   84  ls
+   85  cd ..
+   86  cd Users/
+   87  mdkir User1
+   88  mkdir User1
+   89  mkdir User2
+   90  mkdir User3
+   91  cd User1
+   92  mkdir Desktop
+   93  mkdir Documents
+   94  mkdir Downloads
+   95  mkdir Music
+   96  mkdir Pictures
+   97  mkdir Videos
+   98  mkdir Games
+   99  mkdir BTS
+  100  mkdir Extra
+  101  cd Desktop/
+  102  touch Chrome RecycleBin Steam Blizzard Postman Firefox Office Drive Ubuntu Paint AdobeReader Photoshop AdobeXD Sketch Spotify 
+  103  cd ..
+  104  cd Documents/
+  105  touch tesis.docx tesis-final.docx tesis-este-si.docx tesis-ahora-si-ya.docx tesis-final-final.docx tesis-ultimate-edition.docx tesis-entrega-final.docx tesis-no-se-controlar-versiones.docx recetas-abuela.docx presupuesto.xlsx horarios.xlsx registro-ocio.xlsx registro-aprendizaje.xlsx pro-git.pdf pragmatic-programmer.pdf
+  106  ls
+  107  cd ..
+  108  cd Downloads/
+  109  touch chrome.exe cmder.exe spotify.zip tesis.pdf foto.png slack.exe filezilla.zip foto2.jpg foto3.jpg foto4.jpg feedback-asesor.docx index.html firacode.ttf xampp.zip node-v-10.zip
+  110  ls
+  111  cd ..
+  112  cd Music
+  113  mkdir Five_Finger_Death_Punch
+  114  mkdir Avenged_Sevenfold
+  115  mkdir Linkin_Park
+  116  mkdir Luis_Miguel
+  117  mkdir Mijares
+  118  mkdir Daft_Punk
+  119  mkdir TWRP
+  120  mkdir Ninja_Sex_Party
+  121  mkdir Pepe_Aguilar
+  122  mkdir Steve_Aoki
+  123  mkdir Queen
+  124  mkdir AC_DC
+  125  mkdir Franz_Ferdinand
+  126  mkdir Toto
+  127  mkdir Eminem
+  128  mkdir Rio_Roma
+  129  mkdir Dragonforce
+  130  mkdir Romeo_Santos
+  131  mkdir Skillet
+  132  mkdir Fall_Out_Boy
+  133  cd Five_Finger_Death_Punch/
+  134  touch wrong_side_of_heaven.mp3 bad_company.mp3 wash_it_all_away.mp3 under_and_over_it.mp3 lift_me_up.mp3
+  135  ls
+  136  cd ..
+  137  cd Avenged_Sevenfold/
+  138  touch dear_god.mp3 afterlife.mp3 bat_country.mp3 hail_to_the_king.mp3 buried_alive.mp3
+  139  cd ..
+  140  cd Linkin_Park/
+  141  touch numb.mp3 in_the_end.mp3 breaking_the_habit.mp3 new_divide.mp3 castle_of_glass.mp3
+  142  ls
+  143  cd ..
+  144  cd Luis_Miguel/
+  145  touch la_incondicional.mp3 entregate.mp3 ahora_te_puedes_marchar.mp3 la_bikina.mp3 culpable_o_no.mp3
+  146  ls
+  147  cd ..
+  148  cd Mijares/
+  149  touch para_amarnos_mas.mp3 soldado_del_amor.mp3 bella.mp3 si_me_tenias.mp3 no_hace_falta.mp3
+  150  cd ..
+  151  cd Daft_Punk/
+  152  touch get_lucky.mp3 one_more_time.mp3 around_the_world.mp3 instant_crush.mp3 lose_yourself_to_dance.mp3
+  153  ls
+  154  cd ..
+  155  cd TWRP/
+  156  touch atomic_karate.mp3 the_hit.mp3 starlight_brigade.mp3 phantom_racer.mp3 groove_crusaders.mp3
+  157  ls
+  158  cd ..
+  159  ls
+  160  cd Ninja_Sex_Party/
+  161  touch if_we_were_gay.mp3 cool_patrol.mp3 danny_dont_you_know.mp3 unicorn_wizard.mp3 no_reason_boner.mp3
+  162  ls
+  163  cd ..
+  164  cd Pepe_Aguilar/
+  165  touch prometiste.mp3 por_mujeres_como_tu.mp3 directo_al_corazon.mp3 con_otro_sabor.mp3 cielo_rojo.mp3
+  166  ls
+  167  cd ..
+  168  cd Steve_Aoki/
+  169  touch are_you_lonely.mp3 waste_it_on_me.mp3 azukita.mp3 delirious.mp3 no_beef.mp3
+  170  ls
+  171  cd ../Queen/
+  172  touch bohemian_rhapsody.mp3 radio_ga_ga.mp3 i_want_it_all.mp3 somebody_to_love.mp3 killer_queen.mp3
+  173  ls
+  174  cd ../AC_DC/
+  175  touch highway_to_hell.mp3 thunderstruck.mp3 hells_bells.mp3 tnt.mp3 moneytalks.mp3
+  176  ls
+  177  cd ../Franz_Ferdinand/
+  178  touch take_me_out.mp3 do_you_want_to.mp3 walk_away.mp3 this_fire.mp3 no_you_girls.mp3
+  179  ls
+  180  cd ../Toto/
+  181  touch africa.mp3 hold_the_line.mp3 99.mp3 rosanna.mp3 pamela.mp3
+  182  ls
+  183  cd ../Eminem/
+  184  touch love_the_way_you_lie.mp3 rap_god.mp3 lose_yourself.mp3 not_afraid.mp3 venom.mp3
+  185  ls
+  186  cd ../Rio_Roma/
+  187  touch me_cambiaste_la_vida.mp3 mi_persona_favorita.mp3 por_eso_te_amo.mp3 contigo.mp3 princesa.mp3
+  188  ls
+  189  cd ../Dragonforce/
+  190  touch cry_thunder.mp3 the_game.mp3 fury_of_the_storm.mp3 heroes_of_our_time.mp3 through_the_fire_and_the_flames.mp3
+  191  ls
+  192  cd ../Romeo_Santos/
+  193  touch aullando.mp3 you.mp3 eres_mia.mp3 ella_y_yo.mp3 imitadora.mp3
+  194  ls
+  195  cd ../Skillet/
+  196  touch monster.mp3 hero.mp3 feel_invincible.mp3 awake_and_alive.mp3 not_gonna_die.mp3
+  197  ls
+  198  cd ../Fall_Out_Boy/
+  199  touch centuries.mp3 the_phoenix.mp3 dance_dance.mp3 uma_thurman.mp3 immortals.mp3
+  200  ls
+  201  cd ..
+  202  ls
+  203  cd Pictures/
+  204  touch foto1.jpg foto2.jpg foto3.jpg foto4.jpg foto5.jpg foto6.jpg foto7.jpg foto8.jpg foto9.jpg foto10.jpg foto11.jpg foto12.jpg foto13.jpg foto14.jpg foto15.jpg
+  205  ls
+  206  cd ../Videos/
+  207  touch pulp_fiction.mp4 the_thing.mp4 the_avengers.mp4 reservoir_dogs.mp4 django.mp4 kill_bill.mp4 inglorious_bastards.mp4 the_hateful_eight.mp4 the_godfather.mp4 the_birds.mp4 vertigo.mp4 v_for_vendetta.mp4 sin_city.mp4 citizen_kane.mp4 godzilla_2.mp4
+  208  ls
+  209  cd ../Games/
+  210  touch age_of_empires.sav skyrim.sav civilization_v.sav hollow_knight.sav grand_theft_auto.sav transistor.sav witcher.sav halo.sav gears_of_war.sav smash.sav pokemon.sav legend_of_zelda.sav donkey_kong.sav super_mario_64.sav call_of_duty.sav
+  211  ls
+  212  cd ../Extra/
+  213  mv ../Extra/ ../Books
+  214  cd ..
+  215  ls
+  216  cd Books/
+  217  touch ulysses.pdf night_circus.pdf american_gods.pdf 1984.pdf pride_and_prejudice.pdf the_great_gatsby.pdf moby_dick.pdf war_of_the_worlds.pdf the_hobbit.pdf crime_and_punishment.pdf dracula.pdf fahrenheit_451.pdf tale_of_two_cities.pdf emma.pdf little_woman.pdf
+  218  ls
+  219  touch project1.js project2.js project3.js project4.vue project5.html project6.css project7.php project8.php project9.html project10.js project11.vue project12.js project13.scss project14.php project15.js
+  220  ls
+  221  mv project1.js ../BTS/
+  222  ls
+  223  mv project2.js ../BTS/
+  224  mv project3.js ../BTS/
+  225  mv project4.vue ../BTS/
+  226  mv project5.html ../BTS/
+  227  mv project6.css ../BTS/
+  228  mv project7.php ../BTS/
+  229  mv project8.php ../BTS/
+  230  mv project9.html ../BTS/
+  231  mv project10.js ../BTS/
+  232  mv project11.vue ../BTS/
+  233  mv project12.js ../BTS/
+  234  mv project13.scss ../BTS/
+  235  mv project14.php ../BTS/
+  236  mv project15.js ../BTS/
+  237  ls
+  238  cd ..
+  239  cd BTS/
+  240  ls
+  241  cd ..
+  242  cp -r Documents/ ../User2/
+  243  cp -r Desktop/ ../User2/
+  244  cp -r Downloads/ ../User2/
+  245  cp -r Pictures/ ../User2/
+  246  cp -r Videos/ ../User2/
+  247  cp -r Music/ ../User2/
+  248  cp -r Games/ ../User2/
+  249  cp -r Books/ ../User2/
+  250  cp -r BTS/ ../User2/
+  251  cp -r Documents/ ../User3/
+  252  cp -r Desktop/ ../User3/
+  253  cp -r Downloads/ ../User3/
+  254  cp -r Pictures/ ../User3/
+  255  cp -r Videos/ ../User3/
+  256  cp -r Music/ ../User3/
+  257  cp -r Games/ ../User3/
+  258  cp -r Books/ ../User3/
+  259  cp -r BTS/ ../User3/
+  260  cd ..
+  261  cd .
+  262  cd ..
+  263  cat history > exercise_1_history.txt
+  264  history > exercise_1_history.txt
