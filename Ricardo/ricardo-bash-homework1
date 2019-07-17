@@ -3,9 +3,6 @@ cd ../../..
 ls
 cp home/ubuntu/c mnt/d/
 cp -r home/ubuntu/c mnt/d/
-man nano
-nano help
-nano --help
 ps aux
 ps
 ps aux
