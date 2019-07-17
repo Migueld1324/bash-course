@@ -241,7 +241,297 @@ cat file14.docx >> file4.txt
 cat file14.docx >> file6.pdf
 cat file14.docx >> file9.pdf
 cd ..
-cp -r estefania/. usuario2/
-cp -r estefania/. usuario3/
+cd Music/
+cd Muse/
 cd ..
+ls
+rm Björk Disturbed JoyDivision FranzFerdinand BrunoMars Babasonicos Adele CapitalCities FooFighters Dorian
+rm -r Björk Disturbed JoyDivision FranzFerdinand BrunoMars Babasonicos Adele CapitalCities FooFighters Dorian
+ls
+cd ArcticMonkeys/
+mv track1 'ArcticMonkeys-Do I wanna know'
+ls
+mv track1 'ArcticMonkeys-Do I wanna know'
+mv ArcticMonkeys-Do I wanna know.txt
+ls
+mvArctic 'ArcticMonkeys-Do I wanna know'
+mv 'ArcticMonkeys-Do I wanna know.mp3' ArcticMonkeys-Do I wanna know.txt
+ls
+mv track2.mp3 'ArcticMonkeys-I wanna be yours.txt'
+ls
+cat > ArcticMonkeys-Do I wanna know.txt
+cat > 'ArcticMonkeys-Do I wanna know.txt'
+cat 'ArcticMonkeys-I wanna be yours.txt'
+ls
+rm ArcticMonkeys-Do
+ls
+cat > 'ArcticMonkeys-I wanna be yours.txt'
+cat 'ArcticMonkeys-I wanna be yours.txt' 
+ls
+mv track3.mp3 'ArcticMonkeys-505.txt'
+cat > 'ArcticMonkeys-505.txt' 
+ls
+mv track4.mp3 'ArcticMonkeys-Arabella.txt'
+cat > 'ArcticMonkeys-Arabella.txt' 
+mv track5.mp3 'ArcticMonkeys-R U mine.txt'
+cat > 'ArcticMonkeys-R U mine.txt' 
+nano 'ArcticMonkeys-R U mine.txt' 
+cat > 'ArcticMonkeys-R U mine.txt' 
+ls
+cat >> 'ArcticMonkeys-Knee Socks.txt'
+ls
+cat >> 'ArcticMonkeys-Fluorescent Adolescent.txt'
+cat >> 'ArcticMonkeys-A Certain Romance.txt'
+cat >> 'ArcticMonkeys-Mardy Bum.txt'
+ls
+cat >> 'ArcticMonkeys-Cornestone.txt'
+cd ..
+cd Blink182/
+mv track1.mp3 'Blink 182-I miss you.txt'
+cat >> 'Blink 182-I miss you.txt' 
+mv track2.mp3 'Blink 182-All the small things.txt'
+cat >> 'Blink 182-All the small things.txt' 
+mv track3.mp3 'Blink 182-Whats my age again.txt'
+cat >> 'Blink 182-Whats my age again.txt' 
+mv track4.mp3 'Blink 182-Always.txt'
+cat >> 'Blink 182-Always.txt' 
+ls
+mv track5.mp3 'Blink 182-Happy Days.txt'
+cat >> 'Blink 182-Happy Days.txt' 
+cat >> 'Blink 182-First Date.txt'
+cat >> 'Blink 182-Adams Song.txt'
+cat >> 'Blink 182-Dumpweed.txt'
+ls
+cat >> 'Blink 182-Dammit.txt'
+cat >> 'Blink 182-Misery.txt'
+cd ..
+mv track1.mp3 'Blur-Song 2.txt'
+cd Blur/
+mv track1.mp3 'Blur-Song 2.txt'
+cat >> 'Blur-Song 2.txt' 
+mv track2.mp3 'Blur-Coffee & TV.txt'
+cat >> 'Blur-Coffee & TV.txt' 
+mv track3.mp3 'Blur-Girls and Boys.txt'
+cat >> 'Blur-Girls and Boys.txt' 
+mv track4.mp3 'Blur-Sweet Song.txt'
+cat >> 'Blur-Sweet Song.txt' 
+mv track5.mp3 'Blur-Ghost Ship.txt'
+cat >> 'Blur-Ghost Ship.txt' 
+cat >> 'Blur-Parklife.txt'
+cat >> 'Blur-The Universal.txt'
+cat >> 'Blur-Tender.txt'
+cat >> 'Blur-Country House.txt'
+cat >> 'Blur-Beetlebum.txt'
+ls
+cd ..
+cd BrandonFlowers/
+mv track1.mp3 'Brandon Flowers-Magdalena.txt'
+cat >> 'Brandon Flowers-Magdalena.txt' 
+mv track2.mp3 'Brandon Flowers-Only the Young.txt' 
+cat >> 'Brandon Flowers-Only the Young.txt' 
+mv track3.mp3 'Brandon Flowers-Crossfire.txt'
+cat >> 'Brandon Flowers-Crossfire.txt' 
+mv track4.mp3 'Brandon Flowers-Dreams Come True.txt'
+cat >> 'Brandon Flowers-Dreams Come True.txt' 
+mv track5.mp3 'Brandon Flowers-Between Me and You.txt'
+cat >> 'Brandon Flowers-Between Me and You.txt' 
+cat >> 'Brandon Flowers-Still Want You.txt'
+cat >> 'Brandon Flowers-Right Behind You.txt'
+cat >> 'Brandon Flowers-On the Floor.txt'
+cat >> 'Brandon Flowers-Bette Davis Eyes.txt'
+cat >> 'Brandon Flowers-I Can Change.txt'
+ls
+cd ..
+cd Caifanes/
+mv track1.mp3 'Caifanes-La Celula que explota.txt'
+cat >> 'Caifanes-La Celula que explota.txt' 
+mv track2.mp3 'Caifanes-Viento.txt' 
+cat >> 'Caifanes-Viento.txt' 
+mv track3.mp3 'Caifanes-Matenme porque me muero.txt'
+cat >> 'Caifanes-Matenme porque me muero.txt' 
+mv track3.mp3 'Caifanes-No dejes que.txt'
+ls
+mv track4.mp3 'Caifanes-No dejes que.txt'
+cat >> 'Caifanes-No dejes que.txt' 
+mv track5.mp3 'Caifanes-Afuera.txt'
+cat >> 'Caifanes-Afuera.txt' 
+cat >> 'Caifanes-Ayer me dijo un ave.txt'
+cat >> 'Caifanes-Los Dioses Ocultos.txt'
+cat >> 'Caifanes-Aqui no es asi.txt'
+cat >> 'Caifanes-La Negra Tomasa.txt'
+cat >> 'Caifanes-Antes de que nos olviden.txt'
+ls
+cd ..
+cd ChemicalBrothers/
+mv track1.mp3 'Chemical Brothers-Do It Again.txt'
+cat >> 'Chemical Brothers-Do It Again.txt' 
+mv track2.mp3 'Chemical Brothers-Hey Boy Hey Girl.txt'
+cat >> 'Chemical Brothers-Hey Boy Hey Girl.txt' 
+mv track3.mp3 'Chemical Brothers-Go.txt'
+cat >> 'Chemical Brothers-Go.txt' 
+mv track4.mp3 'Chemical Brothers-The Test.txt'
+cat >> 'Chemical Brothers-The Test.txt' 
+mv track5.mp3 'Chemical Brothers-Free Yourself.txt'
+cat >> 'Chemical Brothers-Free Yourself.txt' 
+cat >> 'Chemical Brothers-Wide Open.txt'
+cat >> 'Chemical Brothers-Dissolve.txt'
+cat >> 'Chemical Brothers-Close Your Eyes.txt'
+cat >> 'Chemical Brothers-Block Rockin Beats.txt'
+cat >> 'Chemical Brothers-Leave Home.txt'
+ls
+cd ..
+cd Coldplay/
+mv track1.mp3 'Coldplay-The Scientist.txt'
+cat >> 'Coldplay-The Scientist.txt' 
+mv track2.mp3 'Coldplay-Yellow.txt'
+cat >> 'Coldplay-Yellow.txt' 
+mv track3.mp3 'Coldplay-A Sky Full Of Starts.txt'
+cat >> 'Coldplay-A Sky Full Of Starts.txt' 
+mv track4.mp3 'Coldplay-Fix You.txt'
+cat >> 'Coldplay-Fix You.txt' 
+mv track5.mp3 'Coldplay-Viva la Vida.txt'
+cat >> 'Coldplay-Viva la Vida.txt' 
+cat >> 'Coldplay-In My Place.txt'
+cat >> 'Coldplay-Paradise.txt'
+cat >> 'Coldplay-Trouble.txt'
+cat >> 'Coldplay-Clocks.txt'
+cat >> 'Coldplay-The Hardest Part.txt'
+ls
+cd ..
+cd Jaguares/
+mv track1.mp3 'Jaguares-Te lo pido por favor.txt'
+cat >> 'Jaguares-Te lo pido por favor.txt' 
+mv track2.mp3 'Jaguares-Asi como tu.txt'
+cat >> 'Jaguares-Asi como tu.txt' 
+mv track3.mp3 'Jaguares-Fin.txt'
+cat >> 'Jaguares-Fin.txt' 
+mv track4.mp3 'Jaguares-El Equilibrio.txt'
+cat >> 'Jaguares-El Equilibrio.txt' 
+mv track5.mp3 'Jaguares-Contigo.txt'
+cat >> 'Jaguares-Contigo.txt' 
+cat >> 'Jaguares-No Dejes Que.txt'
+cat >> 'Jaguares-Detras de los Cerros.txt'
+cat >> 'Jaguares-Por un Beso.txt'
+cat >> 'Jaguares-Viaje Astral.txt'
+cat >> 'Jaguares-Las Ratas no tienen Alas.txt'
+ls
+cd ..
+cd Maroon5/
+mv track1.mp3 'Maroon 5-Sugar.txt'
+cat >> 'Maroon 5-Sugar.txt' 
+mv track2.mp3 'Maroon 5-She Will Be Loved.txt'
+cat >> 'Maroon 5-She Will Be Loved.txt' 
+mv track3.mp3 'Maroon 5-Girls Like You.txt'
+cat >> 'Maroon 5-Girls Like You.txt' 
+mv track4.mp3 'Maroon 5-Maps.txt'
+cat >> 'Maroon 5-Maps.txt' 
+mv track5.mp3 'Maroon 5-This Love.txt'
+cat >> 'Maroon 5-This Love.txt' 
+cat >> 'Maroon 5-What Lovers Do.txt'
+cat >> 'Maroon 5-Wont Go Home Without You.txt'
+cat >> 'Maroon 5-Sunday Morning.txt'
+cat >> 'Maroon 5-Dont Wanna Know.txt'
+cat >> 'Maroon 5-Animals.txt'
+ls
+cd ..
+cd Muse/
+mv track1.mp3 'Muse-Cant Take My Eyes Off You.txt'
+cat >> 'Muse-Cant Take My Eyes Off You.txt' 
+mv track2.mp3 'Muse-Madness.txt'
+cat >> 'Muse-Madness.txt' 
+mv track3.mp3 'Muse-Resistance.txt'
+cat >> 'Muse-Resistance.txt' 
+mv track4.mp3 'Muse-Starlight.txt'
+cat >> 'Muse-Starlight.txt' 
+mv track5.mp3 'Muse-Pressure.txt'
+cat >> 'Muse-Pressure.txt' 
+cat >> 'Muse-Psycho.txt'
+cat >> 'Muse-Something Human.txt'
+cat >> 'Muse-The Dark Side.txt'
+cat >> 'Muse-Uprising.txt'
+ls
+cat >> 'Muse-Feeling Good.txt'
+cd ..
+cp -r estefania/. usuario2/
+cd usuario2
+ls
+cd Music/
+ls
+rm -r Adele/ Disturbed/ JoyDivision/ CapitalCities/ Dorian/ Babasonicos/ FooFighters/ Björk/ BrunoMars/ FranzFerdinand/
+ls
+cd ArcticMonkeys/
+LS
+ls
+rm track1.mp3 track2.mp3 track3.mp3 track4.mp3 track5.mp3
+ls
+cd ..
+cd B
+cd Blink182/
+rm track1.mp3 track2.mp3 track3.mp3 track4.mp3 track5.mp3
+ls
+cd ..
+cd Blur/
+rm track1.mp3 track2.mp3 track3.mp3 track4.mp3 track5.mp3
+cd ..
+cd BrandonFlowers/
+rm track1.mp3 track2.mp3 track3.mp3 track4.mp3 track5.mp3
+cd ..
+cd Caifanes/
+rm track1.mp3 track2.mp3 track3.mp3 track4.mp3 track5.mp3
+cd ..
+cd ChemicalBrothers/
+rm track1.mp3 track2.mp3 track3.mp3 track4.mp3 track5.mp3
+cd ..
+cd Coldplay/
+rm track1.mp3 track2.mp3 track3.mp3 track4.mp3 track5.mp3
+cd ..
+cd Jaguares/
+rm track1.mp3 track2.mp3 track3.mp3 track4.mp3 track5.mp3
+cd ..
+cd Maroon5/
+rm track1.mp3 track2.mp3 track3.mp3 track4.mp3 track5.mp3
+cd ..
+cd Muse/
+rm track1.mp3 track2.mp3 track3.mp3 track4.mp3 track5.mp3
+cd ..
+cd usuario3
+cd ..
+cp -r estefania/. usuario3/
+cd usuario3
+cd ArcticMonkeys/
+cd Music/
+cd ArcticMonkeys/
+rm track1.mp3 track2.mp3 track3.mp3 track4.mp3 track5.mp3
+cd ..
+ls
+rm -r Adele/ Disturbed/ JoyDivision/ CapitalCities/ Dorian/ Babasonicos/ FooFighters/ Björk/ BrunoMars/ FranzFerdinand/
+ls
+cd Blink182/
+rm track1.mp3 track2.mp3 track3.mp3 track4.mp3 track5.mp3
+cd ..
+cd Blur/
+rm track1.mp3 track2.mp3 track3.mp3 track4.mp3 track5.mp3
+cd ..
+cd BrandonFlowers/
+rm track1.mp3 track2.mp3 track3.mp3 track4.mp3 track5.mp3
+cd ..
+cd Caifanes/
+rm track1.mp3 track2.mp3 track3.mp3 track4.mp3 track5.mp3
+cd ..
+cd ChemicalBrothers/
+rm track1.mp3 track2.mp3 track3.mp3 track4.mp3 track5.mp3
+cd ..
+cd Coldplay/
+rm track1.mp3 track2.mp3 track3.mp3 track4.mp3 track5.mp3
+cd ..
+cd Jaguares/
+rm track1.mp3 track2.mp3 track3.mp3 track4.mp3 track5.mp3
+cd ..
+cd Maroon5/
+rm track1.mp3 track2.mp3 track3.mp3 track4.mp3 track5.mp3
+cd ..
+cd Muse/
+rm track1.mp3 track2.mp3 track3.mp3 track4.mp3 track5.mp3
+cd ..
+cd ../..
 history -w estefania-bash-womework1.txt
