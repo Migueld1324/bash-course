@@ -1,0 +1,231 @@
+ 1  cd C
+    2  mv Unistall.exe Unistall.txt
+    3  ls
+    4  cd Programs/
+    5  cd AndroidStudio/
+    6  mv Unistall.exe Unistall.txt
+    7  ls
+    8  nano Unistall.txt 
+    9  nano README.txt 
+   10  cd ..
+   11  cp -r AndroidStudio Skype
+   12  cp -r AndroidStudio Eclipse
+   13  cp -r AndroidStudio Chrome
+   14  cp -r AndroidStudio Firefox
+   15  cd ..
+   16  ls
+   17  cd Windows/
+   18  ls
+   19  cd IME
+   20  ls
+   21  rm file6.txt file7.txt file8.txt file9.txt file10.txt
+   22  ls
+   23  nano file1.txt file2.txt file3.txt file4.txt file5.txt
+   24  cd ..
+   25  rm -r Fonts Help INF logs
+   26  cp -r IME INF
+   27  cp -r IME logs
+   28  cp -r IME Fonts
+   29  cd System32/
+   30  ls
+   31  rm file6.txt file7.txt file8.txt file9.txt file10.txt file11.txt file12.txt file13.txt file14.txt file15.txt
+   32  ls
+   33  nano file1.txt file2.txt file3.txt file4.txt file5.txt
+   34  cd carpeta1
+   35  ls
+   36  rm file6.txt file7.txt file8.txt file9.txt
+   37  nano file1.txt file2.txt file3.txt file4.txt file5.txt
+   38  ls
+   39  cd ..
+   40  ls
+   41  rm -r carpeta2 carpeta3 carpeta4 carpeta5
+   42  cp -r carpeta1/ carpeta2/ carpeta3/ carpeta4/ carpeta5/
+   43  cp -r carpeta1/ carpeta2/ 
+   44  rm -r carpeta2/
+   45  cd carpeta1
+   46  rm file6.txt file7.txt file8.txt file9.txt file10.txt file11.txt file12.txt file13.txt
+   47  cd ..
+   48  ls
+   49  cp -r carpeta1/ carpeta2/ 
+   50  cp -r carpeta1/ carpeta3
+   51  cp -r carpeta1/ carpeta4
+   52  cp -r carpeta1/ carpeta5
+   53  cd ..
+   54  cd Users/
+   55  cd Luis/
+   56  ls
+   57  cd Documents/
+   58  ls
+   59  nano proyecto.doc
+   60  nano ensayo.doc notas.txt proyectofinal.doc receta.txt
+   61  rm archivos.rar exposicion.ppt precios.xsl tabla.xsl tareaciencias.doc catalogo.xsl exposicion-final.ppt mates.xsl porcentaje.xsl
+   62  ls
+   63  rm tarea.doc
+   64  cd ..
+   65  ls
+   66  rm -r Favoritos Juegos Vinculos Videos
+   67  ls
+   68  rm -r Desktop Downloads Picture
+   69  ls
+   70  rm -r Pictures
+   71  cp -r Documents Desktop
+   72  cp -r Documents Downloads
+   73  cp -r Documents Pictures
+   74  ls
+   75  cd Music
+   76  ls
+   77  rm -r Recodo LaArrolladora SergioVega ValentinElizalde LaBrissa
+   78  ls
+   79  rm -r JuanGabriel/ LaOrejaVanGogh/ TheWho/ MartinGarrix/ BillyJoel/
+   80  ls
+   81  cd ABBA
+   82  ls
+   83  mv *.mp3 *.txt
+   84  ls
+   85  install rename
+   86  rename 's/\.mp3/\.txt' *.mp3
+   87  sudo apt install rename
+   88  rename 's/\.mp3/\.txt' *.mp3
+   89  nano chiquitita.mp3 
+   90  cat chiquitita.mp3 
+   91  mv * 'ABBA - '*
+   92  ls
+   93  nano dancing-queen.mp3 
+   94  nano fernando.mp3 
+   95  nano mamma-mia.mp3 
+   96  nano super-truper.mp3 
+   97  cd ..
+   98  ls
+   99  cd Beatles
+  100  ls
+  101  nano come-together.mp3 
+  102  nano dont-let-me-down.mp3 
+  103  nano help.mp3 
+  104  nano hey-jude.mp3 
+  105  nano let-it-be.mp3 
+  106  cd ..
+  107  ls
+  108  cd Buki/
+  109  ls
+  110  nano amigos
+  111  nano donde-vamos-a-parar.mp3 
+  112  nano inventame.mp3 
+  113  nano quiereme.mp3 
+  114  nano tu-carcel.mp3 
+  115  cd ..
+  116  ls
+  117  cd Canserbero/
+  118  ls
+  119  nano 'Es epico.mp3' 
+  120  nano 'Perdiendo la fe.mp3' 
+  121  nano 'Stupid love history.mp3' 
+  122  nano 'Jeremias 17 5.mp3' 
+  123  nano 'Querer querernos.mp3' 
+  124  cd ..
+  125  cd Coldplay/
+  126  ls
+  127  nano 'Fix you.mp3' 
+  128  nano Paradise.mp3 
+  129  nano 'The scientist.mp3' 
+  130  nano Viva-la-via.mp3 
+  131  nano Yellow.mp3 
+  132  cd ..
+  133  ls
+  134  cd Jesed
+  135  ls
+  136  nano Desolada.mp3 
+  137  nano 'Mi razón de ser.mp3' 
+  138  nano Miserere.mp3 
+  139  nano 'Noche oscura.mp3' 
+  140  naono 'pidiendo limosna.mp3' 
+  141  nano 'pidiendo limosna.mp3' 
+  142  cd ..
+  143  ls
+  144  cd LuisMiguel/
+  145  ls
+  146  nano bikina.mp3 
+  147  nano culpable-o-no.mp3 
+  148  nano incondicional.mp3 
+  149  nano sueña.mp3 
+  150  nano te-puedes-marchar.mp3 
+  151  cd ..
+  152  ls
+  153  cd Oasis
+  154  ls
+  155  nano dont-loock-back-together.mp3 
+  156  nano stop-crying.mp3 
+  157  nano supersonic.mp3 
+  158  nano the-hindu.mp3 
+  159  nano wonderwall.mp3 
+  160  cd ..
+  161  ls
+  162  cd Queen/
+  163  ls
+  164  nano another-one-bites-the-dust.mp3 
+  165  nano hammer-to-fall.mp3 
+  166  nano somebody-to-love.mp3 
+  167  nano bohemian-raphsody.mp3 
+  168  nano radio-gaga.mp3 
+  169  cd ..
+  170  ls
+  171  cd 'The Credence'/
+  172  ls
+  173  nano Cottonfields.mp3 
+  174  nano Jambalaya.mp3 
+  175  nano 'Run trough the jungle.mp3' 
+  176  nano 'Have you ever seen the rain.mp3' 
+  177  nano 'Proud Mary.mp3' 
+  178  cd..
+  179  cd ..
+  180  ls
+  181  rm luiscarlos-bash-exercise1 
+  182  rm -r Invitados/ Miguel/
+  183  cp -r Luis Miguel
+  184  cp -r Luis Invitados
+  185  ls
+  186  history > luiscarlos-bash-homework1
+1  cd C
+    2  cd Users/
+    3  cd Luis/
+    4  cd Music/
+    5  cd The\ Credence/
+    6  ls
+    7  mv 'Cottonfields.mp3' 'The Credence - Cottonfields.txt'
+    8  ls
+    9  mv 'Have you ever seen the rain.mp3' 'The Credence - Have you ever seen the rain.txt'
+   10  mv 'Jambalaya.mp3' 'The Credence - Jambalaya.txt'
+   11  mv 'Proud Mary.mp3' 'The Credence - Proud Mary.txt'
+   12  mv 'Run trough the jungle.mp3' 'The Credence - Run trough the jungle.txt'
+   13  ls
+   14  mv 'The Credence - Cottonfields.txt' 'The Credence - Have you ever seen the rain.txt' 'The Credence - Jambalaya.txt' 'The Credence - Proud Mary.txt' 'The Credence - Run trough the jungle.txt' ../Canserbero/
+   15  ls
+   16  cd ..
+   17  cd Canserbero/
+   18  ls
+   19  mv 'Es epico.mp3' 'Canserbero - Es epico.txt'
+   20  mv 'Perdiendo la fe.mp3' 'Perdiendo la fe.txt'
+   21  mv 'Stupid love history.mp3' 'Canserbero - Stupid love history.txt'
+   22  mv 'Perdiendo la fe.txt' 'Canserbero - Perdiendo la fe.txt'
+   23  mv 'Querer querernos.mp3' 'Canserbero - Querer querernos.txt'
+   24  cd ..
+   25  ls
+   26  rm -r ABBA/ Beatles/ Buki/ Coldplay/ Jesed/ LuisMiguel/ Oasis/ Queen/ 'The Credence'/
+   27  ls
+   28  mv Canserbero/ Carpeta1/
+   29  ls
+   30  cp -r carpeta1/ carpeta2
+   31  cp -r Carpeta1/ Carpeta2
+   32  ls
+   33  cp -r Carpeta1/ Carpeta3
+   34  cp -r Carpeta1/ Carpeta4
+   35  cp -r Carpeta1/ Carpeta5
+   36  cp -r Carpeta1/ Carpeta6
+   37  cp -r Carpeta1/ Carpeta7
+   38  cp -r Carpeta1/ Carpeta8
+   39  cp -r Carpeta1/ Carpeta9
+   40  cp -r Carpeta1/ Carpeta10
+   41  cd ..
+   42  rm -r Miguel/ Invitados/
+   43  cp -r Luis/ Miguel
+   44  cp -r Luis/ Juan
+   45  history > luiscarlos-bash-homework1.txt
