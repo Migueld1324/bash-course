@@ -1,0 +1,347 @@
+    1  mkdir C
+    2  cd C
+    3  mkdir Prgrams Windows Users
+    4  mv Prgrams Programs
+    5  ls
+    6  cd Programs/
+    7  mkdir {folder1,folder2,folder3,folder4,folder5,}
+    8  ls
+    9  mkdir {folder6,folder7,folder8,folder9,folder10,}
+   10  touch folder1 {file1.txt,file2}
+   11  cd folder1
+   12  cp file1.txt file2.txt ../folder2
+   13  ls
+   14  touch file1.txt file2.txt
+   15  ls
+   16  cp file1.txt file2.txt ../folder2
+   17  cp file1.txt file2.txt ../folder3
+   18  cp file1.txt file2.txt ../folder4
+   19  cp file1.txt file2.txt ../folder5
+   20  cp file1.txt file2.txt ../folder6
+   21  cp file1.txt file2.txt ../folder7
+   22  cp file1.txt file2.txt ../folder8
+   23  cp file1.txt file2.txt ../folder9
+   24  cp file1.txt file2.txt ../folder10
+   25  cp file1.txt file2.txt ../folder11
+   26  cd ..
+   27  ls folder2
+   28  ls folder3
+   29  cd ..
+   30  cd Windows/
+   31  mkdir folder1 folder2 folder3 foilder4 folder5
+   32  cd folder1}
+   33  cd folder1
+   34  touch file1.txt file2.txt file3.txt file4.txt file5.txt
+   35  touch file6.txt file7.txt file8.txt file9.txt file10.txt
+   36  ls
+   37  cp .*file ../folder2
+   38  cp .*file ../folder3
+   39  cp .*file ../folder4}
+   40  cp .*file ../folder4
+   41  ls
+   42  cp file* ../folder2/
+   43  cp file* ../folder3
+   44  cp file* ../folder4
+   45  cp file* ../folder5
+   46  cd ..
+   47  ls
+   48  mv foilder4 folder4
+   49  cd folder1
+   50  cp file* ../folder4
+   51  cd ..
+   52  ls folder2
+   53  ls folder5
+   54  cd ..
+   55  cd Windows/
+   56  ls
+   57  mkdir System32
+   58  cd System32/
+   59  cd ..
+   60  ls
+   61  cp folder* System32/
+   62  cp -r folder* System32/
+   63  cd System32/
+   64  ls
+   65  cd folder1
+   66  cp file* ../
+   67  cd ..
+   68  ls
+   69  touch file11.txt file12.txt file13txt file14.txt file15.txt
+   70  ls
+   71  cd ..
+   72  ls
+   73  cd ..
+   74  cd Users/
+   75  mkdir urbano jose pedro
+   76  cd urbano
+   77  mkdir {Desktop,Documents,Downloads,Music,Pictures,Videos,Games, Internship Git}
+   78  ls
+   79  rmdir
+   80  rmdir ./
+   81  rmdir .*
+   82  rmdir \{Desktop\,Documents\,Downloads\,Music\,Pictures\,Videos\,Games\,/
+   83  ls
+   84  mkdir Desktop Documents Downloads Music Pictures Videos
+   85  ls
+   86  cd Desktop/
+   87* touch 
+   88  ls
+   89  rmdir \{Chrome.ink\,Papelera 
+   90  rmdir rf \{Chrome.ink\,Papelera 
+   91  ls
+   92  rmdir \{Chrome.ink\,Papelera 
+   93  rmdir {Chrome.ink\,Papelera 
+   94  rmdir {Chrome.ink\,Papelera}
+   95  ls
+   96  rmdir .*
+   97  rmdir Re*
+   98  ls
+   99  touch PapeleraDeReciclaje.ink Google_Chorme.ink Word.ink PowerPoint.ink VisualStudioCode.ink PhpStrom.ink Edge.ink MiEquipo.ink Skype.ink Discord.ink NetBins.ink Sublime.ink CallOfDuty.ink PhotoShop.ink Illustrator.ink SonyVegas.ink
+  100  ls
+  101  rm -rf Reciclaje}
+  102  ls
+  103  rm -rf {Chrome.ink\,Papelera 
+  104  ls
+  105  rm -rf de
+  106  ls
+  107  cd ..
+  108  ls
+  109  cd Documents/
+  110  touch tareaFisica.docx tareaCalculo.docx tareaViernes.docx presentacionObjetivos.pptx Problematica.pptx hipotesis.pptx marcoteorico.pptx trucosGTA_SA.docx tareaCalculo2.docx expoProyecto.pptx 
+  111  ls
+  112  touch tareaEcuacionesDif.docx Exponentes.docx tareaFiananzas.xls puntoEquilibrio.xls ensayoFilosofia.docx
+  113  ls
+  114  cd ..
+  115  ls
+  116  cd Downloads/
+  117  touch CableDeRed.pdf CableDeFibraExt.pdf fotoTarea2.jpg antenaProyecto.jpg Antena.pptx Anteproyecto.docx bug.png demo.rar bootstrap_4.zip progit.pdf VEGAS16_261.rar winrar-x64es.exe YDKWJS.pdf
+  118  ls
+  119  touch tarjetaNSS.pdf reporte.xls 
+  120  ls
+  121  cd ..
+  122  ls
+  123  mv Git} Git
+  124  cd Git/
+  125  cd ..
+  126  ls
+  127  cd ..
+  128  ls
+  129  cd Programs/
+  130  ls
+  131  cp folder* ../Users/urbano/Git/
+  132  cp -r }folder* ../Users/urbano/Git/
+  133  cp -r folder* ../Users/urbano/Git/
+  134  cd ..
+  135  cd Users/urbano/
+  136  cd Git/
+  137  ls
+  138  cd ..
+  139  mv folder* proyecto
+  140  mv folder* proyecto*
+  141  ls
+  142  cd Git/
+  143  mv folder* proyecto*
+  144  mv folder* proyecto
+  145  mv folder* proyecto*
+  146  mv folder1 proyecto1
+  147  ls
+  148  mv folder2 proyecto2
+  149  mv folder3 proyecto3
+  150  mv folder4 proyecto4
+  151  mv folder5 proyecto5
+  152  mv folder6 proyecto6
+  153  rm -rf folder*
+  154  ls
+  155  cd ..
+  156  ls
+  157  Internship
+  158  cd Internship/
+  159  touch progit.pdf YDKW_JS1 YDKN_JS2 YDKN_JS3 YDKN_JS4 YDKN_JS5 YDKN_JS6 pragProgram.pdf plumbingCommands.docx porcelainCommands.docx gitBasics.docx gitUnderHood.docx bashCommands.docx mantenimiento.pptx diseno.pptx requerimientos.pptx testing.pptx desarrollo.pptx
+  160  ls
+  161  cd ..
+  162  ls
+  163  cd Pictures/
+  164  touch Vacacaciones/2015-06-15-45
+  165  mkdir Vacacaciones
+  166  cd Vacacaciones/
+  167  touch 2015-06-15-4585.jpg 2015-06-15-5821.jpg 2015-06-15-4896.jpg 2015-06-15-8965.jpg 2015-06-15-4897.jpg
+  168* touch 2015-06-16-5585.jpg 2015-06-16-7821.jpgcd 2015-06-16-47996.jpg 2015-06-16-7875.jpg 2015-06-16-7877.jpg
+  169  ls
+  170  cd..
+  171  cd ..
+  172  happyFace.png bug.png userIcon.png memedeBatman.jpg platilladeMeme10.jpg
+  173  ls
+  174  touch happyFace.png bug.png userIcon.png memedeBatman.jpg platilladeMeme10.jpg
+  175  ls
+  176  cd ..
+  177  ls
+  178  cd Videos/
+  179  touch viajeMichoacan.mp4 losAzufres.mp4 morelia.mp4 cdHidalgo.mp4 intererstellar.mp4 aquaman.mp4 avengerIWar.mp4 avengerEndGame.mp
+  180  ls
+  181  ren avengerEndGame.mp avengersEndGame.mp4
+  182  mv avengerEndGame.mp avengersEndGame.mp4
+  183  ls
+  184  touch 15115648dsada.mp4 videoLosValoresEticos.mp4 corrientresFilosoficas.mp4 antman.mp4 JLDC.mp4 shazam.mp4 anabell.mp4 conjuring.mp4 us.mp4 heredeitary.mp4 
+  185  ls
+  186  cd ..
+  187  ls
+  188  cd Music/
+  189  mkdir DivisionMinuscula Caifanes DLD Bunkers Molotov CafeTacvba SodaEstereo Queen TheKillers GusanaCiega PanteonRococo OneOkRock AC_DC Gorillaz RedHotChilliPepers
+  190  ls
+  191  touch TheStrokes PXNDX Enjambre
+  192  ls
+  193  rm TheStrokes PXNDX Enjambre
+  194  mkdir TheStrokes PXNDX Enjambre
+  195  ls
+  196  cd AC_DC/
+  197  touch thunderstruck.mp3 tnt.mp3 backInBlack.mp3 highwayToHell.mp3 warmachine.mp3
+  198  ls
+  199  cd ..
+  200  ls
+  201  cd Bunkers/
+  202  touch llueveSobreLaCiudad.mp3 mientele.mp3 quienFuera.mp3 velocidadDeLaLuz.mp3 baialandoSolo.mp3 nadaNuevoBajoELSol.mp3
+  203  ls
+  204  cd ..
+  205  ls
+  206  cd CafeTacvba/
+  207  touch futuro.mp3 esaNoche.mp3 elBaileYelSAlon.mp3 esaNoche.mp3 ingrata.mp3 eres.mp3
+  208  ls
+  209  cd ..
+  210  cd Caifanes/
+  211  touch ojoDeVeando.mp3 laNegraToamsa.mp3 viento.mp3 losDiosesOcultos.mp3 laCelulaQueExplota.mp3
+  212  ls
+  213  cd ..
+  214  ls
+  215  cd DLD/
+  216  touch estare.mp3 miVida.mp3 arsenico.mp3 cruzadas.mp3 todoCuenta.mp3
+  217  ls
+  218  cd ..
+  219  ls
+  220  cd DivisionMinuscula/
+  221  touch lucesDeEstaCiudad.mp3 sognare.mp3 anioNuevo.mp3 cadaMartes.mp3 humanosComoTu.mp3 
+  222  ls
+  223  cd ..
+  224  ls
+  225  cd Enjambre/
+  226  touch  sabadoPerpetuo.mp3 soledad.mp3 madrugada.mp3 daltonico.mp3 somoAjenos.mp3
+  227  ls
+  228  cd ..
+  229  sl
+  230  ls
+  231  cd Gorillaz/
+  232  touch clintEastwood.mp3 feelGoodInc.mp3 onMelancolyHill.mp3 dare.mp3 humility.mp3
+  233  ls
+  234  cd ..
+  235  ls
+  236  cd GusanaCiega/
+  237  touch tornasol.mp3 hey.mp3 ellaEstrella.mp3 sanMiguel.mp3 laDistancia.mp3
+  238  ls
+  239  cd ..
+  240  ls
+  241  cd Molotov/
+  242  touch frijolero.mp3 noko.mp3 votoLatino.mp3 matateTete.mp3 hereWeKum.mp3
+  243  ls
+  244  cd ..
+  245  ls
+  246  cd OneOkRock/
+  247  touch pierce.mp3 theBegining.mp3 heartache.mp3 nothingHelps 
+  248  ls
+  249  mv nothingHelps nothingHelps.mp3
+  250  ls
+  251  touch Re:make.mp3
+  252  ls
+  253  cd ..
+  254  ls
+  255  cd PXNDX/
+  256  touch saludosDesdeTurquia.mp3 losMalventuradosNoLloran.mp3 usted.mp3 citaQuirofano.mp3 nuestraAfliccion.mp3
+  257  ls
+  258  cd ..
+  259  ls
+  260  cd PanteonRococo/
+  261  touch laCerencia.mp3 vendedoraDeCarcicas.mp3 elUtlimoSka.mp3 laDosisPerfecta.mp3
+  262  ls
+  263  touch infiernos.mp3
+  264  cd ..
+  265  ls
+  266  cd Queen/
+  267  touch bohemianRapsody.mp3 killerQueen.mp3 sheerHerathAtack.mp3 bitesTheDust.mp3 radioGaga.mp3
+  268  ls
+  269  cd ..
+  270  ls
+  271  RedHotChilliPepers/
+  272  cd RedHotChilliPepers/
+  273  touch cantStop.mp3 aroundTheWorld.mp3 californication.mp3 underTheBridge.mp3 suckMyKiss.mp3
+  274  sl
+  275  ls
+  276  cd ..
+  277  ls
+  278  cd SodaEstereo/
+  279  ls
+  280  touch musicaLigerea.mp3 cuandoPaseElTemblor.mp3 persianaAmericana.mp3 tratameSuavemente.mp3 enLaCiudadDelaFuria.mp3 
+  281  ls}
+  282  ls
+  283  cd ..
+  284  ls
+  285  cd TheKillers/
+  286  touch whenYouWereYoung.mp3 somebodyToldMe.mp3 human.mp3 onTop.mp3 theMan.mp3
+  287  ls
+  288  cd ..
+  289  ls
+  290  TheStrokes/
+  291  cd TheStrokes/
+  292  touch reptilia.mp3 lastNite.mp3 someday.mp3 tapOut.mp3 chances.mp3
+  293  ls
+  294  cd ...
+  295  cd ..
+  296  ls
+  297  cd ..
+  298  ls
+  299  cp -r Desktop Documents/ Downloads Git Internship Music Pictures Videos ../jose
+  300  cp -r Desktop Documents/ Downloads Git Internship Music Pictures Videos ../pedro
+  301  cd ..
+  302  ls pedro/
+  303  ls jose/
+  304  cd
+  305  cd Documents/
+  306  history >> bashExercise.txt
+  307  ls
+  308  nano bashExercise.txt 
+  309  cd C/Users/urbano/Internship/
+  310  mv YDKN_JS1 YDKN_JS1.pdf  
+  311  mv YDKN_JS1 YDKN_JS1.pdf}
+  312  mv YDKN_JS1 YDKN_JS1.pdf
+  313  ls
+  314  mv YDKW_JS1 YDKW_JS1.pdf
+  315  mv YDKN_JS2 YDKN_JS2.pdf YDKN_JS3 YDKN_JS3.pdf
+  316  mv YDKN_JS2 YDKN_JS2.pdf
+  317  ls
+  318  mv YDKN_JS3 YDKN_JS3.pdf
+  319  mv YDKN_JS4 YDKN_JS4.pdf
+  320  mv YDKN_JS5 YDKN_JS5.pdf
+  321  mv YDKN_JS6 YDKN_JS6.pdf
+  322  cd ..
+  323  cd pedro/
+  324  cd Internship/
+  325  mv YDKN_JS6 YDKN_JS6.pdf
+  326  mv YDKN_JS5 YDKN_JS5.pdf
+  327  mv YDKN_JS4 YDKN_JS4.pdf
+  328  mv YDKN_JS3 YDKN_JS3.pdf
+  329  mv YDKN_JS2 YDKN_JS2.pdf
+  330  mv YDKW_JS1 YDKW_JS1.pdf
+  331  ls}
+  332  ls
+  333  cd
+  334  cd Documents/C/Users/jose/Internship/
+  335  mv YDKW_JS1 YDKW_JS1.pdf
+  336  mv YDKN_JS2 YDKN_JS2.pdf
+  337  mv YDKN_JS3 YDKN_JS3.pdf
+  338  mv YDKN_JS4 YDKN_JS4.pdf
+  339  mv YDKN_JS5 YDKN_JS5.pdf
+  340  mv YDKN_JS6 YDKN_JS6.pdf
+  341  ls
+  342  cd
+  343  cd Doc
+  344  cd Documents/
+  345  ls
+  346  rm -rf bashExercise.txt 
+  347  history >> bashExercise.txt
