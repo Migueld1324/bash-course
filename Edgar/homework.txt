@@ -1,0 +1,496 @@
+    1  ls
+    2  cd ..
+    3  ls
+    4  cd ..
+    5  ls
+    6  cd C
+    7  ls
+    8  cd TareasGit
+    9  git init
+   10  mkdir C
+   11  cd C
+   12  mkdir Programs Windows Users
+   13  ls
+   14  cd Programs
+   15  mkdir Adobe Canon Google Intel Dropbox Nero Realtek Samsung Inno Dos
+   16  touch Adobe/1.txt Adobe/1.txt Canon/1.txt Canon/1.txt Google/1.txt Google/2.txt Intel/1.txt Intel/2.txt Dropbox/1.txt Dropbox/2.txt Nero/1.txt Nero/2.txt Realtek/1.txt Realtek/2.txt Samsung/1.txt Samsung/2.txt Inno/1.txt Inno/2.txt Dos/1.txt Dos/2.txt
+   17  cd ..
+   18  cd Windows
+   19  mkdir Boot Branding Csc Cursor Debugs
+   20  touch Boot/1.txt Boot/2.txt Boot/3.txt Boot/4.txt Boot/5.txt Boot/6.txt Boot/7.txt Boot/8.txt Boot/9.txt Boot/10.txt
+   21  cd Boot
+   22  ls
+   23  cp 1.txt 2.txt 3.txt 4.txt 5.txt 6.txt 7.txt 8.txt 9.txt 10.txt ../Branding
+   24  la
+   25  ls
+   26  cp 1.txt 2.txt 3.txt 4.txt 5.txt 6.txt 7.txt 8.txt 9.txt 10.txt ../Csc ../Cursor ../Debugs
+   27  cd ..
+   28  cd Debugs
+   29  ls
+   30  cd ..
+   31  cd Csc
+   32  ls
+   33  cd ..
+   34  cd Debugs
+   35  cp 1.txt 2.txt 3.txt 4.txt 5.txt 6.txt 7.txt 8.txt 9.txt 10.txt ../Csc
+   36  cp 1.txt 2.txt 3.txt 4.txt 5.txt 6.txt 7.txt 8.txt 9.txt 10.txt ../Cursor
+   37  cd ..
+   38  mkdir System32
+   39  cd System32
+   40  touch 1.txt 2.txt 3.txt 4.txt 5.txt 6.txt 7.txt 8.txt 9.txt 10.txt 11.txt 12.txt 13.txt 14.txt 15.txt
+   41  mkdir 1 2 3 4 5 
+   42  ls
+   43  cd 1
+   44  touch 1.txt 2.txt 3.txt 4.txt 5.txt
+   45  cp 1.txt 2.txt 3.txt 4.txt 5.txt ../2
+   46  cp 1.txt 2.txt 3.txt 4.txt 5.txt ../3
+   47  cp 1.txt 2.txt 3.txt 4.txt 5.txt ../4
+   48  cp 1.txt 2.txt 3.txt 4.txt 5.txt ../5
+   49  cd ..
+   50  cd ..
+   51  cd..
+   52  cd ..
+   53  ls
+   54  cd Users
+   55  mkdir user1 user2 user3
+   56  cd user1
+   57  mkdir Documents Downloads Music Pictures Videos Desktop bash git tareas
+   58  cd Desktop
+   59  touch 1.ico 2.ico 3.ico 4.ico 5.ico 6.ico 7.ico 8.ico 9.ico 10.ico 11.ico 12.ico 13.ico 14.ico 15.ico
+   60  cd ..
+   61  cd Documents 
+   62  touch 1.pdf 2.pdf 3.pdf 4.pdf 5.pdf 6.xls 7.xls 8.xls 9.xls 10.xls 11.ppt 12.ppt 13.ppt 14.ppt 15.ppt
+   63  cd ..
+   64  cd Dowloads 
+   65  cd Downloads
+   66  touch 1.exe 2.exe 3.exe 4.exe 5.exe 6.exe 7.exe 8.exe 9.exe 10.exe 11.exe 12.exe 13.exe 14.exe 15.exe
+   67  cd ..
+   68  cd Pictures
+   69  touch ironman.mp4 hulk.mp4 thor.mp4 antman.mp4 spiderman.mp4 avengers.mp4 ageofultron.mp4 endgame.mp4 blackpanther.mp4 wintersoldier.mp4 infinitywar.mp4 ragnarok.mp4 darkworld.mp4 drstrange.mp4 captainamerica.mp4
+   70  cd ..
+   71  cd pictures
+   72  mv ironman.mp4 ../Videos
+   73  ls
+   74  mv ageofultron.mp4 avengers.mp4 captainamerica.mp4 drstrange.mp4 hulk.mp4 ragnarok.mp4 thor.mp4 antman.mp4 blackpanther.mp4 darkworld.mp4 endgame.mp4 infinitiwar.mp4 spiderman.mp4 wintersoldier.mp4
+   75  mv ageofultron.mp4 avengers.mp4 captainamerica.mp4 drstrange.mp4 hulk.mp4 ragnarok.mp4 thor.mp4 antman.mp4 blackpanther.mp4 darkworld.mp4 endgame.mp4 infinitiwar.mp4 spiderman.mp4 wintersoldier.mp4
+   76  mv ageofultron.mp4 avengers.mp4 captainamerica.mp4 drstrange.mp4 hulk.mp4 ragnarok.mp4 thor.mp4 antman.mp4 blackpanther.mp4 darkworld.mp4 endgame.mp4 infinitiwar.mp4 spiderman.mp4 wintersoldier.mp4 ../Videos
+   77  ls
+   78  mv infinitywar.mp4 ../Videos
+   79  ls
+   80  touch 1.png 2.png 3.png 4.png 5.png 6.png 7.png 8.png 9.png 10.png 11.png 12.png 13.png 14.png 15.png
+   81  cd ..
+   82  ls
+   83  cd bash
+   84  touch 1.SH 2.SH 3.SH 4.SH 5.SH 6.SH 7.SH 8.SH 9.SH 10.SH 11.SH 12.SH 13.SH 14.SH 15.SH
+   85  CD ..
+   86  cd..
+   87  cd ..
+   88  cd git
+   89  touch 1.git 2.git 3.git 4.git 5.git 6.git 7.git 8.git 9.git 10.git 11.git 12.git 13.git 14.git 15.git
+   90  cd ..
+   91  cd tareas
+   92  1.ppt 2.ppt 3.ppt 4.ppt 5.ppt 6.doc 7.doc 8.doc 9.doc 10.doc 11.doc 12.doc 13.doc 14.doc 15.doc
+   93  touch 1.ppt 2.ppt 3.ppt 4.ppt 5.ppt 6.doc 7.doc 8.doc 9.doc 10.doc 11.doc 12.doc 13.doc 14.doc 15.doc
+   94  cd ..
+   95  cd Music
+   96  mkdir atreyu caifanes fobia jaguares sabaton disturbed metallica staind mudvayne ozzy linkinpark paparoach limpbizkit cafetacvba malditavecindad cuca panda korn orgy rammstein
+   97  ls
+   98  cd atreyu
+   99  touch lipglossandblack.mp3 blow.mp3 rightsideofthebed.mp3 whentwoareone.mp3 oursickstory.mp3
+  100  cp lipglossandblack.mp3 blow.mp3 rightsideofthebed.mp3 whentwoareone.mp3 oursickstory.mp3 ../caifanes
+  101  cp lipglossandblack.mp3 blow.mp3 rightsideofthebed.mp3 whentwoareone.mp3 oursickstory.mp3 ../disturbed
+  102  cp lipglossandblack.mp3 blow.mp3 rightsideofthebed.mp3 whentwoareone.mp3 oursickstory.mp3 ../jaguares
+  103  cp lipglossandblack.mp3 blow.mp3 rightsideofthebed.mp3 whentwoareone.mp3 oursickstory.mp3 ../limpbizkit
+  104  cp lipglossandblack.mp3 blow.mp3 rightsideofthebed.mp3 whentwoareone.mp3 oursickstory.mp3 ../malditavecindad
+  105  cp lipglossandblack.mp3 rightsideofthebed.mp3 blow.mp3 whentwoareone.mp3 oursickstory.mp3 ../mudvayne
+  106  cp lipglossandblack.mp3 rightsideofthebed.mp3 blow.mp3 whentwoareone.mp3 oursickstory.mp3 ../ozzy
+  107  cp lipglossandblack.mp3 rightsideofthebed.mp3 blow.mp3 whentwoareone.mp3 oursickstory.mp3 ../paparoach
+  108  cp lipglossandblack.mp3 rightsideofthebed.mp3 blow.mp3 whentwoareone.mp3 oursickstory.mp3 ../sabaton
+  109  cp lipglossandblack.mp3 rightsideofthebed.mp3 blow.mp3 whentwoareone.mp3 oursickstory.mp3 ../cafetacvba
+  110  cp lipglossandblack.mp3 whentwoareone.mp3 blow.mp3 rightsideofthebed.mp3 oursickstory.mp3 ../cuca
+  111  cp lipglossandblack.mp3 rightsideofthebed.mp3 blow.mp3 whentwoareone.mp3 oursickstory.mp3 ../fobia
+  112  cp lipglossandblack.mp3 whentwoareone.mp3 blow.mp3 rightsideofthebed.mp3 oursickstory.mp3 ../korn
+  113  cp lipglossandblack.mp3 whentwoareone.mp3 blow.mp3 rightsideofthebed.mp3 oursickstory.mp3 ../linkinpark
+  114  cp lipglossandblack.mp3 rightsideofthebed.mp3 blow.mp3 whentwoareone.mp3 oursickstory.mp3 ../metallica
+  115  cp lipglossandblack.mp3 whentwoareone.mp3 blow.mp3 rightsideofthebed.mp3 oursickstory.mp3 ../orgy
+  116  cp lipglossandblack.mp3 whentwoareone.mp3 blow.mp3 rightsideofthebed.mp3 oursickstory.mp3 ../panda
+  117  cp lipglossandblack.mp3 whentwoareone.mp3 blow.mp3 rightsideofthebed.mp3 oursickstory.mp3 ../rammstein
+  118  cp lipglossandblack.mp3 whentwoareone.mp3 blow.mp3 rightsideofthebed.mp3 oursickstory.mp3 ../staind
+  119  cd ..
+  120  cd ..
+  121  cp -r Desktop/ Documents/ Downloads/ Music/ Pictures/ Videos bash/ git/ tareas/ ../user2
+  122  cp -r Desktop/ Documents/ Downloads/ Music/ Pictures/ Videos bash/ git/ tareas/ ../user3
+  123  cd ..
+  124  cd ..
+  125  history > redone-bash-exercise
+  126  nano redone-bash-exercise
+  127  cd ..
+  128  git clone https://github.com/Migueld1324/bash-course.git
+  129  ls
+  130  cd bash-course
+  131  ls
+  132  cd Edgar
+  133  ls
+  134  git branch -list
+  135  git branch --list
+  136  cd ..
+  137  cd Hector
+  138  ls
+  139  git checkout Edgar
+  140  cd ..
+  141  ls
+  142  cd Edgar
+  143  ls
+  144  cd ..
+  145  cd Hector
+  146  ls
+  147  cd ..
+  148  git checkout -b Edgar2
+  149  ls
+  150  cd Edgar
+  151  ls
+  152  cd ..
+  153  cd ..
+  154  ls
+  155  cd C
+  156  ls
+  157  mv redone-bash-exercise redone-bash-exercise.txt
+  158  ls
+  159  cd ..
+  160  cd C
+  161  git branch --list
+  162  cd bash-course
+  163  cd ..
+  164  git branch --list
+  165  cd bash-course
+  166  cd ..
+  167  cp C/redone-bash-exercise.txt bash-course/Edgar/
+  168  cd bash-course
+  169  cd Edgar
+  170  ls
+  171  git push origin Edgar
+  172  git config --global user.email edgarpere.bts@gmail.com
+  173  git config --global user.name Edgar
+  174  git status
+  175  git add .
+  176  git status
+  177  git commit -m "historial nuevo de ejercicio rehecho por perder historial para la homework"
+  178  git push origin Edgar
+  179  git push origin Edgar2 
+  180  cd ..
+  181  cd ..
+  182  ls
+  183  cd C
+  184  ls
+  185  cd Programs
+  186  ls
+  187  rm -r Dos/ Dropbox/ Inno/ Realtek/ Samsung/
+  188  ls
+  189  cd Adobe
+  190  ls
+  191  cd ..
+  192  cd Canon
+  193  ls
+  194  cd ..
+  195  cd ..
+  196  ls
+  197  cd Windows
+  198  ls
+  199  rm -r Cursor/
+  200  cd /Boot
+  201  cd Boot
+  202  ls
+  203  rm 6.txt 7.txt 8.txt 9.txt 10.txt 
+  204  cd ..
+  205  cd Branding
+  206  rm 6.txt 7.txt 8.txt 9.txt 10.txt 
+  207  cd ..
+  208  cd Csc
+  209  rm 6.txt 7.txt 8.txt 9.txt 10.txt 
+  210  cd ..
+  211  ls
+  212  cd Debugs
+  213  rm 6.txt 7.txt 8.txt 9.txt 10.txt 
+  214  cd ..
+  215  cd System32
+  216  ls
+  217  rm 6.txt 7.txt 8.txt 9.txt 10.txt 11.txt 12.txt 13.txt 14.txt 15.txt 
+  218  cd 1
+  219  ls
+  220  cd ..
+  221  cd ..
+  222  cd ..
+  223  ls
+  224  cd Programs
+  225  ls
+  226  cd Adobe
+  227  ls
+  228  cat >>1.txt
+  229  nano 1.txt
+  230  cp 1.txt ../Canon
+  231  cp 1.txt ../Google
+  232  cp 1.txt ../Intel
+  233  cp 1.txt ../Nero
+  234  cd ..
+  235  cd Nero
+  236  ls
+  237  nano 1.txt
+  238  cd ..
+  239  cd Adobe
+  240  ls
+  241  cd ..
+  242  ls
+  243  cd Canon
+  244  ls
+  245  cd ..
+  246  cd Google
+  247  ls
+  248  cat >> 2.txt
+  249  cp 2.txt ../Intel
+  250  cp 2.txt ../Nero
+  251  cd ..
+  252  cd ..
+  253  ls
+  254  cd Windows
+  255  ls
+  256  cd Boot
+  257  ls
+  258  cat >> 1.txt 
+  259  cat 1.txt>2.txt>3.txt4.txt>5.txt
+  260  nano 5.txt
+  261  cp 1.txt 2.txt 3.txt4.txt 5.txt ../Branding
+  262  cp 1.txt 2.txt 3.txt4.txt 5.txt ../Csc
+  263  cp 1.txt 2.txt 3.txt4.txt 5.txt ../Debugs
+  264  cp 1.txt 2.txt 3.txt4.txt 5.txt ../System32
+  265  cd ..
+  266  cd System32
+  267  ls
+  268  cd 1
+  269  ls
+  270  cd ..
+  271  cd 1.txt 2.txt 3.txt 4.txt 5.txt 1/
+  272  cp 1.txt 2.txt 3.txt 4.txt 5.txt 1/
+  273  cd 1
+  274  ls
+  275  nano 1.txt
+  276  cd ..
+  277  cp 1.txt 2.txt 3.txt 4.txt 5.txt 2/
+  278  cp 1.txt 2.txt 3.txt 4.txt 5.txt 3/
+  279  cp 1.txt 2.txt 3.txt 4.txt 5.txt 4/
+  280  cp 1.txt 2.txt 3.txt 4.txt 5.txt 5/
+  281  cd ..
+  282  cd ..
+  283  ls
+  284  cd Users
+  285  cd user1
+  286  ls
+  287  cd bash
+  288  ls
+  289  rm 6.SH 7.SH 8.SH 9.SH 10.SH 11.SH 12.SH 13.SH 14.SH 15.SH 
+  290  cat >> 1.SH
+  291  cat 1.SH>2.SH>3.SH>4.SH>5.SH
+  292  cd ..
+  293  cd Desktop
+  294  ls
+  295  rm 6.ico 7.ico 8.ico 9.ico 10.ico 11.ico 12.ico 13.ico 14.ico 15.ico 
+  296  cat >> 1.ico
+  297  cat 1.ico>2.ico>3.ico>4.ico>5.ico
+  298  cd ..
+  299  cd Documents
+  300  ls
+  301  rm 6.xls 7.xls 8.xls 9.xls 10.xls 11.ppt 12.ppt 13.ppt 14.ppt 15.ppt 
+  302  cat >>1.pdf
+  303  cat 1.pdf>2.pdf>3.pdf>4.pdf>5.pdf
+  304  ls
+  305  cd ..
+  306  ls
+  307  cd Downloads 
+  308  ls
+  309  rm 6.exe 7.exe 8.exe 9.exe 10.exe 11.exe 12.exe 14.exe 13.exe 15.exe 
+  310  cat >> 1.exe
+  311  cat 1.exe>2.exe>3.exe>4.exe>5.exe
+  312  cd ..
+  313  cd git
+  314  ls
+  315  rm 6.git 7.git 8.git 9.git 10.git 11.git 12.git 13.git 14.git 15.git 
+  316  cat 1.git
+  317  cat >>1.git
+  318  cat 1.git>2.git>3.git>4.git>5.git
+  319  cd ..
+  320  cd Pictures
+  321  ls
+  322  rm 6.png 7.png 8.png 9.png 10.png 11.png 12.png 13.png 14.png 15.png 
+  323  cat >>1.png
+  324  cat 1.png>2.png>3.png>4.png>5.png
+  325  history
+  326  ls
+  327  cd ..
+  328  ls
+  329  cd ..
+  330  cd ..
+  331  ls
+  332  history
+  333  ls
+  334  cd C
+  335  ls
+  336  cd TareasGit
+  337  ls
+  338  cd C
+  339  ls
+  340  cd Users
+  341  cd user1
+  342  ls
+  343  cd tareas
+  344  ls
+  345  rm 1.ppt 2.ppt 3.ppt 4.ppt 5.ppt 10.doc 11.doc 12.doc 13.doc 14.doc 15.doc 
+  346  cat >> 6.doc
+  347  cat 6.doc>7.doc>8.doc>9.doc>10.doc
+  348  cd ..
+  349  cd Videos
+  350  ls
+  351  rm ageofultron.mp4 captainamerica.mp4 drstrange.mp4 wintersoldier.mp4 infinitywar.mp4 endgame.mp4 darkworld.mp4 blackpanther.mp4 hulk.mp4 ironman.mp4
+  352  ls
+  353  cat >> antman.mp4
+  354  nano thor.mp4
+  355  nano antman.mp4
+  356  cat antman.mp4>avengers.mp4>ragnarok.mp4>spiderman.mp4>thor.mp4
+  357  cd ..
+  358  cd Music
+  359  ls
+  360  rm -r limpbizkit/ malditavecindad/ paparoach/ cafetacvba/ linkinpark/ panda/ rammstein/ cuca/ orgy/ mudvayne/
+  361  ls
+  362  cd atreyu
+  363  ls
+  364  ls
+  365  mv blow.mp3 "atreyu - blow.mp3"
+  366  mv lipglossandblack.mp3 "atreyu - lip gloss and black.mp3"
+  367  mv oursickstory.mp3 "atreyu - our sick story.mp3"
+  368  mv rightsideofthebed.mp3 "atreyu - right side of the bed.mp3"
+  369  mv whentwoareone.mp3 "atreyu - when two are one.mp3"
+  370  ls
+  371  nano 'atreyu - blow.mp3'
+  372  cat 'atreyu - blow.mp3'>'atreyu - lip gloss and black.mp3'>'atreyu - our sick story.mp3'>'atreyu - right side of the bed.mp3'>'atreyu - when two are one.mp3'
+  373  touch "atreyu - bleeding mascar.mp3"
+  374  touch "atreyu - bitter broken memory.mp3" "atreyu - falling down.mp3" "atreyu - the theft.mp3" "atreyu - slow burn.mp3"
+  375  ls
+  376  cat 'atreyu -blow.mp3'>'atreyu - bleeding mascara.mp3'>'atreyu - bitter broken memory.mp3'>'atreyu - falling down.mp3'>'atreyu - the theft.mp3'>'atreyu - slow burn.mp3'
+  377  cat 'atreyu - blow.mp3'>'atreyu - bleeding mascara.mp3'>'atreyu - bitter broken memory.mp3'>'atreyu - falling down.mp3'>'atreyu - the theft.mp3'>'atreyu - slow burn.mp3' 
+  378  cd ..
+  379  ls
+  380  cd caifanes
+  381  ls
+  382  cd ..
+  383  cd atreyu
+  384  cp -rf 'atreyu - blow.mp3' ../caifanes
+  385  cd ..
+  386  cd caifanes
+  387  ls
+  388  cd ..
+  389  rm *.mp3
+  390  ls
+  391  cd caifanes
+  392  ls
+  393  rm *.mp3 
+  394  ls
+  395  rm *.mp3 ../disturbed
+  396  cd ..
+  397  rm *mp3 disturbed/
+  398  rm -R disturbed/
+  399  cd disturbed
+  400  mkdir disturbed
+  401  ls
+  402  cd fobia
+  403  rm *mp3
+  404  cd ..
+  405  ls
+  406  cd jaguares
+  407  rm *mp3
+  408  cd ..
+  409  cd korn 
+  410  rm *mp3
+  411  cd ..
+  412  cd metallica 
+  413  rm *.mp3
+  414  ls
+  415  cd ..
+  416  cd ozzy 
+  417  rm *.mp3
+  418  cd ..
+  419  cd sabaton
+  420  rm *.mp3
+  421  cd ..
+  422  cd staind
+  423  rm *.mp3
+  424  cd ..
+  425  ls
+  426  cd fobia
+  427  ls
+  428  cd ..
+  429  cd korn
+  430  ls
+  431  cd ..
+  432  cd atreyu
+  433  ls
+  434  cp 'atreyu - bitter broken memory.mp3'  'atreyu - blow.mp3'                 'atreyu - our sick story.mp3'         'atreyu - the theft.mp3'
+  435  'atreyu - bleeding mascar.mp3'       'atreyu - falling down.mp3'         'atreyu - right side of the bed.mp3'  'atreyu - when two are one.mp3'
+  436  cp 'atreyu - bitter broken memory.mp3' 'atreyu - blow.mp3' 'atreyu - our sick story.mp3' 'atreyu - the theft.mp3' 'atreyu - bleeding mascara.mp3' 'atreyu - falling down.mp3' 'atreyu - right side of the bed.mp3' 'atreyu - when two are one.mp3' 'atreyu - lip gloss and black.mp3' 'atreyu - slow burn.mp3' ../caifanes
+  437  nano 'atreyu - bleeding mascara.mp3'
+  438  nano 'atreyu - bleeding mascar.mp3'
+  439  nano 'atreyu - falling down.mp3'
+  440  rm 'atreyu - bleeding mascar.mp3'
+  441  ls
+  442  nano 'atreyu - blow.mp3'
+  443  nano 'atreyu - the theft.mp3'
+  444  cat 'atreyu - blow.mp3'>>'atreyu - slow burn.mp3'
+  445  nano 'atreyu - slow burn.mp3'
+  446  cat 'atreyu - blow.mp3'>>'atreyu - bitter broken memory.mp3'>>'atreyu - lip gloss and black.mp3'>>'atreyu - right side of the bed.mp3'>>'atreyu - the theft.mp3'>>'atreyu - bleeding mascara.mp3'>>'atreyu - falling donw.mp3'>>'atreyu - our sick story.mp3'>>'atreyu - when two are one.mp3'
+  447  nano 'atreyu - when two are one.mp3'
+  448  cp 'atreyu - bitter broken memory.mp3' 'atreyu - blow.mp3' 'atreyu - lip gloss and black.mp3' 'atreyu - right side of the bed.mp3' 'atreyu - the theft.mp3' 'atreyu - bleeding mascara.mp3' 'atreyu - falling down.mp3' 'atreyu - our sick story.mp3' 'atreyu - slow burn.mp3' 'atreyu - when two are one.mp3' ../caifanes
+  449  ls
+  450  cd ..
+  451  ls
+  452  cd atreyu
+  453  cp 'atreyu - bitter broken memory.mp3' 'atreyu - blow.mp3' 'atreyu - lip gloss and black.mp3' 'atreyu - right side of the bed.mp3' 'atreyu - the theft.mp3' 'atreyu - bleeding mascara.mp3' 'atreyu - falling down.mp3' 'atreyu - our sick story.mp3' 'atreyu - slow burn.mp3' 'atreyu - when two are one.mp3' ../disturbed
+  454  cp 'atreyu - bitter broken memory.mp3' 'atreyu - blow.mp3' 'atreyu - lip gloss and black.mp3' 'atreyu - right side of the bed.mp3' 'atreyu - the theft.mp3' 'atreyu - bleeding mascara.mp3' 'atreyu - falling down.mp3' 'atreyu - our sick story.mp3' 'atreyu - slow burn.mp3' 'atreyu - when two are one.mp3' ../fobia
+  455  cp 'atreyu - bitter broken memory.mp3' 'atreyu - blow.mp3' 'atreyu - lip gloss and black.mp3' 'atreyu - right side of the bed.mp3' 'atreyu - the theft.mp3' 'atreyu - bleeding mascara.mp3' 'atreyu - falling down.mp3' 'atreyu - our sick story.mp3' 'atreyu - slow burn.mp3' 'atreyu - when two are one.mp3' ../jaguares
+  456  cp 'atreyu - bitter broken memory.mp3' 'atreyu - blow.mp3' 'atreyu - lip gloss and black.mp3' 'atreyu - right side of the bed.mp3' 'atreyu - the theft.mp3' 'atreyu - bleeding mascara.mp3' 'atreyu - falling down.mp3' 'atreyu - our sick story.mp3' 'atreyu - slow burn.mp3' 'atreyu - when two are one.mp3' ../korn
+  457  cp 'atreyu - bitter broken memory.mp3' 'atreyu - blow.mp3' 'atreyu - lip gloss and black.mp3' 'atreyu - right side of the bed.mp3' 'atreyu - the theft.mp3' 'atreyu - bleeding mascara.mp3' 'atreyu - falling down.mp3' 'atreyu - our sick story.mp3' 'atreyu - slow burn.mp3' 'atreyu - when two are one.mp3' ../metallica
+  458  cp 'atreyu - bitter broken memory.mp3' 'atreyu - blow.mp3' 'atreyu - lip gloss and black.mp3' 'atreyu - right side of the bed.mp3' 'atreyu - the theft.mp3' 'atreyu - bleeding mascara.mp3' 'atreyu - falling down.mp3' 'atreyu - our sick story.mp3' 'atreyu - slow burn.mp3' 'atreyu - when two are one.mp3' ../ozzy
+  459  cp 'atreyu - bitter broken memory.mp3' 'atreyu - blow.mp3' 'atreyu - lip gloss and black.mp3' 'atreyu - right side of the bed.mp3' 'atreyu - the theft.mp3' 'atreyu - bleeding mascara.mp3' 'atreyu - falling down.mp3' 'atreyu - our sick story.mp3' 'atreyu - slow burn.mp3' 'atreyu - when two are one.mp3' ../sabaton
+  460  cp 'atreyu - bitter broken memory.mp3' 'atreyu - blow.mp3' 'atreyu - lip gloss and black.mp3' 'atreyu - right side of the bed.mp3' 'atreyu - the theft.mp3' 'atreyu - bleeding mascara.mp3' 'atreyu - falling down.mp3' 'atreyu - our sick story.mp3' 'atreyu - slow burn.mp3' 'atreyu - when two are one.mp3' ../staind
+  461  cd ..
+  462  cd staind
+  463  ls
+  464  nano 'atreyu . blow.mp3'
+  465  cd ..
+  466  cd atreyu
+  467  ls
+  468  nano 'atreyu - blow.mp3'
+  469  cp -r cp 'atreyu - bitter broken memory.mp3' 'atreyu - blow.mp3' 'atreyu - lip gloss and black.mp3' 'atreyu - right side of the bed.mp3' 'atreyu - the theft.mp3' 'atreyu - bleeding mascara.mp3' 'atreyu - falling down.mp3' 'atreyu - our sick story.mp3' 'atreyu - slow burn.mp3' 'atreyu - when two are one.mp3' ../caifanes
+  470  cp -r 'atreyu - bitter broken memory.mp3' 'atreyu - blow.mp3' 'atreyu - lip gloss and black.mp3' 'atreyu - right side of the bed.mp3' 'atreyu - the theft.mp3' 'atreyu - bleeding mascara.mp3' 'atreyu - falling down.mp3' 'atreyu - our sick story.mp3' 'atreyu - slow burn.mp3' 'atreyu - when two are one.mp3' ../caifanes
+  471  cd ..
+  472  cd caifanes
+  473  nano 'atreyu - blow.mp3'
+  474  ls
+  475  cd ..
+  476  ls
+  477  cd atreyu
+  478  cp -r 'atreyu - bitter broken memory.mp3' 'atreyu - blow.mp3' 'atreyu - lip gloss and black.mp3' 'atreyu - right side of the bed.mp3' 'atreyu - the theft.mp3' 'atreyu - bleeding mascara.mp3' 'atreyu - falling down.mp3' 'atreyu - our sick story.mp3' 'atreyu - slow burn.mp3' 'atreyu - when two are one.mp3' ../disturbed
+  479  cp -r 'atreyu - bitter broken memory.mp3' 'atreyu - blow.mp3' 'atreyu - lip gloss and black.mp3' 'atreyu - right side of the bed.mp3' 'atreyu - the theft.mp3' 'atreyu - bleeding mascara.mp3' 'atreyu - falling down.mp3' 'atreyu - our sick story.mp3' 'atreyu - slow burn.mp3' 'atreyu - when two are one.mp3' ../fobia
+  480  cp -r 'atreyu - bitter broken memory.mp3' 'atreyu - blow.mp3' 'atreyu - lip gloss and black.mp3' 'atreyu - right side of the bed.mp3' 'atreyu - the theft.mp3' 'atreyu - bleeding mascara.mp3' 'atreyu - falling down.mp3' 'atreyu - our sick story.mp3' 'atreyu - slow burn.mp3' 'atreyu - when two are one.mp3' ../jaguares
+  481  cp -r 'atreyu - bitter broken memory.mp3' 'atreyu - blow.mp3' 'atreyu - lip gloss and black.mp3' 'atreyu - right side of the bed.mp3' 'atreyu - the theft.mp3' 'atreyu - bleeding mascara.mp3' 'atreyu - falling down.mp3' 'atreyu - our sick story.mp3' 'atreyu - slow burn.mp3' 'atreyu - when two are one.mp3' ../korn
+  482  cp -r 'atreyu - bitter broken memory.mp3' 'atreyu - blow.mp3' 'atreyu - lip gloss and black.mp3' 'atreyu - right side of the bed.mp3' 'atreyu - the theft.mp3' 'atreyu - bleeding mascara.mp3' 'atreyu - falling down.mp3' 'atreyu - our sick story.mp3' 'atreyu - slow burn.mp3' 'atreyu - when two are one.mp3' ../metallica
+  483  cp -r 'atreyu - bitter broken memory.mp3' 'atreyu - blow.mp3' 'atreyu - lip gloss and black.mp3' 'atreyu - right side of the bed.mp3' 'atreyu - the theft.mp3' 'atreyu - bleeding mascara.mp3' 'atreyu - falling down.mp3' 'atreyu - our sick story.mp3' 'atreyu - slow burn.mp3' 'atreyu - when two are one.mp3' ../ozzy
+  484  cp -r 'atreyu - bitter broken memory.mp3' 'atreyu - blow.mp3' 'atreyu - lip gloss and black.mp3' 'atreyu - right side of the bed.mp3' 'atreyu - the theft.mp3' 'atreyu - bleeding mascara.mp3' 'atreyu - falling down.mp3' 'atreyu - our sick story.mp3' 'atreyu - slow burn.mp3' 'atreyu - when two are one.mp3' ../sabaton
+  485  cp -r 'atreyu - bitter broken memory.mp3' 'atreyu - blow.mp3' 'atreyu - lip gloss and black.mp3' 'atreyu - right side of the bed.mp3' 'atreyu - the theft.mp3' 'atreyu - bleeding mascara.mp3' 'atreyu - falling down.mp3' 'atreyu - our sick story.mp3' 'atreyu - slow burn.mp3' 'atreyu - when two are one.mp3' ../staind
+  486  cd ..
+  487  cd staind
+  488  nano 'atreyu - blow.mp3'
+  489  cd ..
+  490  history
+  491  cd..
+  492  cd ..
+  493  cd ..
+  494  cd ..
+  495  ls
+  496  history > homework.txt
