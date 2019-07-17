@@ -1,0 +1,56 @@
+    1  history
+    2  addgroup admin2
+    3  sudo addgroup admin2
+    4  sudo addgroup guest
+    5  sudo adduser owner
+    6  sudo adduser marlon
+    7  sudo adduser miriam
+    8  sudo adduser jorge
+    9  ls
+   10  cd C\:/
+   11  ls
+   12  chown -R owner Programs/ 
+   13  sudo chown -R owner Programs/ 
+   14  sudo chown -R owner Windows/ 
+   15  ls -l
+   16  sudo chgrp -R admin2 Programs/ 
+   17  sudo chgrp -R admin2 Windows/ 
+   18  ll
+   19  ls -l
+   20  sudo chown owner Users/ 
+   21  sudo chgrp guest Users/ 
+   22  ls -l
+   23  cd Users
+   24  ls
+   25  ls -l
+   26  sudo chgrp -R guest Jorge/
+   27  sudo chgrp -R guest Marlon/
+   28  sudo chgrp -R guest Miriam/
+   29  ls -l
+   30  sudo chown -R jorge Jorge/
+   31  sudo chown -R marlon Marlon/
+   32  sudo chown -R miriam Miriam/
+   33  ls -l
+   34  ls -lR
+   35  cd Marlon/
+   36  ls
+   37  cd Music
+   38  ls
+   39  ls -l
+   40  chmod -R 000 BobMarley/ 
+   41  sudo chmod -R 000 BobMarley/ 
+   42  sudo chmod -R 400 BobMarley/ 
+   43  sudo chmod -R 000 BobMarley/ 
+   44  ls -l
+   45  sudo chmod -R 400 Canserbero/ 
+   46  sudo chmod -R 600 Eminem/ 
+   47  sudo chmod -R 700 Gorillaz/ 
+   48  sudo chmod -R 740 LirikaInversa/ 
+   49  sudo chmod -R 760 MichaelJackson/ 
+   50  sudo chmod -R 770 Nach/ 
+   51  sudo chmod -R 774 Queen/ 
+   52  sudo chmod -R 776 Residente/ 
+   53  sudo chmod -R 777 TheBeatles/ 
+   54  ll
+   55  ls -l
+   56  history > Exercise2_history.txt
