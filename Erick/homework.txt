@@ -1,0 +1,337 @@
+    1  cd C
+    2  rm -r Programs/anonymous
+    3  rm -r Programs/cgi-bin
+    4  rm -r Programs/contrib
+    5  rm -r Programs/htdocs
+    6  rm -r Users/Erick/Music/Tool
+    7  rm -r Users/Erick/Music/TomMorello
+    8  rm -r Users/Erick/Music/TheProdigy
+    9* rm -r Users/Erick/Music/SteveVai/
+   10  rm -r Users/Erick/Music/SteveVai
+   11  rm -r Users/Erick/Music/Sibelius
+   12  rm -r Users/Erick/Music/RedHotChilliPeppers
+   13  rm -r Users/Erick/Music/Ratatat
+   14  rm -r Users/Erick/Music/RageAgainsttheMachine
+   15  rm -r Users/Erick/Music/Radiohead
+   16  rm -r Users/Erick/Music/Beethoven
+   17  rm -r Users/Erick/Music/Berlioz
+   18  rm -r Users/Erick/Music/Brahms
+   19  rm -r Users/Erick/Music/Chopin
+   20  cp -r Users/Algren/Music/RedHotChilliPeppers/ Users/Erick/Music/
+   21  cp -r Users/Algren/Music/RageAgainsttheMachine/ Users/Erick/Music/
+   22  cp -r Users/Algren/Music/Tool/ Users/Erick/Music/
+   23  cp -r Users/Algren/Music/Chopin/ Users/Erick/Music/
+   24  ls
+   25  rm Windows/Boot/acRes.dll 
+   26  rm Windows/Boot/drvmain.sbd 
+   27* rm Windows/Boot/
+   28  rm Windows/Boot/{pcmain.sdb readme.txt}
+   29  rm Windows/Boot/{pcamain.sdb readme.txt}
+   30  rm Windows/Boot/pcamain.sdb 
+   31  rm Windows/Boot/readme.txt 
+   32  rm Windows/addins/win
+   33  rm Windows/addins/write
+   34  rm Windows/addins/system
+   35  rm Windows/addins/twain_32.dll 
+   36  rm Windows/addins/readme.txt 
+   37  rm Windows/appcompat/win
+   38  rm Windows/appcompat/write
+   39  rm Windows/appcompat/system
+   40  rm Windows/appcompat/twain_32.dll 
+   41  rm Windows/appcompat/readme.txt 
+   42  rm Windows/apppatch/win
+   43  rm Windows/apppatch/write
+   44  rm Windows/apppatch/system
+   45  rm Windows/apppatch/twain_32.dll 
+   46  rm Windows/apppatch/readme.txt 
+   47  rm Windows/apppatchAppReadiness/win
+   48  rm Windows/apppatchAppReadiness/write
+   49  rm Windows/apppatchAppReadiness/system
+   50  rm Windows/apppatchAppReadiness/twain_32.dll 
+   51  rm Windows/apppatchAppReadiness/readme.txt
+   52  rm Windows/System32/readme.txt 
+   53  rm Windows/System32/attrib 
+   54  rm Windows/System32/atl.dll 
+   55  rm Windows/System32/at 
+   56  rm Windows/System32/apphelp.dll 
+   57  rm Windows/System32/appdapi.dll 
+   58  rm Windows/System32/apds.dll 
+   59  rm Windows/System32/AppLocker/file1
+   60  rm Windows/System32/AppLocker/file2
+   61  rm Windows/System32/AppLocker/file3
+   62  rm Windows/System32/AppLocker/file4
+   63  rm Windows/System32/AppLocker/file5
+   64  rm Windows/System32/Configuration/file1
+   65  rm Windows/System32/Configuration/file2
+   66  rm Windows/System32/Configuration/file3
+   67  rm Windows/System32/Configuration/file4
+   68  rm Windows/System32/Configuration/file5
+   69  rm Windows/System32/Folder1/file1
+   70  rm Windows/System32/Folder1/file2
+   71  rm Windows/System32/Folder1/file3
+   72  rm Windows/System32/Folder1/file4
+   73  rm Windows/System32/Folder1/file5
+   74  rm Windows/System32/com/file1
+   75  rm Windows/System32/com/file2
+   76  rm Windows/System32/com/file3
+   77  rm Windows/System32/com/file4
+   78  rm Windows/System32/com/file5
+   79  rm -r Windows/System32/config/{file1,file2,file3,file4,file5}
+   80  echo "This is just text content" >> Windows/Boot/sysmain.sdb 
+   81  echo "This is just text content" >> Windows/Boot/system
+   82  echo "This is just text content" >> Windows/Boot/twain_32.dll 
+   83  echo "This is just text content" >> Windows/Boot/win
+   84  echo "This is just text content" >> Windows/Boot/write
+   85  echo "This is just text content" >> Windows/System32/AdvancedEmojiDS.dll 
+   86  echo "This is just text content" >> Windows/System32/AtBroker 
+   87  echo "This is just text content" >> Windows/System32/aeevts.dll 
+   88  echo "This is just text content" >> Windows/System32/alg
+   89  echo "This is just text content" >> Windows/System32/amsi.dll 
+   90  echo "This is just text content" >> Windows/System32/amsiproxy.dll 
+   91  echo "This is just text content" >> Windows/System32/AppLocker/file1
+   92  echo "This is just text content" >> Windows/System32/AppLocker/file2
+   93  echo "This is just text content" >> Windows/System32/AppLocker/file3
+   94  echo "This is just text content" >> Windows/System32/AppLocker/file4
+   95  echo "This is just text content" >> Windows/System32/AppLocker/file5
+   96  echo "This is just text content" >> Windows/System32/Configuration/file1
+   97  echo "This is just text content" >> Windows/System32/Configuration/file2
+   98  echo "This is just text content" >> Windows/System32/Configuration/file3
+   99  echo "This is just text content" >> Windows/System32/Configuration/file4
+  100  echo "This is just text content" >> Windows/System32/Configuration/file5
+  101  echo "This is just text content" >> Windows/System32/Folder1/file1
+  102  echo "This is just text content" >> Windows/System32/Folder1/file2
+  103  echo "This is just text content" >> Windows/System32/Folder1/file3
+  104  echo "This is just text content" >> Windows/System32/Folder1/file4
+  105  echo "This is just text content" >> Windows/System32/Folder1/file5
+  106  echo "This is just text content" >> Windows/System32/com/file1
+  107  echo "This is just text content" >> Windows/System32/com/file2
+  108  echo "This is just text content" >> Windows/System32/com/file3
+  109  echo "This is just text content" >> Windows/System32/com/file4
+  110  echo "This is just text content" >> Windows/System32/com/file5
+  111  echo "This is just text content" >> Windows/System32/config/file1
+  112  echo "This is just text content" >> Windows/System32/config/file2
+  113  echo "This is just text content" >> Windows/System32/config/file3
+  114  echo "This is just text content" >> Windows/System32/config/file4
+  115  echo "This is just text content" >> Windows/System32/config/file5
+  116  echo "This is just text content" >> Windows/addins/acRes.dll 
+  117  echo "This is just text content" >> Windows/addins/drvmain.sbd 
+  118  echo "This is just text content" >> Windows/addins/frxmain.sdc 
+  119  echo "This is just text content" >> Windows/addins/pcamain.sdb 
+  120  echo "This is just text content" >> Windows/addins/sysmain.sdb 
+  121  echo "This is just text content" >> Windows/appcompat/acRes.dll 
+  122  echo "This is just text content" >> Windows/appcompat/drvmain.sbd 
+  123  echo "This is just text content" >> Windows/appcompat/frxmain.sdc 
+  124  echo "This is just text content" >> Windows/appcompat/pcamain.sdb 
+  125  echo "This is just text content" >> Windows/appcompat/sysmain.sdb 
+  126  echo "This is just text content" >> Windows/apppatchAppReadiness/sysmain.sdb 
+  127  echo "This is just text content" >> Windows/apppatchAppReadiness/pcamain.sdb 
+  128  echo "This is just text content" >> Windows/apppatchAppReadiness/frxmain.sdc 
+  129  echo "This is just text content" >> Windows/apppatchAppReadiness/drvmain.sbd 
+  130  echo "This is just text content" >> Windows/apppatchAppReadiness/acRes.dll 
+  131  echo "This is just text content" >> Windows/apppatch/sysmain.sdb 
+  132  echo "This is just text content" >> Windows/apppatch/pcamain.sdb 
+  133  echo "This is just text content" >> Windows/apppatch/frxmain.sdc 
+  134  echo "This is just text content" >> Windows/apppatch/drvmain.sbd 
+  135  echo "This is just text content" >> Windows/apppatch/acRes.dll 
+  136  echo "This is just text content" >> Programs/img/bin
+  137  echo "This is just text content" >> Programs/img/src
+  138  cp -r Programs/img/{install2,locale2,mysql2,src2}
+  139  cp -r Programs/img Install 
+  140  cp -r Programs/img Locale
+  141  cp -r Programs/img MySQL
+  142  cp -r Programs/img SRC
+  143  rm -r Programs/install/
+  144  cd Programs
+  145  ls
+  146  cp -r img install
+  147  ls img
+  148  rm -r {locale, mysql,src}
+  149  rm -r locale
+  150  rm -r mysql
+  151  rm -r src
+  152  cp -r img Locale
+  153  cp -r MySql
+  154  cp -r mysql
+  155  cp -r img mysql
+  156  cp -r img other
+  157  cd ..
+  158  rm Users/Erick/Code/kata1
+  159  rm Users/Erick/Code/kata12
+  160  rm Users/Erick/Code/kata13
+  161  rm Users/Erick/Code/kata14
+  162  rm Users/Erick/Code/kata15
+  163  rm Users/Erick/Code/kata1again 
+  164  rm Users/Erick/Code/kata1implemented 
+  165  rm Users/Erick/Code/kata2
+  166  rm Users/Erick/Code/kata2nuevo 
+  167  rm Users/Erick/Code/kata3
+  168  rm Users/Erick/Desktop/AntiVirus 
+  169  rm Users/Erick/Desktop/Chrome 
+  170  rm Users/Erick/Desktop/Cmder 
+  171  rm Users/Erick/Desktop/Directories 
+  172  rm Users/Erick/Desktop/MiPc 
+  173  rm Users/Erick/Desktop/MyDocuments 
+  174  rm Users/Erick/Desktop/Skype 
+  175  rm Users/Erick/Desktop/Slack 
+  176  rm Users/Erick/Desktop/Spotify 
+  177  rm Users/Erick/Documents/tesis
+  178  rm Users/Erick/Documents/tesis2 
+  179  rm Users/Erick/Documents/shit
+  180  rm Users/Erick/Documents/shit2
+  181  rm Users/Erick/Documents/node
+  182  rm Users/Erick/Documents/repo
+  183  rm Users/Erick/Documents/repo2
+  184  rm Users/Erick/Documents/repoPruebas 
+  185  rm Users/Erick/Documents/repomalo 
+  186  rm Users/Erick/Downloads/ubuntu_install 
+  187  rm Users/Erick/Downloads/tomorrowExam 
+  188  rm Users/Erick/Downloads/stolenhomework 
+  189  rm Users/Erick/Downloads/song 
+  190  rm Users/Erick/Downloads/skype.exe 
+  191  rm Users/Erick/Downloads/readme
+  192  rm Users/Erick/Downloads/readmenow
+  193  rm Users/Erick/Downloads/readmenot.exe 
+  194  rm Users/Erick/Downloads/readmeagain 
+  195  rm Users/Erick/Downloads/nudepics 
+  196  rm Users/Erick/Downloads/pics 
+  197  rm Users/Erick/Downloads/notporn.exe 
+  198  rm Users/Erick/Personal/rfc 
+  199  rm Users/Erick/Personal/nacimiento 
+  200  rm Users/Erick/Personal/militar 
+  201  rm Users/Erick/Personal/jeje 
+  202  rm Users/Erick/Personal/ife
+  203  rm Users/Erick/Personal/de
+  204  rm Users/Erick/Personal/cvparaotracosa 
+  205  rm Users/Erick/Personal/cvelbueno 
+  206  rm Users/Erick/Personal/cvantiguo 
+  207  rm Users/Erick/Personal/cv2
+  208  rm Users/Erick/Personal/cv
+  209  rm Users/Erick/Pictures/
+  210  rm Users/Erick/Pictures/you.png 
+  211  rm Users/Erick/Pictures/wife.png 
+  212  rm Users/Erick/Pictures/us.png 
+  213  rm Users/Erick/Pictures/they.png 
+  214  rm Users/Erick/Pictures/those.png 
+  215  rm Users/Erick/Pictures/son2.png 
+  216  rm Users/Erick/Pictures/son.png 
+  217  rm Users/Erick/Pictures/mom.png 
+  218  rm Users/Erick/Pictures/she.png 
+  219  rm Users/Erick/Pictures/me.png 
+  220  rm Users/Erick/School/
+  221  rm Users/Erick/School/exam1 
+  222  rm Users/Erick/School/exam2
+  223  rm Users/Erick/School/fisica 
+  224  rm Users/Erick/School/girlsnumber 
+  225  rm Users/Erick/School/ingles 
+  226  rm Users/Erick/School/lastyearexam 
+  227  rm Users/Erick/School/math 
+  228  rm Users/Erick/School/quimica 
+  229  rm Users/Erick/School/spanish 
+  230  rm Users/Erick/School/teachersnumber 
+  231  rm Users/Erick/Videos/2
+  232  rm Users/Erick/Videos/3
+  233  rm Users/Erick/Videos/4
+  234  rm Users/Erick/Videos/5
+  235  rm Users/Erick/Videos/6
+  236  rm Users/Erick/Videos/7
+  237  rm Users/Erick/Videos/clases 
+  238  rm Users/Erick/Videos/gatitos 
+  239  rm Users/Erick/Videos/harry_potter1 
+  240  rm Users/Erick/Videos/lecciones 
+  241  rm Users/Erick/Videos/lotr
+  242  rm Users/Erick/Videos/lotr2
+  243  rm -r Users/Algren/
+  244  rm -r Users/Arun
+  245  cp -r Users/Erick Users/Algren
+  246  cp -r Users/Erick Users/Arun
+  247  echo "Threw you the obvious and you flew with it on your back a name" >> Users/Erick/Music/APerfectCircle/3Libras.mp3
+  248  In your recollection down among a million same
+  249  Difficult not to feel
+  250  a little bit disappointed and passed over
+  251  when I've looked right through to see you
+naked but oblivious
+and you don't see me
+  252  But I threw you the obvious just to see
+  253  If there's more behind the eyes of a fallen angel
+eyes of a tragedy
+Here I am expecting just a little bit too much
+From the wounded but I see through it all and see you
+'Cause I threw you the obvious to see what occurs behind the
+  254  eyes of a fallen angel
+  255  Eyes of a tragedy
+  256  oh well, oh well apparently nothing
+  257  apparently nothing at all
+  258  You don't, you don't, you don't see me
+You don't, you don't, you don't see me
+  259  You don't, you don't, you don't see me
+You don't, you don't, you don't see me
+  260  You don't see me
+ls
+
+  261  nano Users/Erick/Music/APerfectCircle/3Libras.mp3 
+  262  nano Users/Erick/Music/APerfectCircle//Judith.mp3 
+  263  nano Users/Erick/Music/APerfectCircle/Passive.mp3 
+  264  nano Users/Erick/Music/APerfectCircle/TheDoomed.mp3 
+  265  nano Users/Erick/Music/APerfectCircle/TheOutsider.mp3 
+  266  nano Users/Erick/Music/AshesDivide/TheStone.mp3 
+  267  nano Users/Erick/Music/AshesDivide/Sword.mp3 
+  268  nano Users/Erick/Music/AshesDivide/StrippedAway.mp3 
+  269  nano Users/Erick/Music/AshesDivide/ForeverCanBe.mp3 
+  270  nano Users/Erick/Music/AshesDivide/DenialWaits.mp3 
+  271  nano Users/Erick/Music/Blink182/Adamssong.mp3 
+  272  nano Users/Erick/Music/Blink182/AllTheSmallThings.mp3 
+  273  nano Users/Erick/Music/Blink182/FirstDate.mp3 
+  274  nano Users/Erick/Music/Blink182/IMissYou.mp3 
+  275  nano Users/Erick/Music/Blink182/StayTogetherForTheKids.mp3 
+  276  echo "no lyrics" >> Users/Erick/Music/Chopin/{concierto,diurno,etude,nocturno.mp3,waltz}
+  277  echo "no lyrics" >> Users/Erick/Music/Chopin/concierto
+  278  echo "no lyrics" >> Users/Erick/Music/Chopin/diurno
+  279  echo "no lyrics" >> Users/Erick/Music/Chopin/etude 
+  280  echo "no lyrics" >> Users/Erick/Music/Chopin/nocturno.mp3 
+  281  echo "no lyrics" >> Users/Erick/Music/Chopin/waltz 
+  282  nano Users/Erick/Music/GaryClarkJr/ComeTogether.mp3 
+  283  nano Users/Erick/Music/GaryClarkJr/CantStopTheBleeding.mp3 
+  284  nano Users/Erick/Music/GaryClarkJr/LowDownRollingStone.mp3 
+  285  nano Users/Erick/Music/GaryClarkJr/PearlCadillac.mp3 
+  286  nano Users/Erick/Music/GaryClarkJr/ThisLand 
+  287  nano Users/Erick/Music/Opeth/Burden.mp3 
+  288  nano Users/Erick/Music/Opeth/GhostofPerdition.mp3 
+  289  nano Users/Erick/Music/Opeth/InMyTimeofNeed.mp3 
+  290  nano Users/Erick/Music/Opeth/Sorceress.mp3 
+  291  nano Users/Erick/Music/Opeth/Windowpane.mp3 
+  292  cd ..
+  293  ls
+  294  history > ../../mnt/c/Users/BTS/Documents/Erick\ -\ Internship\ 2019/Erick\ Repository/bash-repo/homework.txt
+  167  nano Users/Erick/Music/PorcupineTree/ArrivingSomewhereButNotHere.mp3 
+  168  nano Users/Erick/Music/PorcupineTree/BlackestEyes.mp3 
+  169  nano Users/Erick/Music/PorcupineTree/Lazarus.mp3 
+  170  nano Users/Erick/Music/PorcupineTree/TheSoundOfMuzak.mp3 
+  171  nano Users/Erick/Music/PorcupineTree/Trains.mp3 
+  172  nano Users/Erick/Music/RageAgainsttheMachine/BulsOnParade.mp3 
+  173  nano Users/Erick/Music/RageAgainsttheMachine/GuerrillaRadio.mp3 
+  174  nano Users/Erick/Music/RageAgainsttheMachine/KillingInTheName.mp3 
+  175  nano Users/Erick/Music/RageAgainsttheMachine/SleepNowIntheFire.mp3 
+  176  nano Users/Erick/Music/RageAgainsttheMachine/Testify.mp3 
+  177  nano Users/Erick/Music/RedHotChilliPeppers/Californication.mp3 
+  178  nano Users/Erick/Music/RedHotChilliPeppers/CantStop.mp3 
+  179  nano Users/Erick/Music/RedHotChilliPeppers/Otherside.mp3 
+  180  nano Users/Erick/Music/RedHotChilliPeppers/Snow.mp3 
+  181  nano Users/Erick/Music/RedHotChilliPeppers/UndertheBridge.mp3 
+  182  nano Users/Erick/Music/Tool/RightinTwo.mp3 
+  183  nano Users/Erick/Music/Tool/ThePot.mp3 
+  184  nano Users/Erick/Music/Tool/TheSober.mp3 
+  185  nano Users/Erick/Music/Tool/Vicarious.mp3 
+  186  touch jambi.mp3 | nano jambi.mp3
+  187  touch Users/Erick/Music/Tool/Jambi.mp3 | nano Users/Erick/Music/Tool/Jambi.mp3
+  188  nano Users/Erick/Music/Tool/Jambi.mp3 
+  189  rm -r Users/Algren
+  190  rm -r Users/Arun/
+  191  cp -r Users/Erick Users/Arun
+  192  cp -r Users/Erick Users/Algren
+  193  ls
+  194  rm jambi.mp3 
+  195  cd ..
+  196  ls
+  197  cat homework.txt > history
+  198  cat homework.txt 
+  199  history > homework2.txt
