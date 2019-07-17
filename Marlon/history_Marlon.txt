@@ -1,0 +1,412 @@
+    1  history
+    2  mkdir C:
+    3  cd C\:/
+    4  mkdir Programs Windows Users
+    5  cd Programs
+    6  mkdir Program0
+    7  mkdir Program1
+    8  mkdir Program2
+    9  mkdir Program3
+   10  mkdir Program4
+   11  mkdir Program5
+   12  mkdir Program6
+   13  mkdir Program7
+   14  mkdir Program8
+   15  mkdir Program9
+   16  touch Program0/Program0.exe Program0/uninstall_Program0.exe
+   17  touch Program1/Program1.exe Program1/uninstall_Program1.exe
+   18  touch Program2/Program2.exe Program2/uninstall_Program2.exe
+   19  touch Program3/Program3.exe Program3/uninstall_Program3.exe
+   20  touch Program4/Program4.exe Program4/uninstall_Program4.exe
+   21  touch Program5/Program5.exe Program5/uninstall_Program5.exe
+   22  touch Program6/Program6.exe Program6/uninstall_Program6.exe
+   23  touch Program7/Program7.exe Program7/uninstall_Program7.exe
+   24  touch Program8/Program8.exe Program8/uninstall_Program8.exe
+   25  touch Program9/Program9.exe Program9/uninstall_Program9.exe
+   26  ls -R
+   27  cd ..
+   28  ls
+   29  cd Windows/
+   30  mkdir Folder0
+   31  mkdir Folder1
+   32  mkdir Folder2
+   33  mkdir Folder3
+   34  mkdir Folder4
+   35  mkdir Folder5
+   36  mkdir Folder6
+   37  mkdir Folder7
+   38  mkdir Folder8
+   39  mkdir Folder9
+   40  rm Folder5
+   41  rmdir Folder5
+   42  rmdir Folder6
+   43  rmdir Folder7
+   44  rmdir Folder8
+   45  rmdir Folder9
+   46  ls
+   47  cd Folder0
+   48  touch archive0.txt
+   49  touch archive1.txt
+   50  touch archive2.txt
+   51  touch archive3.txt
+   52  touch archive4.txt
+   53  touch archive5.txt
+   54  touch archive6.txt
+   55  touch archive7.txt
+   56  touch archive8.txt
+   57  touch archive9.txt
+   58  cp archive0.txt archive1.txt archive2.txt archive3.txt archive4.txt archive5.txt archive6.txt archive7.txt archive8.txt archive9.txt ../Folder1
+   59  cp archive0.txt archive1.txt archive2.txt archive3.txt archive4.txt archive5.txt archive6.txt archive7.txt archive8.txt archive9.txt ../Folder2
+   60  cp archive0.txt archive1.txt archive2.txt archive3.txt archive4.txt archive5.txt archive6.txt archive7.txt archive8.txt archive9.txt ../Folder3
+   61* cp archive0.txt archive1.txt archive2.txt archive3.txt archive4.txt archive5.txt archive6.txt archive7.txt archive8.txt archive9.txt ../Folde
+   62  cd ..
+   63  ls -R
+   64  mkdir System32
+   65  ls
+   66  cd System32/
+   67  touch archive00.dll
+   68  touch archive01.dll
+   69  touch archive02.dll
+   70  touch archive03.dll
+   71  touch archive04.dll
+   72  touch archive05.dll
+   73  touch archive06.dll
+   74  touch archive07.dll
+   75  touch archive08.dll
+   76  touch archive09.dll
+   77  touch archive10.dll
+   78  touch archive11.dll
+   79  touch archive12.dll
+   80  touch archive13.dll
+   81  touch archive14.dll
+   82  mkdir Folder1
+   83  mkdir Folder2
+   84  mkdir Folder3
+   85  mkdir Folder4
+   86  mkdir Folder5
+   87  cd Folder1
+   88  touch archive0.dll
+   89  touch archive2.dll
+   90  touch archive1.dll
+   91  touch archive3.dll
+   92  touch archive4.dll
+   93  touch archive5.dll
+   94  touch archive6.dll
+   95  touch archive7.dll
+   96  touch archive8.dll
+   97  touch archive9.dll
+   98  cp archive0.dll archive1.dll archive2.dll archive3.dll archive4.dll archive5.dll archive6.dll archive7.dll archive8.dll archive9.dll ../Folder2
+   99  cp archive0.dll archive1.dll archive2.dll archive3.dll archive4.dll archive5.dll archive6.dll archive7.dll archive8.dll archive9.dll ../Folder3
+  100  cp archive0.dll archive1.dll archive2.dll archive3.dll archive4.dll archive5.dll archive6.dll archive7.dll archive8.dll archive9.dll ../Folder4
+  101  cp archive0.dll archive1.dll archive2.dll archive3.dll archive4.dll archive5.dll archive6.dll archive7.dll archive8.dll archive9.dll ../Folder5
+  102  cd ..
+  103  ls -R
+  104  cd ..
+  105  cd Users/
+  106  mkdir Marlon Miriam Jorge
+  107  ls
+  108  cd Marlon
+  109  mkdir Desktop Documents Downloads Music Pictures Videos Folder1 Folder2 Folder3
+  110  cd Desktop
+  111  touch Program0.lnk
+  112  touch Program1.lnk
+  113  touch Program2.lnk
+  114  touch Program3.lnk
+  115  touch Program4.lnk
+  116  touch Program5.lnk
+  117  touch Program6.lnk
+  118  touch Program7.lnk
+  119  touch Program8.lnk
+  120  touch Program9.lnk
+  121  touch codeExample1.txt
+  122  touch codeExample2.txt
+  123  touch codeExample3.txt
+  124  touch codeExample4.txt
+  125  touch codeExample5.txt
+  126  cd ..
+  127  ls
+  128  cd Documents
+  129  touch report0.docx
+  130  touch report1.docx
+  131  touch report2.docx
+  132  touch report3.docx
+  133  touch report4.docx
+  134  touch report5.docx
+  135  touch report6.docx
+  136  touch report7.docx
+  137  touch report8.docx
+  138  touch report9.docx
+  139  touch report0.pdf
+  140  touch report1.pdf
+  141  touch report2.pdf
+  142  touch report3.pdf
+  143  touch report4.pdf
+  144  cd ..
+  145  ls
+  146  cd Downloads/
+  147  touch Program0.zip
+  148  touch Program1.zip
+  149  touch Program2.zip
+  150  touch Program3.zip
+  151  touch Program4.zip
+  152  touch Program5.zip
+  153  touch Program6.zip
+  154  touch Program7.zip
+  155  touch Program8.zip
+  156  touch Program9.zip
+  157  touch Instalador1.exe
+  158  touch Instalador2.exe
+  159  touch Instalador3.exe
+  160  touch Instalador4.exe
+  161  touch Instalador5.exe
+  162  cd ..
+  163  cd Pictures/
+  164  touch Wallpaper0.jpg
+  165  touch Wallpaper1.jpg
+  166  touch Wallpaper2.jpg
+  167  touch Wallpaper3.jpg
+  168  touch Wallpaper4.jpg
+  169  touch Wallpaper5.jpg
+  170  touch Wallpaper6.jpg
+  171  touch Wallpaper7.jpg
+  172  touch Wallpaper8.jpg
+  173  touch Wallpaper9.jpg
+  174  touch Animation1.gif
+  175  touch Animation2.gif
+  176  touch Animation3.gif
+  177  touch Animation4.gif
+  178  touch Animation5.gif
+  179  cd ..
+  180  cd Pictures
+  181  touch Movie0.mp4
+  182  touch Movie1.mp4
+  183  touch Movie2.mp4
+  184  touch Movie3.mp4
+  185  touch Movie4.mp4
+  186  touch Movie5.mp4
+  187  touch Movie6.mp4
+  188  touch Movie7.mp4
+  189  touch Movie8.mp4
+  190  touch Movie9.mp4
+  191  touch Movie01.avi
+  192  touch Movie02.avi
+  193  touch Movie03.avi
+  194  touch Movie04.avi
+  195  touch Movie05.avi
+  196  cd ..
+  197  ls
+  198  cd Folder1
+  199  touch archive01.txt
+  200  touch archive02.txt
+  201  touch archive03.txt
+  202  touch archive04.txt
+  203  touch archive05.txt
+  204  touch archive06.txt
+  205  touch archive07.txt
+  206  touch archive08.txt
+  207  touch archive09.txt
+  208  touch archive10.txt
+  209  touch archive11.txt
+  210  touch archive12.txt
+  211  touch archive13.txt
+  212  touch archive14.txt
+  213  touch archive15.txt
+  214  cp archive01.txt archive02.txt archive03.txt archive04.txt archive05.txt archive06.txt archive07.txt archivo08.txt archivo09.txt archivo10.txt archivo11.txt archivo12.txt archivo13.txt archivo14.txt archivo15.txt ../Folder2 
+  215  cp archive08.txt archive09.txt archive10.txt archive11.txt archive12.txt archive13.txt archive14.txt archive15.txt ../Folder2 
+  216  cp archive01.txt archive02.txt archive03.txt archive04.txt archive05.txt archive06.txt archive07.txt archive08.txt archive09.txt archive10.txt archive11.txt archive12.txt archive13.txt archive14.txt archive15.txt ../Folder3 
+  217  cd ..
+  218  ls -R
+  219  cd Pictures/
+  220  mv Movie0.avi ../Videos/
+  221  mv Movie0.mp4 ../Videos/
+  222  mv Movie1.mp4 ../Videos/
+  223  mv Movie2.mp4 ../Videos/
+  224  mv Movie3.mp4 ../Videos/
+  225  mv Movie4.mp4 ../Videos/
+  226  mv Movie5.mp4 ../Videos/
+  227  mv Movie6.mp4 ../Videos/
+  228  mv Movie7.mp4 ../Videos/
+  229  mv Movie8.mp4 ../Videos/
+  230  mv Movie9.mp4 ../Videos/
+  231  mv Movie01.avi ../Videos/
+  232  mv Movie02.avi ../Videos/
+  233  mv Movie03.avi ../Videos/
+  234  mv Movie04.avi ../Videos/
+  235  mv Movie05.avi ../Videos/
+  236  ls -l
+  237  cd ..
+  238  ls -R
+  239  cd Music
+  240  mkdir LirikaInversa Canserbero Proof Eminem Nach Chojin Residente Rapsusklei BobMarley MikeDiaz LionReggae Gondwana Gorillaz MichaelJackson Queen TheBeatles LosAldeanos RafaelLechowski HijosDeLasHojas ArsenalDeRimas
+  241  ls -l
+  242  cd ArsenalDeRimas/
+  243  touch ArsenalDeRimas-ElBuenoElFeoYElMalo.mp3
+  244  touch ArsenalDeRimas-HueleAMoy.mp3
+  245  touch ArsenalDeRimas-Ella.mp3
+  246  touch ArsenalDeRimas-43.mp3
+  247  touch ArsenalDeRimas-QuisieraSerUnaLagrima.mp3
+  248  cd ..
+  249  cd BobMarley
+  250  touch BobMarley-ThreeLittleBirds.mp3
+  251  touch BobMarley-IsThisLove.mp3
+  252  touch BobMarley-OneLove.mp3
+  253  touch BobMarley-BuffaloSoldier.mp3
+  254  touch BobMarley-BadBoys.mp3
+  255  cd..
+  256  cd ..
+  257  cd Canserbero/
+  258  touch Canserbero-EsEpico.mp3
+  259  touch Canserbero-MundoDePiedra.mp3
+  260  touch Canserbero-Llovia.mp3
+  261  touch Canserbero-YEnUnEspejoVi.mp3
+  262  touch Canserbero-HastaCuando.mp3
+  263  cd ..
+  264  cd Chojin/
+  265  touch Chojin-RapVsRacismo.mp3
+  266  touch Chojin-RieCuandoPuedas.mp3
+  267  touch Chojin-MiOdisea.mp3
+  268  touch Chojin-ElMundoSigueGirando.mp3
+  269  touch Chojin-ElAtaqueDeLosQueObservaban.mp3
+  270  cd ..
+  271  cd Eminem/
+  272  touch Eminem-WithOutMe.mp3
+  273  touch Eminem-TillICollapse.mp3
+  274  touch Eminem-ImNotAfraid.mp3
+  275  touch Eminem-Venom.mp3
+  276  touch Eminem-WhenImGone.mp3
+  277  cd ..
+  278  ls -l
+  279  cd Gondwana
+  280  touch Gondwana-SentimientoOriginal.mp3
+  281  touch Gondwana-Felicidad.mp3
+  282  touch Gondwana-VerdeAmarilloYRojo.mp3
+  283  touch Gondwana-SinCadenas.mp3
+  284  touch Gondwana-Muchoverso.mp3
+  285  cd ..
+  286  cd Gorillaz/
+  287  touch Gorillaz-ClintEastwood.mp3
+  288  touch Gorillaz-FeelGoodInc.mp3
+  289  touch Gorillaz-OnMelancolicHill.mp3
+  290  touch Gorillaz-KidsWithGuns.mp3
+  291  touch Gorillaz-RockTheHouse.mp3
+  292  cd ..
+  293  cd HijosDeLasHojas/
+  294  touch HijosDeLasHojas-AntuFushaKushe.mp3
+  295  touch HijosDeLasHojas-FrutosViejos.mp3
+  296  touch HijosDeLasHojas-Caeran.mp3
+  297  touch HijosDeLasHojas-LoQueCallanLasAbejas.mp3
+  298  touch HijosDeLasHojas-BajoElMismoCielo.mp3
+  299  cd ..
+  300  cd LionReggae/
+  301  touch LionReggae-CuandoPiensoEnTi.mp3
+  302  touch LionReggae-TeFuiste.mp3
+  303  touch LionReggae-MuchaFuerza.mp3
+  304  touch LionReggae-Luna.mp3
+  305  touch LionReggae-TuBelleza.mp3
+  306  cd ..
+  307  cd LirikaInversa/
+  308  touch LirikaInversa-Niebla.mp3
+  309  touch LirikaInversa-Statera.mp3
+  310  touch LirikaInversa-Mandala.mp3
+  311  touch LirikaInversa-Humano.mp3
+  312  touch LirikaInversa-TempestadPrimigenia.mp3
+  313  cd ..
+  314  cd LosAldeanos/
+  315  touch LosAldeanos-Poesia.mp3
+  316  touch LosAldeanos-FueUnPlacer.mp3
+  317  touch LosAldeanos-NoLeTengoMiedo.mp3
+  318  touch LosAldeanos-LaClase.mp3
+  319  touch LosAldeanos-Loco.mp3
+  320  cd ..
+  321  ls -l
+  322  cd MichaelJackson/
+  323  touch MichaelJackson-BillieJean.mp3
+  324  touch MichaelJackson-SmoothCriminal.mp3
+  325  touch MichaelJackson-BeatIt.mp3
+  326  touch MichaelJackson-TheWayYouMakeMeFeel.mp3
+  327  touch MichaelJackson-Thriller.mp3
+  328  cd ..
+  329  cd MikeDiaz/
+  330  touch MikeDiaz-Universos.mp3
+  331  touch MikeDiaz-Corona.mp3
+  332  touch MikeDiaz-Renace.mp3
+  333  touch MikeDiaz-Mision.mp3
+  334  touch MikeDiaz-Dragon.mp3
+  335  cd ..
+  336  cd Nach
+  337  touch Nach-ElIdiomaDeLosDioses.mp3
+  338  touch Nach-EfectosVocales.mp3
+  339  touch Nach-LosZurdosMuerenAntes.mp3
+  340  touch Nach-MiGranAmor.mp3
+  341  touch Nach-MilVidas.mp3
+  342  cd ..
+  343  cd Proof/
+  344  touch Proof-RecetaSecreta.mp3
+  345  touch Proof-HeavyMetal.mp3
+  346  touch Proof-ElBanquete.mp3
+  347  touch Proof-Helicoptero.mp3
+  348  touch Proof-TodosALaCarcel.mp3
+  349  cd ..
+  350  cd Queen
+  351  touch Queen-BohemianRhapsody.mp3
+  352  touch Queen-SomebodyToLove.mp3
+  353  touch Queen-IWantToBreakFree.mp3
+  354  touch Queen-WeAreTheChampions.mp3
+  355  touch Queen-WeWillRockYou.mp3
+  356  cd ..
+  357  cd RafaelLechowski/
+  358  touch RafaelLechowski-PorAmorAlOdio.mp3
+  359  touch RafaelLechowski-DondeDueleInspira.mp3
+  360  touch RafaelLechowski-ArtesanoDelArteInsano.mp3
+  361  touch RafaelLechowski-LaNadaEterna.mp3
+  362  touch RafaelLechowski-Trece.mp3
+  363  cd ..
+  364  ls -l
+  365  cd Rapsusklei/
+  366  touch Rapsusklei-Enero.mp3
+  367  touch Rapsusklei-AFuego.mp3
+  368  touch Rapsusklei-60VecesPorMinuto.mp3
+  369  touch Rapsusklei-Cleopatra.mp3
+  370  touch Rapsusklei-Nacimiento.mp3
+  371  cd ..
+  372  cd Residente
+  373  touch Residente-SomosAnormales.mp3
+  374  touch Residente-UnaLeyendaChina.mp3
+  375  ls
+  376  touch Residente-DagombasEnTamale.mp3
+  377  touch Residente-Desencuentro.mp3
+  378  touch Residente-Guerra.mp3
+  379  cd ..
+  380  cd TheBeatles/
+  381  touch TheBeatles-LetItBe.mp3
+  382  touch TheBeatles-Yesterday.mp3
+  383  touch TheBeatles-HeyJude.mp3
+  384  touch TheBeatles-LucyInTheSkyWithDiamonds.mp3
+  385  touch TheBeatles-DontLetMeDown.mp3
+  386  cd ..
+  387  touch song01.mp3
+  388  touch song02.mp3
+  389  touch song03.mp3
+  390  touch song04.mp3
+  391  touch song05.mp3
+  392  touch song06.mp3
+  393  touch song07.mp3
+  394  touch song08.mp3
+  395  touch song09.mp3
+  396  touch song10.mp3
+  397  touch song11.mp3
+  398  touch song12.mp3
+  399  touch song13.mp3
+  400  touch song14.mp3
+  401  touch song15.mp3
+  402  cd ..
+  403  ls
+  404  bash-course
+  405  cd bash-course
+  406  ls
+  407  cd Marlon
+  408  ls
+  409  history
+  410  history > history_Marlon
+  411  ls
+  412  history > history_Marlon.txt
