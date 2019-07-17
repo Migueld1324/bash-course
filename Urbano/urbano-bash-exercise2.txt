@@ -1,0 +1,314 @@
+﻿510  sudo adduser Pedro
+  511  sudo adduser pedro
+  512  sudo adduser juan
+  513  sudo adduser usuario3
+  514  sudo adduser usuario4
+  515  sudo addgroup admin2
+  516  sudo addgroup guest
+  517  sudo usuario4
+  518  sudo userdel usuario4
+  519  users
+  520  cat /etc/passwd | cut -d":" -f1
+  521  sudo userdel juan 
+  522  cat /etc/passwd | cut -d":" -f1
+  523  sudo adduser owner
+  524  cat /etc/passwd | cut -d":" -f1
+  525  cd C/
+  526  cd Programs/
+  527  ls
+  528  ls -l
+  529  sudo chown owner folder*
+  530  ls -l
+  531  sudo chgrp admin2 folder*
+  532  ls -l
+  533  cd ..
+  534  cd Users/
+  535  ls
+  536  cd ..
+  537  sudo chown owner Users/
+  538  sudo chgrp guest Users/
+  539  ls -la
+  540  cd Users/
+  541  ls
+  542  sudo chown pedro pedro/
+  543  sudo chown usuario3 jose/
+  544  ls -la
+  545  cd urbano/
+  546  ls -l
+  547  sudo chgrp guest Desktop/
+  548  sudo chgrp guest Documents/
+  549  sudo chgrp guest Downloads/
+  550  sudo chgrp guest Git/
+  551  sudo chgrp guest Internship/
+  552  sudo chgrp guest Music/
+  553  sudo chgrp guest Pictures/
+  554  sudo chgrp guest Videos/
+  555  ls -l
+  556  cd Desktop/
+  557  ls -}
+  558  ls -l
+  559  sudo chgrp guest *.ink
+  560  ls -l
+  561  cd ..
+  562  ls
+  563  cd Documents/
+  564  ls
+  565  sudo chgrp guest *.
+  566  sudo chgrp guest *..
+  567  sudo chgrp guest *
+  568  ls -l
+  569  cd ..
+  570  cd Downloads/
+  571  sudo chgrp guest *
+  572  ls -l
+  573  cd ..
+  574  cd Git/
+  575  sudo chgrp guest *
+  576  ls -l
+  577  cd ..
+  578  cd Internship/
+  579  sudo chgrp guest *
+  580  cd ..
+  581  ls
+  582  cd Music/
+  583  sudo chgrp guest *
+  584  cd ..
+  585  cd Pictures/
+  586  sudo chgrp guest *
+  587  ls -l
+  588  cd Vacacaciones/
+  589  ls -l
+  590  sudo chgrp guest *
+  591  ls -l
+  592  cd ..
+  593  cd Videos/
+  594  sudo chgrp guest *
+  595  ls -l
+  596  cd ..
+  597  ls
+  598  cd jose/
+  599  ls -l
+  600  sudo chgrp guest */
+  601  ls -l
+  602  cd Desktop/
+  603  ls -l
+  604  sudo chgrp guest *
+  605  ls -l
+  606  cd ..
+  607  ls
+  608  cd jose/
+  609  ls
+  610  ls -l
+  611  sudo chgrp guest */*
+  612  ls -l Documents/
+  613  ls -l Downloads/
+  614  ls -l Pictures/
+  615  ls -l Pictures/Vacacaciones/
+  616  sudo chgrp guest Pictures/Vacacaciones/
+  617  ls -l Pictures/Vacacaciones/
+  618  cd Pictures/Vacacaciones/
+  619  sudo chgrp guest *
+  620  ls -l
+  621  cd ..
+  622  ls -l Videos/
+  623  ls -l Git/
+  624  ls -l Git/proyecto1
+  625  sudo chgrp guest */*/*
+  626  ls -l Git/proyecto1
+  627  ls -la}
+  628  ls -la
+  629  ls -la Music/Bunkers/
+  630  ls -la Music/CafeTacvba/
+  631  cd ..
+  632  sudo chgrp guest */*/*/*/*
+  633  sudo chgrp guest */*/*/*
+  634  sudo chgrp guest */*/*/*/
+  635  ls -l
+  636  cd pedro/
+  637  ls -l
+  638  sudo chgrp guest */*/*/*/
+  639  sudo chgrp guest */*/*/*
+  640  sudo chgrp guest */*/*/
+  641  sudo chgrp guest */*/*
+  642  cd ..
+  643  sudo chgrp -R guest pedro/ 
+  644  ls -l
+  645* cd pedr
+  646  ls -l
+  647  ls -l Pictures/Vacacaciones/
+  648  cd ..
+  649  ls -l
+  650  sudo chown usuario3 pedro/
+  651  sudo chgrp -R guest jose
+  652  sudo chgrp usuario3 jose
+  653  sudo chgrp pedro pedro/
+  654  ls -l
+  655  sudo chgrp pedro pedro/
+  656  ls -l
+  657  sudo chgrp pedro pedro/
+  658  ls
+  659  ls -l
+  660  sudo chgrp pedro pedro
+  661  ls -l
+  662  sudo chown pedro pedro/
+  663  ls -l
+  664  sudo chgrp -R guest jose
+  665  sudo chgrp -R guest pedro/
+  666  sudo chgrp -R guest urbano/
+  667  ls -l
+  668  cd ..
+  669  ls
+  670  sudo chown -R owner 
+  671  sudo chown -R owner Programs/
+  672  sudo chgrp -R admin2 Programs/
+  673  ls -l Programs/
+  674  cd ..
+  675  ls
+  676  history >> urbano-bash-exercise2
+  677  nano urbano-bash-exercise2 
+  678  mv urbano-bash-exercise2 urbano-bash-exercise2.txt
+  679  ls
+  680  cd Documents/
+  681  cd C/
+  682  ls -l Users/
+  683  ls -l 
+  684  ls
+  685  cd Users/
+  686  ls
+  687  ls -l
+  688  sudo chown -R owner usuario3 jose/
+  689  sudo chown -R usuario3 jose/
+  690  sudo chown -R pedro pedro/
+  691  sudo chown -R us79 urbano/
+  692  ls -l urbano/
+  693  ls -l pedro/
+  694  ls -l pedro/Pictures/
+  695  cd ...
+  696  cd 
+  697  cd Documents/
+  698  ls
+  699  history >> urbano-bash-exercise2.txt
+  700  cd C/Users/urbano/Music/
+  701  ls
+  702  cd Bunkers/
+  703  cp *.txt ../Caifanes/
+  704  cp *.txt ../DLD/
+  705  cp *.txt ../DivisionMinuscula/
+  706  ls -l
+  707  chmod u=r
+  708  sudo chmod u=r
+  709  sudo chmod u=r,g=,o=
+  710  sudo chmod u=r,g=,o=,
+  711  sudo chmod u=r Bunkers-Baialando_solo.txt 
+  712  ls -l
+  713  sudo chmod u=r,g= Bunkers-Baialando_solo.txt 
+  714  ls -
+  715  ls -l
+  716  sudo chmod u=r,g=,o= Bunkers-Baialando_solo.txt 
+  717  ls -l
+  718  sudo chmod u=rw,g=,o= Bunkers-Llueve_sobre_la_ciudad.txt 
+  719  ls -l
+  720  sudo chmod u=rwx,g=,o= Bunkers-Miño.txt 
+  721  ls -l
+  722  ls -lls
+  723  sudo chmod u=rwxr,g=,o= Bunkers-Nada_nuevo_bajo_el_sol.txt 
+  724* 
+  725  sudo chmod u= Bunkers-Baialando_solo.txt 
+  726  sudo chmod u=r,g=,o= Bunkers-Llueve_sobre_la_ciudad.txt 
+  727  sudo chmod u=rw,g=,o= Bunkers-Miño.txt 
+  728  sudo chmod u=rwx,g=,o= Bunkers-Nada_nuevo_bajo_el_sol.txt 
+  729  sudo chmod u=rwxr,g=,o= Bunkers-No_hables_de_sufrir.txt 
+  730  ls -l
+  731  sudo chmod u=rwxrw,g=,o= Bunkers-Quien_fuera.txt 
+  732  sudo chmod u=rwxrwx,g=,o= Bunkers-Sur.txt 
+  733  sudo chmod u=rwxrwxr,g=,o= Bunkers-Velocidad_de_la_Luz.txt 
+  734  sudo chmod u=rwxrwxrw,g=,o= Bunkers-Ven_aqui.txt 
+  735  ls -l
+  736  sudo chmod u=rwx,g=r,o= Bunkers-No_hables_de_sufrir.txt 
+  737  ls -l
+  738  sudo chmod u=rwx,g=rw,o= Bunkers-Quien_fuera.txt 
+  739  sudo chmod u=rwx,g=rwx,o= Bunkers-Sur.txt 
+  740  ls -l
+  741  sudo chmod u=rwx,g=rwx,o=r Bunkers-Ven_aqui.txt 
+  742  ls -l
+  743  sudo chmod u=rwx,g=rwx,o=r Bunkers-Velocidad_de_la_Luz.txt 
+  744  sudo chmod u=rwx,g=rwx,o=rw Bunkers-Ven_aqui.txt 
+  745  ls -l
+  746  sudo chmod u=rwx,g=rwx,o=rwx Bunkers-mientele.txt 
+  747  ls -l
+  748  cd 
+  749  cd Documents/C/Users/urbano/Music/
+  750  ls
+  751  rm CafeTacvba/ Caifanes/ DLD/ DivisionMinuscula/ Enjambre/ Molotov/ PXNDX/ PanteonRococo/ SodaEstereo/
+  752  rm -r CafeTacvba/ Caifanes/ DLD/ DivisionMinuscula/ Enjambre/ Molotov/ PXNDX/ PanteonRococo/ SodaEstereo/
+  753  ls
+  754  mv Bunkers/ Playlist1
+  755  mkdir Playlist2 Playlist3 Playlist4 Playlist5
+  756  ls
+  757  cd Playlist
+  758  cd Playlist1/
+  759  cp *.txt ../Playlist2
+  760  sudo cp *.txt ../Playlist2
+  761  sudo cp *.txt ../Playlist3
+  762  sudo cp *.txt ../Playlist4
+  763  sudo cp *.txt ../Playlist5
+  764  cd ..
+  765  sudo cp -R Music/ ../pedro/Music/7
+  766  sudo cp -R Music/ ../pedro/Music/
+  767  sudo cp -R Music/ ../jose/Music/
+  768  dc ..
+  769  cd ..
+  770  cd pedro/Music/
+  771  ls
+  772  rm Bunkers/ CafeTacvba/ Caifanes/ DLD/ DivisionMinuscula/ Gorillaz/ GusanaCiega/ Molotov/
+  773  rm -r Bunkers/ CafeTacvba/ Caifanes/ DLD/ DivisionMinuscula/ Gorillaz/ GusanaCiega/ Molotov/
+  774  rm -r Bunkers/ OneOkRock/ PXNDX/ PanteonRococo/ Queen/ RedHotChilliPepers/ SodaEstereo/ TheKillers/ TheStrokes/
+  775  rm -r OneOkRock/ PXNDX/ PanteonRococo/ Queen/ RedHotChilliPepers/ SodaEstereo/ TheKillers/ TheStrokes/
+  776  ls
+  777  rm AC_DC/ Enjambre/ 7
+  778  rm -r AC_DC/ Enjambre/ 7
+  779  ls
+  780  sudo rm -r 7
+  781  ls
+  782  cd Music/
+  783  ls
+  784  mv -R Playlist* ../
+  785  mv Playlist* ../
+  786  sudo mv Playlist* ../
+  787  ls
+  788  cd ..
+  789  ls
+  790  rm Music/
+  791  rmdir Music/
+  792  ls
+  793  sudo cp Playlist* ../../jose/Music/
+  794  sudo cp -r Playlist* ../../jose/Music/
+  795  ls
+  796  cd ..
+  797  cd jose/Music/
+  798  ls
+  799  rm -r C*
+  800  rm -r M* T*
+  801  sudo rm -r M* T*
+  802  ls
+  803  sudo rm -r P*
+  804  ls
+  805  sudo rm -r D*
+  806  ls
+  807  rm -r AC_DC/ Bunkers/ Enjambre/ Gorillaz/ GusanaCiega/ OneOkRock/ Queen/ RedHotChilliPepers/ SodaEstereo/
+  808  ls
+  809  cd .. ..
+  810  cd .. 
+  811  cd ..
+  812  cd pedro/Music/
+  813  sudo cp -r Playlist* ../../jose/Music/
+  814  cd ..
+  815  cd jose/Music/
+  816  ls
+  817  ls -l Playlist5/
+  818  cd ..
+  819  cd
+  820  cd Documents/
+  821  ls
+  822  rm urbano-bash-exercise2.txt 
+  823  history >> urbano-bash-exercise2.txt
