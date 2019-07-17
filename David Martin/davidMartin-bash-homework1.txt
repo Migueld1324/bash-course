@@ -151,88 +151,164 @@ cd ..
 cd Users
 cd User1
 cd Music
+cd Artist1
+rm -r song*
+cd..
+cd Artist2
+rm -r song*
+cd..
+cd Artist3
+rm -r song*
+cd..
+cd Artist4
+rm -r song*
+cd..
+cd Artist5
+rm -r song*
+cd..
+cd Artist6
+rm -r song*
+cd..
+cd Artist7
+rm -r song*
+cd..
+cd Artist8
+rm -r song*
+cd..
+cd Artist9
+rm -r song*
+cd..
+cd Artist10
+rm -r song*
+cd..
 ls
 cd Artist1
-man rename
-ls
-rename song1 Beatles - 
-sudo apt install rename
-man password
-sudo apt install rename
-sudo apt install rename9229
-man passwd
-locate /etc/passwd
-man locate
-locate -b /etc/passwd
-locate passwd
-cd /
-ls
-cd etc/passwd
-cd etc
-ls
-cat passwd
-cat passwd-
-nano passwd
-man passwd
-man chpasswd
-chpasswd
-cd /
-man passwd
-passwd -d
-passwd -u
-passwd -u silvad
-passwd -d silvad
-passwd -e silvad
-passwd -a silvad
-passwd -S silvad
-sudo apt install rename
-ls
-cd mnt
-ls
-cd c
-cd Users
-cd silva
-cd Desktop
-ls
-cd cmder
-cd bash-course/
-ls
-cd 'David Martin'/
-ls
-git branch --list
-git checkout master
-git checkout -D silva
-git branch --list
-git checkout -d silva
-git checkout -D silva
-git checkout master
-git checkout -D silva
-git checkout silva
-git checkout master
-git branch -D silva
-git branch --list
-git push origin :silva
-git checkout master
-git checkout -b david-bash-exercise1
-git log --stat
-git fsck --full --no-reflogs | grep commit
-git log
-git branch --list
-git fsck --full --no-reflogs | grep commit
-git reset HEAD 2656cbfa70de676b7ff1388864b3793a02f27bda
-git branch --list
-git ref log
-git reflog
-git chekout -b silva 2656cbf
-git checkout -b silva 2656cbf
-ls
-nano silva-bash-exercise1.txt 
-git branch --list
-git branch -D david-bash-exercise1
-git branch --list
-git branch -m silva davidMartin-bash-exercise1
-git branch --list
-git status
-ls
-historial -w davidMartin-bash-homework1.txt
-history -w davidMartin-bash-homework1.txt
+cat >> TheBeatles-
+cat >> TheBeatles-DigIt
+cat >> TheBeatles-DontLetMeDown
+cat >> TheBeatles-GetBack
+cat >> TheBeatles-IveGotAFeeling
+cat >> TheBeatles-LetItBe
+cat >> TheBeatles-MaxwellsSilverHammer
+cat >> TheBeatles-SheCameInThroughTheBathroomWindow
+cat >> TheBeatles-ShortFatFannie
+cat >> TheBeatles-StandByMe
+mv TheBeatles- TheBeatles-AllThingsMustPass
+cd ..
+cd Artist2
+cat >> TheBeatles-
+cat >> TheBeatles-TwoOfUs
+cat >> TheBeatles-Woman
+cat >> TheBeatles-PaperbackWriter
+cat >> TheBeatles-Rain
+cat >> TheBeatles-AnnaGoToHim
+cat >> TheBeatles-AskMeWhy
+cat >> TheBeatles-BabyItsYou
+cat >> TheBeatles-Boys
+cat >> TheBeatles-Chains
+mv TheBeatles- TheBeatles-ThreeCoolCats
+cd ..
+cd Artist3
+cat >> TheBeatles-
+cat >> TheBeatles-ISawHerStandingThere
+cat >> TheBeatles-LoveMeDo
+cat >> TheBeatles-Misery
+cat >> TheBeatles-PSILoveYou
+cat >> TheBeatles-PleasePleaseMe
+cat >> TheBeatles-ATasteOfHoney
+cat >> TheBeatles-TheresAPlace
+cat >> TheBeatles-CantBuyMeLove
+cat >> TheBeatles-IShouldHaveKnownBetter
+mv TheBeatles- TheBeatles-DoYouWantToKnowASecret
+cd ..
+cd Artist4
+cat >> TheBeatles-
+cat >> TheBeatles-WhenIGetHome
+cat >> TheBeatles-YouCantDoThat
+cat >> TheBeatles-AndILoveHer
+cat >> TheBeatles-IfIFell
+cat >> TheBeatles-NobodysChild
+cat >> TheBeatles-Why
+cat >> TheBeatles-EveryTryingToBeMyBaby
+cat >> TheBeatles-HoneyDont
+cat >> TheBeatles-IFeelFine
+mv TheBeatles- TheBeatles-TellMeWhy
+cd ..
+cd Artist5
+cat >> TheBeatles-
+cat >> TheBeatles-AllMyLove
+cat >> TheBeatles-DontBotherMe
+cat >> TheBeatles-HoldMeTight
+cat >> TheBeatles-IWannaBeYourMan
+cat >> TheBeatles-LittleChild
+cat >> TheBeatles-AndILoverHer
+cat >> TheBeatles-AnyTimeAtAll
+cat >> TheBeatles-ImHappyJustToDanceWithYou
+cat >> TheBeatles-KommGibMirDeineHand
+mv TheBeatles- TheBeatles-NoReply
+cd ..
+cd Artist6
+cat >> TheBeatles-
+cat >> TheBeatles-IllCryInstead
+cat >> TheBeatles-SlowDown
+cat >> TheBeatles-TellMeWhy
+cat >> TheBeatles-WhenIGetHome
+cat >> TheBeatles-PleaseMisterPostman
+cat >> TheBeatles-SheLovesYou
+cat >> TheBeatles-YouveReallyGotAHoldOnMe
+cat >> TheBeatles-DizzyMissLizzy
+cat >> TheBeatles-EihgtDaysAWeek
+mv TheBeatles- TheBeatles-ThingsWeSaidToday
+cd .. 
+cd Artist7
+cat >> TheBeatles-IDontWantToSpoilTheParty
+cat >> TheBeatles-TellMeWhatYouSee
+cat >> TheBeatles-WhatYoureDoing
+cat >> TheBeatles-AnotherGirl
+cat >> TheBeatles-INeedYou
+cat >> TheBeatles-TheNightBefore
+cat >> TheBeatles-YouveGotToHideYourLoveAway
+cat >> TheBeatles-DriveMyCar
+cat >> TheBeatles-Girl
+cat >> TheBeatles-ImLookingThroughYou
+cd ..
+cd Artist8
+cat >> TheBeatles-IfINeededSomeone
+cat >> TheBeatles-InMyLife
+cat >> TheBeatles-Michelle
+cat >> TheBeatles-NowhereMan
+cat >> TheBeatles-ThinkForYourself
+cat >> TheBeatles-Wait
+cat >> TheBeatles-WhatGoesOn
+cat >> TheBeatles-TheWord
+cat >> TheBeatles-YouWontSeeMe
+cat >> TheBeatles-FromeMeToYou
+cd ..
+cd Artist9
+cat >> TheBeatles-AndYourBirdCanSing
+cat >> TheBeatles-DoctorRobert
+cat >> TheBeatles-EleanorRigby
+cat >> TheBeatles-GoodDaySunshine
+cat >> TheBeatles-GotToGetYouIntoMyLife
+cat >> TheBeatles-IWantToTellYou
+cat >> 
+cat >> TheBeatles-SheSaidSheSaid
+cat >> TheBeatles-Taxman
+cat >> TheBeatles-YellowSubmarine
+cd ..
+cd Artist10
+cat >> TheBeatles-Because
+cat >> TheBeatles-CarryThatWeight
+cat >> TheBeatles-ComeTogether
+cat >> TheBeatles-TheEnd
+cat >> TheBeatles-GoldenSlumbers
+cat >> TheBeatles-HerMajesty
+cat >> TheBeatles-HereComesTheSun
+cat >> TheBeatles-MaxwellsSilverHammer
+cat >> TheBeatles-OctopusGarden
+cat >> TheBeatles-OhDarling
+cd ..
+rm -r User2 User3
+cp -r User1/. User2/
+cp -r User1/. User3/
+history -w davidMartin-bash-homework1
