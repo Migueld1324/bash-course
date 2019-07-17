@@ -410,3 +410,14 @@
   410  history > history_Marlon
   411  ls
   412  history > history_Marlon.txt
+  413  cd ~
+  414  cd C\:/
+  414  cd Users
+  415  cd Marlon
+  416  cp -r Desktop Documents Downloads Folder1 Folder2 Folder3 Music Pictures Videos ../Miriam/
+  417  cp -r Desktop Documents Downloads Folder1 Folder2 Folder3 Music Pictures Videos ../Jorge/
+  418  cd ~
+  419  cd bash-course
+  420  cd Marlon
+  421  history > history_Marlon.txt
+
