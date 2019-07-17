@@ -1,0 +1,247 @@
+ls
+cd C
+ls
+mkdir Programs
+cd Programs/
+mkdir Intel/{license.txt,media.txt}
+mkdir -p Intel/{license.txt,media.txt}
+ls
+ls -R
+mkdir -p Lenovo/{license.txt,history.txt},nodejs/{file.txt,npm.txt},spotify/{readme.txt,file.txt},slack/{file.txt,license.txt},skype/{version.txt,file.txt},windowsOffice{license.txt,version.txt},windowsDefender/{version.txt,license.txt},Realtek/{file.txt,service.txt},Mail/{file.txt,version.txt}
+ls
+cd Lenovo
+ls
+rm -r Lenovo
+cd ..
+rm -r Lenovo
+ls
+mkdir -p Lenovo/{license.txt,history.txt}
+ls
+cd Lenovo/
+ls
+mkdir -p nodejs/{file.txt,npm.txt}
+rm -r nodejs
+ls
+cd ..
+mkdir -p nodejs/{file.txt,npm.txt}
+ls
+mkdir -p spotify/{readme.txt,file.txt}, slack/{file.txt,license.txt}
+ls
+mkdir -p Skype/{version.txt,file.txt}, windowsOffice{license.txt,version.txt}, windowsDefender/{version.txt,license.txt}, Realtek/{file.txt,service.txt}, Mail/{file.txt,version.txt}
+ls
+rm -r windowsOfficelicense.txt,
+la
+rm -r windowsOfficeversion.txt,
+ls
+mkdir -p windowsOficce/{license.txt,version.txt}
+ls
+ls -R
+cd /
+cd mnt
+cd c/Users
+cd/estef
+ls
+cd estef
+ls
+cd OneDrive/
+cd Escritorio/
+cd cmder
+clear
+cd C
+ls
+cd Programs/
+ls
+cd Intel/
+ls
+cd ..
+cd Windows/
+ls
+cd PrimerFolder/
+ls
+rm file10.txt file9.txt file8.txt file7.txt file6.txt
+ls
+cd ..
+cd SegundoFolder/
+rm file10.txt file9.txt file8.txt file7.txt file6.txt
+ls
+cd ..
+cd TercerFolder/
+rm file10.txt file9.txt file8.txt file7.txt file6.txt
+ls
+cd ..
+cd CuartoFolder/
+rm file10.txt file9.txt file8.txt file7.txt file6.txt
+ls
+cd ..
+cd QuintoFolder/
+rm file10.txt file9.txt file8.txt file7.txt file6.txt
+ls
+cd ..
+ls -R
+cd System32/
+rm file15.txt file14.txt file13.txt file12.txt file11.txt file10.txt file9.txt file8.txt file7.txt file6.txt
+ls
+cd ..
+rm -r QuintoFolder/
+ls
+cd ..
+cd Users/
+ls
+cd estefania/
+ls
+rm Desktop Mail Homework Projects Downloads
+rm -r Desktop Mail Homework Projects Downloads
+ls
+cd ..
+ls
+cd usuario2
+ls
+rm -r Mail Homework Projects Downloads
+ls
+cd ..
+cd usuario3
+ls
+rm -r Mail Homework Projects Downloads
+ls
+cd ..
+cd estefania
+ls
+ls Desktop/
+rm file10.txt file9.txt file8.txt file7.txt file6.txt
+cd Desktop/
+rm file10.txt file9.txt file8.txt file7.txt file6.txt
+ls
+rm file11.txt file12.txt file13.txt file14.txt 
+ls
+cd ..
+cd Documents/
+ls
+rm file6.txt file7.txt file8.txt file9.txt file10.txt file11.txt file12.txt file13.txt file14.txt file15.txt
+ls
+file1.pdf file11.docx file13.pdf file15.pdf file3.pdf file5.docx file8.docx file10.pdf file12.docx
+rm file1.pdf file11.docx file13.pdf file15.pdf file3.pdf file5.docx file8.docx file10.pdf file12.docx
+ls
+cd .
+cd ..
+ls
+cd Pictures/
+ls
+rm arboles.gif  flores.jpg  gatos.jpg    meme.gif   pingüino.png      planta.png   polonio2.png  vacaciones.jpg cutecat.jpg gatito.png
+ls
+cd ..
+cd Videos/
+ls
+rm aladdin.mp4         hombresNegro.mp4  johnWick.mp4       mentiras.mp4         rocketman.mp4
+apolo.mp4           iceCalling.mp4    leto.mp4           paranormal.mp4       spiderMan.mp4
+bajosInstintos.mp4  intimidad.mp4     mascotas.mp4       reinoBajoLaLuna.mp4  thor.mp4
+ls
+rm apolo.mp4 iceCalling.mp4 leto.mp4 paranormal.mp4 spiderMan.mp4
+ls
+rm toyStory.mp4 thor.mp4 mascotas.mp4 
+ls
+rm reyLeon.mp4 mejorQueNunca.mp4 
+ls
+cd ..
+ls -R
+ls
+cd ..
+rm -r usuario2
+ls
+rm -r usuario3/
+ls
+cp -r estefania/. usuario2/
+ls
+cp -r estefania/. usuario3/
+ls
+cd ..
+history -w historial2
+cat historial2
+cd c
+ls
+cd C
+cd Windows
+ls
+cd PrimerFolder/
+ls
+cat >> file1.txt
+cat file1.txt
+cd .
+cd ..
+cd SegundoFolder/
+cd ..
+cd PrimerFolder/
+cat file2.txt
+cat >> file2.txt
+car file2.txt
+cat file2.txt
+cat >> file2.txt
+cat file2.txt
+ls
+cat file2.txt
+cat >> file2.txt
+cat file2.txt
+cat >> file3.txt
+cat file3.txt
+ls
+cat >> file4.txt
+cat >> file5.txt
+cat file5.txt
+cd ..
+rm -r SegundoFolder/
+cp -r PrimerFolder/. SegundoFolder/
+ls
+rm -r TercerFolder CuartoFolder
+ls
+cp -r PrimerFolder/. TercerFolder/ CuartoFolder
+ls
+cp -r PrimerFolder/. TercerFolder/
+cp -r PrimerFolder/. CuartoFolder/
+ls
+cd System32/
+ls
+cat >> file1.txt
+cat >> file2.txt
+cat >> file3.txt
+cat >> file4.txt
+cat >> file5.txt
+ls
+cat file5.txt
+cd ..
+cd Programs
+cd Lenovo
+cat license.txt
+cat > license.txt
+cat license.txt >> version.txt
+cd ..
+cp -r Lenovo/. Intel/
+cp -r Lenovo/. Skype/
+cp -r Lenovo/. Mail/
+cp -r Lenovo/. mcafee/
+cp -r Lenovo/. Media/
+cp -r Lenovo/. nodejs/
+cp -r Lenovo/. Slack/
+cp -r Lenovo/. Spotify/
+cp -r Lenovo/. WindowsDefender/
+cd ..
+cd Users/
+cd estefania/
+cd Desktop/
+cat > file1.txt
+cat file1.txt >> file2.txt file3.txt
+cat file1.txt >> file3.txt
+cat file1.txt >> file4.txt
+cat file1.txt >> file5.txt
+cd ..
+ls
+cd Documents/
+ls
+cat > file14.docx
+cat file14.docx >> file2.docx
+cat file14.docx >> file4.txt
+cat file14.docx >> file6.pdf
+cat file14.docx >> file9.pdf
+cd ..
+cp -r estefania/. usuario2/
+cp -r estefania/. usuario3/
+cd ..
+history -w estefania-bash-womework1.txt
