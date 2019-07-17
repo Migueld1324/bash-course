@@ -1,0 +1,550 @@
+    1  cd Programs/
+    2  ls
+    3  rm -rf folder10 folder9 folder8 folder7 folder6
+    4  ls
+    5  cd ..
+    6  cd Windows/
+    7  ls
+    8  cd rm -rf folder5
+    9  rm -rf folder5
+   10  ls
+   11  rm folder4/{file10,file9}
+   12  rm folder4{file10,file9}
+   13  cd folder
+   14  cd folderls
+   15  ls
+   16  cd folder4
+   17  rm file10 file9 file8 file7 file6
+   18  rm file10.txt file9.txt file8.txt file7.txt file6.txt 
+   19  ls
+   20  cd ..
+   21  ls
+   22  cd folder2/
+   23  rm file10.txt file9.txt file8.txt file7.txt file6.txt 
+   24  cd ..
+   25  cd folder3/
+   26  rm file10.txt file9.txt file8.txt file7.txt file6.txt 
+   27  cd ..
+   28  ls folder4
+   29  ls
+   30  cd System32/
+   31  ls
+   32  rm file10.txt file9.txt file8.txt file7.txt file6.txt 
+   33  ls
+   34  rm file11.txt file12.txt file13.txt file14.txt file15.txt 
+   35  ls
+   36  rm -rf file13txt 
+   37  ls
+   38  cd folder
+   39  cd folder1
+   40  ls
+   41  rm file10.txt file9.txt file8.txt file7.txt file6.txt 
+   42  cd ..
+   43  cd folder2
+   44  rm file10.txt file9.txt file8.txt file7.txt file6.txt 
+   45  cd ..
+   46  cd folder3
+   47  rm file10.txt file9.txt file8.txt file7.txt file6.txt 
+   48  cd ..
+   49  cd folder4
+   50  rm file10.txt file9.txt file8.txt file7.txt file6.txt 
+   51  cd ..
+   52  cd folder5
+   53  rm file10.txt file9.txt file8.txt file7.txt file6.txt 
+   54  ls
+   55  cd ..
+   56  ls
+   57  cd ...
+   58  ls
+   59  cd ..
+   60  ls
+   61  cd..
+   62  cd ..
+   63  ls
+   64  cd Programs/
+   65  ls
+   66  rm file1.txt file2 
+   67  ls
+   68  cd folder1/
+   69  nano file1.txt 
+   70  cat file1.txt 
+   71  cat file1.txt >> file2.txt 
+   72  cat file1.txt >> file3.txt 
+   73  cat file3.txt 
+   74  cat file1.txt >> file4.txt 
+   75  cat file1.txt >> file5.txt 
+   76  ls
+   77  cd ..
+   78  ls
+   79  cd folder2/
+   80  nano file1.txt 
+   81  cat file1.txt >> file2.txt 
+   82  cat file1.txt >> file3.txt 
+   83  cat file1.txt >> file4.txt 
+   84  cat file1.txt >> file5.txt 
+   85  ls
+   86  cat file5.txt }
+   87  cat file5.txt 
+   88  cat file1.txt >> ../folder3/file5.txt 
+   89  cat file1.txt >> ../folder3/file4.txt 
+   90  cat file1.txt >> ../folder3/file3.txt 
+   91  cat file1.txt >> ../folder3/file2.txt 
+   92  cat file1.txt >> ../folder3/file1.txt 
+   93  cat file1.txt >> ../folder4/file1.txt 
+   94  cat file1.txt >> ../folder4/file2.txt 
+   95  cat file1.txt >> ../folder4/file3.txt 
+   96  cat file1.txt >> ../folder4/file4.txt 
+   97  cat file1.txt >> ../folder4/file5.txt 
+   98  cat file1.txt >> ../folder5/file5.txt 
+   99  cat file1.txt >> ../folder5/file4.txt 
+  100  cat file1.txt >> ../folder5/file3.txt 
+  101  cat file1.txt >> ../folder5/file2.txt 
+  102  cat file1.txt >> ../folder5/file1.txt 
+  103  cd ..
+  104  cd folder2/
+  105  ls
+  106  cat file1.txt 
+  107  cat file5.txt 
+  108  cd ..
+  109  cat folder5/file5.txt 
+  110  ls
+  111  cd ..
+  112  ls
+  113  cd Programs/
+  114  ls
+  115  cd folder1/
+  116  cat file1.txt >> ../../Windows/folder1/file1
+  117  cat file1.txt >> ../../Windows/folder1/file2
+  118  cat file1.txt >> ../../Windows/folder1/file3
+  119  cat file1.txt >> ../../Windows/folder1/file4
+  120  cat file1.txt >> ../../Windows/folder1/file
+  121  cat file1.txt >> ../../Windows/folder1/file5
+  122  rm ../../Windows/folder1/file
+  123  rm ../../Windows/folder1/file6
+  124  rm ../../Windows/folder1/file6.txt 
+  125  rm ../../Windows/folder1/file7.txt 
+  126  rm ../../Windows/folder1/file8.txt 
+  127  rm ../../Windows/folder1/file9.txt 
+  128  rm ../../Windows/folder1/file10.txt 
+  129* ls../../Windows/folder1/file
+  130  cat file1.txt >> ../../Windows/folder2/
+  131  cat file1.txt >> ../../Windows/folder2/file1
+  132  cat file1.txt >> ../../Windows/folder2/file2
+  133  cat file1.txt >> ../../Windows/folder2/file3
+  134* cat file1.txt >> ../../Windows/folder2/file
+  135  rm ../../Windows/folder2/file1
+  136  rm ../../Windows/folder2/file2
+  137  rm ../../Windows/folder2/file3
+  138  rm ../../Windows/folder2/file4
+  139  rm ../../Windows/folder2/file5
+  140  cat file1.txt >> ../../Windows/folder2/file1.txt 
+  141  cat file1.txt >> ../../Windows/folder2/file2.txt 
+  142  cat file1.txt >> ../../Windows/folder2/file3.txt 
+  143  cat file1.txt >> ../../Windows/folder2/file4.txt 
+  144  cat file1.txt >> ../../Windows/folder2/file.txt 
+  145  cat file1.txt >> ../../Windows/folder2/file5.txt 
+  146  rm ../../Windows/folder2/file
+  147  rm ../../Windows/folder2/file.txt 
+  148  cat file1.txt >> ../../Windows/folder3/file5.txt 
+  149  cat file1.txt >> ../../Windows/folder3/file4.txt 
+  150  cat file1.txt >> ../../Windows/folder3/file3.txt 
+  151  cat file1.txt >> ../../Windows/folder3/file2.txt 
+  152  cat file1.txt >> ../../Windows/folder3/file1.txt 
+  153  cat file1.txt >> ../../Windows/folder4/file1.txt 
+  154  cat file1.txt >> ../../Windows/folder4/file2.txt 
+  155  cat file1.txt >> ../../Windows/folder4/file3.txt 
+  156  cat file1.txt >> ../../Windows/folder4/file4.txt 
+  157  cat file1.txt >> ../../Windows/folder4/file5.txt 
+  158  cd ..
+  159  ls
+  160  cat folder5/file5.txt 
+  161  cd ..
+  162  ls
+  163  cd users
+  164  cd Users/
+  165  cd
+  166  cd Documents/C/Windows/folder1/
+  167  ls
+  168  rm -rf file1 file2 file3 file4 file5
+  169  ls
+  170  cd ..
+  171  cd System32/
+  172  ls
+  173  nano file1.txt 
+  174  cat file1.txt >> file2.txt 
+  175  cat file1.txt >> file3.txt 
+  176  cat file1.txt >> file4.txt 
+  177  cat file1.txt >> file5.txt 
+  178  cat file1.txt >> folder5/file1.txt 
+  179  cat file1.txt >> folder5/file2.txt 
+  180  cat file1.txt >> folder5/file3.txt 
+  181  cat file1.txt >> folder5/file4.txt 
+  182  cat file1.txt >> folder5/file5.txt 
+  183  cat file1.txt >> folder4/file5.txt 
+  184  cat file1.txt >> folder4/file4.txt 
+  185  cat file1.txt >> folder4/file3.txt 
+  186  cat file1.txt >> folder4/file2.txt 
+  187  cat file1.txt >> folder4/file1.txt 
+  188  cat file1.txt >> folder3/file1.txt 
+  189  cat file1.txt >> folder3/file2.txt 
+  190  cat file1.txt >> folder3/file3.txt 
+  191  cat file1.txt >> folder3/file4.txt 
+  192  cat file1.txt >> folder3/file5.txt 
+  193  cat file1.txt >> folder2/file5.txt 
+  194  cat file1.txt >> folder2/file4.txt 
+  195  cat file1.txt >> folder2/file3.txt 
+  196  cat file1.txt >> folder2/file2.txt 
+  197  cat file1.txt >> folder2/file1.txt 
+  198  cat file1.txt >> folder1/file1.txt 
+  199  cat file1.txt >> folder1/file2.txt 
+  200  cat file1.txt >> folder1/file3.txt 
+  201  cat file1.txt >> folder1/file2.txt 
+  202  cat file1.txt >> folder1/file3.txt 
+  203  cat file1.txt >> folder1/file4.txt 
+  204  cat file1.txt >> folder1/file5.txt 
+  205  cat file1.txt >> ../folder1/file1.txt 
+  206  cat file1.txt >> ../folder1/file2.txt 
+  207  cat file1.txt >> ../folder1/file3.txt 
+  208  cat file1.txt >> ../folder1/file4.txt 
+  209  cat file1.txt >> ../folder1/file5.txt 
+  210  cd ..
+  211  cd..
+  212  cd ..
+  213  ls
+  214  cd Users/
+  215  ls
+  216  cd urbano/
+  217  ls
+  218  cd Desktop/
+  219  ls
+  220  nano CallOfDuty.ink 
+  221  cat CallOfDuty.ink >> Discord.ink 
+  222  cat CallOfDuty.ink >> Edge.ink 
+  223  cat CallOfDuty.ink >> Google_Chorme.ink 
+  224  cat CallOfDuty.ink >> Illustrator.ink 
+  225  cat CallOfDuty.ink >> MiEquipo.ink 
+  226  cat CallOfDuty.ink >> NetBins.ink 
+  227  cat CallOfDuty.ink >> PapeleraDeReciclaje.ink 
+  228  cat CallOfDuty.ink >> PhotoShop.ink 
+  229  cat CallOfDuty.ink >> PhpStrom.ink 
+  230  cat CallOfDuty.ink >> PowerPoint.ink 
+  231  cat CallOfDuty.ink >> Skype.ink 
+  232  cat CallOfDuty.ink >> SonyVegas.ink 
+  233  cat CallOfDuty.ink >> Sublime.ink 
+  234  cat CallOfDuty.ink >> VisualStudioCode.ink 
+  235  cat CallOfDuty.ink >> Word.ink 
+  236  cat CallOfDuty.ink >> ../Documents/Exponentes.docx 
+  237  cat CallOfDuty.ink >> ../Documents/Problematica.pptx 
+  238  cat CallOfDuty.ink >> ../Documents/ensayoFilosofia.docx.pptx 
+  239* cat CallOfDuty.ink >> ../Documents
+  240  rm ../Documents/ensayoFilosofia.docx.pptx 
+  241  ls
+  242  cat CallOfDuty.ink >> ../Documents/expoProyecto.pptx 
+  243  cat CallOfDuty.ink >> ../Documents/hipotesis.pptx 
+  244  cat CallOfDuty.ink >> ../Documents/marcoteorico.pptx 
+  245  cat CallOfDuty.ink >> ../Documents/presentacionObjetivos.pptx 
+  246  cat CallOfDuty.ink >> ../Documents/puntoEquilibrio.xls 
+  247  cat CallOfDuty.ink >> ../Documents/tareaCalculo
+  248  cat CallOfDuty.ink >> ../Documents/tareaCalculo.docx 
+  249  rm  ../Documents/tareaCalculo
+  250  cat CallOfDuty.ink >> ../Documents/tareaCalculo2.docx 
+  251  cat CallOfDuty.ink >> ../Documents/tareaEcuacionesDif.docx 
+  252  cat CallOfDuty.ink >> ../Documents/tareaFiananzas.xls 
+  253  cat CallOfDuty.ink >> ../Documents/tareaFisica.docx 
+  254  cat CallOfDuty.ink >> ../Documents/tareaViernes.docx 
+  255  cat CallOfDuty.ink >> ../Documents/trucosGTA_SA.docx 
+  256  ls
+  257  cd ...
+  258  cd ..
+  259  ls
+  260  cat Documents/tareaEcuacionesDif.docx 
+  261  ls
+  262  cd Downloads/
+  263  ls
+  264  nano Antena.pptx 
+  265  cat Antena.pptx >> Anteproyecto.docx 
+  266  cat Antena.pptx >> CableDeFibraExt.pdf 
+  267  cat Antena.pptx >> CableDeRed.pdf 
+  268  cat Antena.pptx >> VEGAS16_261.rar 
+  269  cat Antena.pptx >> YDKWJS.pdf 
+  270  cat Antena.pptx >> antenaProyecto.jpg 
+  271  cat Antena.pptx >> bootstrap_4.zip 
+  272  cat Antena.pptx >> bug.png 
+  273  cat Antena.pptx >> demo.rar 
+  274  cat Antena.pptx >> fotoTarea2.jpg 
+  275  cat Antena.pptx >> progit.pdf 
+  276  cat Antena.pptx >> reporte.xls 
+  277  cat Antena.pptx >> tarjetaNSS.pdf 
+  278  cat Antena.pptx >> winrar-x64es.exe 
+  279  ls
+  280  cd
+  281  history >> bashTareaBackup1
+  282  nano bashTareaBackup1 
+  283  cd Documents/C/Users/
+  284  cd urbano/
+  285  ls
+  286  cd Git/
+  287  ls
+  288  cd proyecto6/
+  289  ls
+  290  nano file1.txt 
+  291  cat file1.txt >> file2.txt 
+  292  cat file1.txt >> ../proyecto5/file1.txt 
+  293  cat file1.txt >> ../proyecto5/file2.txt 
+  294  cat file1.txt >> ../proyecto4/file1.txt 
+  295  cat file1.txt >> ../proyecto4/file2.txt 
+  296  cat file1.txt >> ../proyecto3/file2.txt 
+  297  cat file1.txt >> ../proyecto3/file1.txt 
+  298  cat file1.txt >> ../proyecto2/file1.txt 
+  299  cat file1.txt >> ../proyecto2/file2.txt 
+  300  cat file1.txt >> ../proyecto1/file1.txt 
+  301  cat file1.txt >> ../proyecto1/file2.txt 
+  302  ls
+  303  cd ..
+  304  rm -r proyecto6/
+  305  ls
+  306  cd ..
+  307  ls}
+  308  ls
+  309  cd Internship/
+  310  ls
+  311  nano YDKW_JS1.pdf 
+  312  cat YDKW_JS1.pdf >> YDKN_JS2.pdf 
+  313  ls
+  314  cat YDKW_JS1.pdf >> YDKN_JS3.pdf 
+  315  cat YDKW_JS1.pdf >> YDKN_JS4.pdf 
+  316  cat YDKW_JS1.pdf >> YDKN_JS5.pdf 
+  317  cat YDKW_JS1.pdf >> YDKN_JS6.pdf 
+  318  cat YDKW_JS1.pdf >> bashCommands.docx 
+  319  cat YDKW_JS1.pdf >> desarrollo.pptx }
+  320  cat YDKW_JS1.pdf >> desarrollo.pptx 
+  321  cat YDKW_JS1.pdf >> diseno.pptx 
+  322  cat YDKW_JS1.pdf >> gitBasics.docx 
+  323  cat YDKW_JS1.pdf >> gitUnderHood.docx 
+  324  cat YDKW_JS1.pdf >> mantenimiento.pptx 
+  325  cat YDKW_JS1.pdf >> plumbingCommands.docx 
+  326  cat YDKW_JS1.pdf >> porcelainCommands.docx 
+  327  cat YDKW_JS1.pdf >> pragProgram.pdf 
+  328  cat YDKW_JS1.pdf >> progit.pdf 
+  329  cat YDKW_JS1.pdf >> requerimientos.pptx 
+  330  cat YDKW_JS1.pdf >> testing.pptx 
+  331  cd ..
+  332  cd Pictures/
+  333  ls
+  334  nano bug.png 
+  335  ls
+  336  nano bug.png >> happyFace.png 
+  337  cat bug.png >> happyFace.png 
+  338  ls
+  339  cat bug.png >> memedeBatman.jpg 
+  340  cat bug.png >> platilladeMeme10.jpg 
+  341  cat bug.png >> userIcon.png 
+  342  cat bug.png >> Vacacaciones/2015-06-15-4585.jpg 
+  343  cat bug.png >> Vacacaciones/2015-06-15-4896.jpg 
+  344  cat bug.png >> Vacacaciones/2015-06-15-4897
+  345  cat bug.png >> Vacacaciones/2015-06-15-5821.jpg 
+  346  cat bug.png >> Vacacaciones/2015-06-15-8965.jpg 
+  347  cat bug.png >> Vacacaciones/2015-06-16-47896.jpg 
+  348  cat bug.png >> Vacacaciones/2015-06-16-4877.jpg 
+  349  cat bug.png >> Vacacaciones/2015-06-16-5585.jpg 
+  350  cat bug.png >> Vacacaciones/2015-06-16-7821.jpg 
+  351  cat bug.png >> Vacacaciones/2015-06-16-7965.jpg 
+  352  rm Vacacaciones/2015-06-15-4897
+  353  ls
+  354  cd ..
+  355  ls
+  356  cd Videos/
+  357  ls
+  358  nano JLDC.mp4 
+  359  cat JLDC.mp4 >> 15115648dsada.mp4 
+  360  cat JLDC.mp4 >> anabell.mp4 
+  361  cat JLDC.mp4 >> antman.mp4 
+  362  cat JLDC.mp4 >> aquaman.mp4 
+  363  cat JLDC.mp4 >> avengerIWar.mp4 
+  364  cat JLDC.mp4 >> avengersEndGame.mp4 
+  365  cat JLDC.mp4 >> cdHidalgo.mp4 
+  366  cat JLDC.mp4 >> conjuring.mp4 
+  367  cat JLDC.mp4 >> corrientresFilosoficas.mp4 
+  368  cat JLDC.mp4 >> heredeitary.mp4 
+  369  cat JLDC.mp4 >> intererstellar.mp4 
+  370  cat JLDC.mp4 >> losAzufres.mp4 
+  371  cat JLDC.mp4 >> morelia.mp4 
+  372  cat JLDC.mp4 >> shazam.mp4 
+  373  cat JLDC.mp4 >> us.mp4 
+  374  cat JLDC.mp4 >> viajeMichoacan.mp4 
+  375  cat JLDC.mp4 >> videoLosValoresEticos.mp4 
+  376  cd
+  377  cd Documents/
+  378  ls
+  379  history >> bashExercise2.txt 
+  380  cd C/Users/urbano/Music/
+  381  ls
+  382  rm -rf TheStrokes Queen Gorillaz GusanaCiega TheKillers RedHotChilliPepers OneOkRock
+  383  ls
+  384  rm -rf AC_DC/
+  385  ls
+  386  cd Bunkers/
+  387  ld
+  388* 
+  389  ls
+  390  mv baialandoSolo.mp3 baialandoSolo.txt
+  391  mv llueveSobreLaCiudad.mp3 llueveSobreLaCiudad.txt
+  392  mv mientele.mp3 mientele.txt
+  393  mv nadaNuevoBajoELSol.mp3 nadaNuevoBajoELSol.txt
+  394  mv quienFuera.mp3 quienFuera.txt
+  395  mv quienFuera.mp3 velocidadDeLaLuz.mp3 
+  396  mv quienFuera.mp3 velocidadDeLaLuz.txt
+  397  ls
+  398  mv velocidadDeLaLuz.mp3 velocidadDeLaLuz.txt
+  399  ls
+  400  mv velocidadDeLaLuz.mp3 Bunkers-Velocidad_de_la_Luz
+  401  mv velocidadDeLaLuz.mp3 Bunkers-Velocidad_de_la_Luz.txt
+  402  mv velocidadDeLaLuz.txt Bunkers-Velocidad_de_la_Luz.txt
+  403  ls
+  404  mv velocidadDeLaLuz.txt Bunkers-Velocidad_de_la_Luz.txt
+  405  mv 4Bunkers-Velocidad_de_la_Luz.txt Bunkers-Velocidad_de_la_Luz.txt 
+  406  ls
+  407  mv baialandoSolo.txt Bunkers-Baialando_solo.txt
+  408  mv mientele.txt Bunkers-mientele.txt
+  409  mv llueveSobreLaCiudad.txt Bunkers-Llueve_sobre_la_ciudad
+  410  mv nadaNuevoBajoELSol.txt Bunkers-Nada_nuevo_bajo_el_sol.txt
+  411  mv quienFuera.txt Bunkers-Quien_fuera.txt
+  412  ls
+  413  touch Bunkers-No_hables_de_sufrir.txt
+  414  touch Bunkers-Miño
+  415* touch Bu
+  416  rm Bunkers-Miño
+  417  ls
+  418  touch Bunkers-Sur.txt
+  419  touch Bunkers-Ven_aqui.txt
+  420  mv Bunkers-Llueve_sobre_la_ciudad Bunkers-Llueve_sobre_la_ciudad.txt
+  421  cat Bunkers-Baialando_solo.txt >>
+  422  cat Bunkers-Baialando_solo.txt 
+  423  cat Bunkers-Baialando_solo.txt Ahora que estás aquí ahogado en medio de la gente 
+  424  Y estás dispuesto a más de lo que puedes soportar
+  425  Los altavoces van amplificando las verdades
+  426  Ahora que estás aquí en medio de la soledad
+  427  Bailando solo en la oscuridad 
+  428  Te vas a acostumbrar a ver toda la vida pasar
+  429  Igual que una promesa al anochecer 
+  430  Te puedes disolver al borde de un vaso de cristal
+  431  Ahora que estás aquí y que el futuro se te esconde, 
+  432  Ya has rasguñado el suelo y las paredes de tu habitación
+  433  No quieres ver el sol, no quieres nada por las tardes
+  434  Ninguna sensación que nos haga sentir mejor
+  435  nano Bunkers-Baialando_solo.txt 
+  436  nano Bunkers-Llueve_sobre_la_ciudad.txt 
+  437  nano Bunkers-mientele.txt 
+  438  nano Bunkers-Miño.txt 
+  439  nano Bunkers-Nada_nuevo_bajo_el_sol.txt 
+  440  nano Bunkers-No_hables_de_sufrir.txt 
+  441  nano Bunkers-Quien_fuera.txt 
+  442  nano Bunkers-Sur.txt 
+  443  ls
+  444  nano Bunkers-Velocidad_de_la_Luz.txt 
+  445* 
+  446  nano Bunkers-Ven_aqui.txt 
+  447  cd ..
+  448  ls
+  449  cd CafeTacvba/
+  450  ls
+  451  mv elBaileYelSAlon.mp3 CafeTacvba-EL_baile_y_el_salon.txt
+  452  mv eres.mp3 CafeTacvba-Eres.txt
+  453  mv esaNoche.mp3 CafeTacvba-Esa_noche.txt
+  454  mv futuro.mp3 CafeTacvba-Futuro.txt
+  455  mv ingrata.mp3 CafeTacvba-Ingrata.txt
+  456  touch CafeTacvba-El_tlatoani_del_barrio.txt
+  457  touch CafeTacvba-El_aparato-.txt
+  458  touch CafeTacvba-24_horas.txt
+  459  touch CafeTacvba-El_metro.txt
+  460  touch CafeTacvba-Pez.txt
+  461  cd
+  462  cd Documents/
+  463  history >> bashBackup3.txt
+    1  cd Users/urbano/Music/
+    2  ls
+    3  rm -rf Caifanes DivisionMinuscula DLD Enjambre Molotov PanteonRococo PXNDX SodaEstereo/
+    4  ls
+    5  cd CafeTacvba/
+    6  ls
+    7  cp CafeTacvba-El_metro.txt 
+    8  cp CafeTacvba-24_horas.txt CafeTacvba-Eres.txt CafeTacvba-Esa_noche.txt 
+    9  cd ..
+   10  rm -rf CafeTacvba/
+   11  ls
+   12  mv Bunkers/ Playlist1
+   13  ls
+   14  mkdir Playlist2 Playlist3 Playlist4 Playlist5 Playlist6 Playlist7 Playlist8 Playlist9 Playlist10
+   15  ls
+   16  cd Playlist1
+   17  ls
+   18  touch CafeTacvba-24_horas.txt CafeTacvba-Eres.txt CafeTacvba-Esa_noche.txt 
+   19  touch CafeTacvba-El_metro.txt 
+   20  ls
+   21  nano CafeTacvba-24_horas.txt 
+   22  nano CafeTacvba-El_metro.txt 
+   23  nano CafeTacvba-Eres.txt 
+   24  nano CafeTacvba-Esa_noche.txt 
+   25  ls
+   26  rm -rf Bunkers-Sur.txt Bunkers-Miño.txt Bunkers-Ven_aqui.txt Bunkers-No_hables_de_sufrir.txt 
+   27  cp Bunkers-* ../Playlist2
+   28  cp Bunkers-* ../Playlist3
+   29  cp Bunkers-* ../Playlist4
+   30  cp Bunkers-* ../Playlist5
+   31  cp Bunkers-* ../Playlist6
+   32  cp Bunkers-* ../Playlist7
+   33  cp Bunkers-* ../Playlist8
+   34  cp Bunkers-* ../Playlist9
+   35  cp Bunkers-* ../Playlist10
+   36  cp CafeTacvba-* ../Playlist2
+   37  cp CafeTacvba-* ../Playlist3
+   38  cp CafeTacvba-* ../Playlist4
+   39  cp CafeTacvba-* ../Playlist5
+   40  cp CafeTacvba-* ../Playlist6
+   41  cp CafeTacvba-* ../Playlist7
+   42  cp CafeTacvba-* ../Playlist8
+   43  cp CafeTacvba-* ../Playlist9
+   44  cp CafeTacvba-* ../Playlist10
+   45  cd ..
+   46  ls
+   47  cd ..
+   48  ls
+   49  cd ..
+   50  rm -rf pedro jose/
+   51  mkdir pedro jose
+   52  ls
+   53  cd urbano
+   54  ls
+   55  rm -rf Desktop Git Internship/
+   56  cd Documents
+   57  rm .*pptx
+   58  rm *.pptx
+   59  rm *.xls
+   60  rm tareaViernes.docx Exponentes.docx tareaCalculo.docx 
+   61  rm -rf *.pdf *.xls *.exe
+   62  cd ..
+   63  cd Downloads/
+   64  rm -rf *.pdf *.xls *.exe
+   65  rm demo.rar bug.png 
+   66  rm fotoTarea2.jpg 
+   67  cd ..
+   68  cd Pictures/
+   69  ls
+   70  rm -rf Vacacaciones/
+   71  cd ..
+   72  cd Videos/
+   73  ls
+   74  rm 15115648dsada.mp4 
+   75  rm heredeitary.mp4 JLDC.mp4 morelia.mp4 videoLosValoresEticos.mp4 shazam.mp4 conjuring.mp4 us.mp4 anabell.mp4 avengerIWar.mp4 
+   76  rm antman.mp4 aquaman.mp4 corrientresFilosoficas.mp4 
+   77  cd ..
+   78  cd Pictures/
+   79  ls
+   80  cd ..
+   81  cp Documents/ Downloads/ Music/ Pictures/ Videos/ ../pedro/
+   82  cp -r Documents/ Downloads/ Music/ Pictures/ Videos/ ../pedro/
+   83  cp -r Documents/ Downloads/ Music/ Pictures/ Videos/ ../jose/
+   84  cd ..
+   85  cd ..
+   86  cd ..
+   87  history >> bashBackup3.txt 
