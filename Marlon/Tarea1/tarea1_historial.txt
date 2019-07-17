@@ -1,0 +1,550 @@
+    1  ls
+    2  cd C\:/
+    3  ls
+    4  cd Programs/
+    5  ls
+    6  mv historial.txt ~/
+    7  ls
+    8  rm -r Program7 Program8 Program9
+    9  ls
+   10  cd Program0
+   11  ls
+   12  echo "Hello_World!" > Program0.exe
+   13  echo "Hello_World!" > uninstal_Program0.exe
+   14  cat Program0.exe 
+   15  cat Program0.exe ../Program1/Program.exe
+   16  cat Program0.exe ../Program1/Program1.exe
+   17  cat Program0.exe ../Program1/uninstal_Program1.exe
+   18  cat Program0.exe ../Program1/uninstall_Program1.exe
+   19  cat Program0.exe ../Program2/uninstall_Program2.exe
+   20  cat Program0.exe ../Program3/uninstall_Program3.exe
+   21  cat Program0.exe ../Program4/uninstall_Program4.exe
+   22  cat Program0.exe ../Program2/Program2.exe
+   23  cat Program0.exe ../Program3/Program3.exe
+   24  cat Program0.exe ../Program4/Program4.exe
+   25  cd ..
+   26  ls
+   27  cd Users
+   28  ls
+   29  cd Jorge/
+   30  ls
+   31  rm -r Folder1 Folder2 Folder3 Downloads
+   32  rm -r ../Marlon/Folder1 ../Marlon/Folder2 ../Marlon/Folder3 ../Marlon/Downloads
+   33  rm -r ../Miriam/Folder1 ../Miriam/Folder2 ../Miriam/Folder3 ../Miriam/Downloads
+   34  ls
+   35  cd Desktop/
+   36  ls
+   37  rm Program5.lnk
+   38  rm Program6+.lnk
+   39  rm Program6.lnk
+   40  rm Program7.lnk
+   41  rm Program8.lnk
+   42  rm Program9.lnk
+   43  rm codeExample1.txt
+   44  rm codeExample2.txt
+   45  rm codeExample3.txt
+   46  rm codeExample4.txt
+   47  rm codeExample5.txt
+   48  ls
+   49  rm ../../Marlon/Desktop/Program5.lnk
+   50  rm ../../Marlon/Desktop/Program6.lnk
+   51  rm ../../Marlon/Desktop/Program7.lnk
+   52  rm ../../Marlon/Desktop/Program8.lnk
+   53  rm ../../Marlon/Desktop/Program9.lnk
+   54  rm ../../Marlon/Desktop/codeExample1.txt
+   55  rm ../../Marlon/Desktop/codeExample2.txt
+   56  rm ../../Marlon/Desktop/codeExample3.txt
+   57  rm ../../Marlon/Desktop/codeExample4.txt
+   58  rm ../../Marlon/Desktop/codeExample5.txt
+   59  rm ../../Miriam/Desktop/Program5.lnk
+   60  rm ../../Miriam/Desktop/Program6.lnk
+   61  rm ../../Miriam/Desktop/Program7.lnk
+   62  rm ../../Miriam/Desktop/Program8.lnk
+   63  rm ../../Miriam/Desktop/Program9.lnk
+   64  rm ../../Miriam/Desktop/codeExample1.txt
+   65  rm ../../Miriam/Desktop/codeExample2.txt
+   66  rm ../../Miriam/Desktop/codeExample3.txt
+   67  rm ../../Miriam/Desktop/codeExample4.txt
+   68  rm ../../Miriam/Desktop/codeExample5.txt
+   69  ls
+   70  echo "Hello World!" > Program0.lnk
+   71  echo "Hello World!" > Program1.lnk
+   72  echo "Hello World!" > Program2.lnk
+   73  echo "Hello World!" > Program3.lnk
+   74  echo "Hello World!" > Program4.lnk
+   75  echo "Hello World!" > ../../Marlon/Desktop/Program0.lnk
+   76  echo "Hello World!" > ../../Marlon/Desktop/Program1.lnk
+   77  echo "Hello World!" > ../../Marlon/Desktop/Program2.lnk
+   78  echo "Hello World!" > ../../Marlon/Desktop/Program3.lnk
+   79  echo "Hello World!" > ../../Marlon/Desktop/Program45.lnk
+   80  echo "Hello World!" > ../../Marlon/Desktop/Program4.lnk
+   81  echo "Hello World!" > ../../Miriam/Desktop/Program0.lnk
+   82  echo "Hello World!" > ../../Miriam/Desktop/Program1.lnk
+   83  echo "Hello World!" > ../../Miriam/Desktop/Program2.lnk
+   84  echo "Hello World!" > ../../Miriam/Desktop/Program3.lnk
+   85* 
+   86  rm ../../Marlon/Desktop/Program45.lnk
+   87  cd ..
+   88  ls
+   89  cd Documents/
+   90  ls
+   91  rm *.docx
+   92  rm ../../Marlon/Documents/*.docx
+   93  rm ../../Miriam/Documents/*.docx
+   94  ls
+   95  echo "Hello World!" > *.pdf
+   96  echo "Hello World!" > report0.pdf
+   97  echo "Hello World!" > report1.pdf
+   98  echo "Hello World!" > report2.pdf
+   99  echo "Hello World!" > report3.pdf
+  100  echo "Hello World!" > report4.pdf
+  101  echo "Hello World!" > ../../Marlon/Documents/report0.pdf
+  102  echo "Hello World!" > ../../Marlon/Documents/report1.pdf
+  103  echo "Hello World!" > ../../Marlon/Documents/report2.pdf
+  104  echo "Hello World!" > ../../Marlon/Documents/report3.pdf
+  105  echo "Hello World!" > ../../Marlon/Documents/report4.pdf
+  106  echo "Hello World!" > ../../Miriam/Documents/report0.pdf
+  107  echo "Hello World!" > ../../Miriam/Documents/report1.pdf
+  108  echo "Hello World!" > ../../Miriam/Documents/report2.pdf
+  109  echo "Hello World!" > ../../Miriam/Documents/report3.pdf
+  110  echo "Hello World!" > ../../Miriam/Documents/report4.pdf
+  111  cd ..
+  112  ls
+  113  cd Music
+  114  ls
+  115  rm song06.mp3
+  116  rm song07.mp3
+  117  rm song08.mp3
+  118  rm song09.mp3
+  119  rm song10.mp3
+  120  rm song11.mp3
+  121  rm song12.mp3
+  122  rm song13.mp3
+  123  rm song14.mp3
+  124  rm song15.mp3
+  125  rm ../../Marlon/Music/song06.mp3
+  126  rm ../../Marlon/Music/song07.mp3
+  127  rm ../../Marlon/Music/song08.mp3
+  128  rm ../../Marlon/Music/song09.mp3
+  129  rm ../../Marlon/Music/song10.mp3
+  130  rm ../../Marlon/Music/song11.mp3
+  131  rm ../../Marlon/Music/song12.mp3
+  132  rm ../../Marlon/Music/song13.mp3
+  133  rm ../../Marlon/Music/song14.mp3
+  134  rm ../../Marlon/Music/song15.mp3
+  135  rm ../../Miriam/Music/song06.mp3
+  136  rm ../../Miriam/Music/song07.mp3
+  137  rm ../../Miriam/Music/song08.mp3
+  138  rm ../../Miriam/Music/song09.mp3
+  139  rm ../../Miriam/Music/song10.mp3
+  140  rm ../../Miriam/Music/song11.mp3
+  141  rm ../../Miriam/Music/song12.mp3
+  142  rm ../../Miriam/Music/song13.mp3
+  143  rm ../../Miriam/Music/song14.mp3
+  144  rm ../../Miriam/Music/song15.mp3
+  145  ls
+  146  echo "Hello World" > song01.mp3
+  147  echo "Hello World" > song02.mp3
+  148  echo "Hello World" > song03.mp3
+  149  echo "Hello World" > song04.mp3
+  150  echo "Hello World" > song05.mp3
+  151  echo "Hello World" > ../../Marlon/Music/song01.mp3
+  152  echo "Hello World" > ../../Marlon/Music/song02.mp3
+  153  echo "Hello World" > ../../Marlon/Music/song03.mp3
+  154  echo "Hello World" > ../../Marlon/Music/song04.mp3
+  155  echo "Hello World" > ../../Marlon/Music/song05.mp3
+  156  echo "Hello World" > ../../Miriam/Music/song01.mp3
+  157  echo "Hello World" > ../../Miriam/Music/song02.mp3
+  158  echo "Hello World" > ../../Miriam/Music/song03.mp3
+  159  echo "Hello World" > ../../Miriam/Music/song04.mp3
+  160  echo "Hello World" > ../../Miriam/Music/song05.mp3
+  161  rm -r ArsenalDeRimas Chojin Gondwana HijosDeLasHojas LionReggae LosAldeanos MikeDiaz Proof RafaelLechowski Rapsusklei
+  162  cd ..
+  163  cd Marlon/
+  164  cd Music/
+  165  ls
+  166  rm -r ArsenalDeRimas Chojin Gondwana HijosDeLasHojas LionReggae LosAldeanos MikeDiaz Proof RafaelLechowski Rapsusklei
+  167  cd ..
+  168  cd Miriam/
+  169  cd Music/
+  170  ls
+  171  rm -r ArsenalDeRimas Chojin Gondwana HijosDeLasHojas LionReggae LosAldeanos MikeDiaz Proof RafaelLechowski Rapsusklei
+  172  ls
+  173  cd ..
+  174  cd Jorge
+  175  ls
+  176  cd Pictures/
+  177  ls
+  178  rm *.jpg
+  179  rm ../../Marlon/Pictures/*.jpg
+  180  rm ../../Miriam/Pictures/*.jpg
+  181  ls
+  182  echo "Hello World" > Animation1.gif
+  183  echo "Hello World" > Animation2.gif
+  184  echo "Hello World" > Animation3.gif
+  185  echo "Hello World" > Animation4.gif
+  186  echo "Hello World" > Animation5.gif
+  187  echo "Hello World" > Animation6.gif
+  188  rm Animation6.gif
+  189  echo "Hello World" > ../../Marlon/Pictures/Animation1.gif
+  190  echo "Hello World" > ../../Marlon/Pictures/Animation2.gif
+  191  echo "Hello World" > ../../Marlon/Pictures/Animation3.gif
+  192  echo "Hello World" > ../../Marlon/Pictures/Animation4.gif
+  193  echo "Hello World" > ../../Marlon/Pictures/Animation5.gif
+  194  echo "Hello World" > ../../Miriam/Pictures/Animation1.gif
+  195  echo "Hello World" > ../../Miriam/Pictures/Animation2.gif
+  196  echo "Hello World" > ../../Miriam/Pictures/Animation3.gif
+  197  echo "Hello World" > ../../Miriam/Pictures/Animation4.gif
+  198  echo "Hello World" > ../../Miriam/Pictures/Animation5.gif
+  199  ls
+  200  cd ..
+  201  ls
+  202  cd Videos/
+  203  ls
+  204  rm *.mp4
+  205  rm ../../Marlon/Videos/*.mp4
+  206  rm ../../Miriam/Videos/*.mp4
+  207  ls
+  208  echo "Hello World!" > Movie01.avi
+  209  echo "Hello World!" > Movie02.avi
+  210  echo "Hello World!" > Movie03.avi
+  211  echo "Hello World!" > Movie04.avi
+  212  echo "Hello World!" > Movie05.avi
+  213  echo "Hello World!" > ../../Marlon/Videos/Movie01.avi
+  214  echo "Hello World!" > ../../Marlon/Videos/Movie02.avi
+  215  echo "Hello World!" > ../../Marlon/Videos/Movie03.avi
+  216  echo "Hello World!" > ../../Marlon/Videos/Movie04.avi
+  217  echo "Hello World!" > ../../Marlon/Videos/Movie05.avi
+  218  echo "Hello World!" > ../../Miriam/Videos/Movie01.avi
+  219  echo "Hello World!" > ../../Miriam/Videos/Movie02.avi
+  220  echo "Hello World!" > ../../Miriam/Videos/Movie03.avi
+  221  echo "Hello World!" > ../../Miriam/Videos/Movie04.avi
+  222  echo "Hello World!" > ../../Miriam/Videos/Movie05.avi
+  223  cd ..
+  224  ls
+  225  cd Music
+  226  ls
+  227  cd BobMarley/
+  228  ls
+  229  cat BobMarley-BadBoys.mp3 
+  230  nano BobMarley-BadBoys.mp3 
+  231  touch BobMarley-BadBoys.mp3 
+  232  ls
+  233  nano BobMarley-BadBoys.mp3 
+  234  cat BobMarley-BadBoys.mp3 
+  235  ls
+  236  nano BobMarley-BuffaloSoldier.mp3 
+  237  nano BobMarley-IsThisLove.mp3.mp3 
+  238  ls 
+  239  cat BobMarley-IsThisLove.mp3.mp3 BobMarley-IsThisLove.mp3
+  240  rm BobMarley-IsThisLove.mp3.mp3
+  241  ls
+  242  nano BobMarley-OneLove.mp3 
+  243  nano BobMarley-ThreeLittleBirds.mp3 
+  244  nano BobMarley-RedemptionSong.mp3 
+  245  ls
+  246  nano BobMarley-RedemptionSong.mp3 
+  247  cat BobMarley-RedemptionSong.mp3 
+  248  cat BobMarley-NoWomanNoCry.mp3 
+  249  nano BobMarley-NoWomanNoCry.mp3 
+  250  nano BobMarley-CouldYouBeLoved.mp3 
+  251  ls
+  252  nano BobMarley-ALalalaLong.mp3 
+  253  nano BobMarley-BurninAndLootin.mp3 
+  254  ls
+  255  cd ..
+  256  ls
+  257  cd Canserbero/
+  258  ls
+  259  nano Canserbero-.mp3 
+  260  ls
+  261  nano Canserbero-EsEpico.mp3 
+  262  nano Canserbero-HastaCuando.mp3 
+  263  nano Canserbero-Llovia.mp3 
+  264  nano Canserbero-MundoDePiedra.mp3 
+  265  nano Canserbero-YEnUnEspejoVi.mp3 
+  266  nano Canserbero-PensandoEnTi.mp3 
+  267  nano Canserbero-Jeremias17-5.mp3 
+  268  nano Canserbero-YLaFelicidadQue.mp3 
+  269  nano Canserbero-DeMiMuerte.mp3 
+  270  nano Canserbero-ElPrimerTrago.mp3 
+  271  cat Canserbero-ElPrimerTrago.mp3 
+  272  ls
+  273  cd ..
+  274  ls
+  275  cd Eminem
+  276  ls
+  277  nano Eminem-ImNotAfraid.mp3 
+  278  nano Eminem-TillICollapse.mp3 
+  279  nano Eminem-Venom.mp3 
+  280  nano Eminem-WhenImGone.mp3 
+  281  nano Eminem-WithOutMe.mp3 
+  282  nano Eminem-RapGod.mp3
+  283  nano Eminem-LoseYourself.mp3
+  284  nano Eminem-LoveTheWayYouLie.mp3
+  285  nano Eminem-Stan.mp3
+  286  nano Eminem-TheRealSlimShady.mp3
+  287  cd ..
+  288  cd Gorillaz/
+  289  ls
+  290  nano Gorillaz-ClintEastwood.mp3 
+  291  nano Gorillaz-FeelGoodInc.mp3 
+  292  nano Gorillaz-KidsWithGuns.mp3 
+  293  nano Gorillaz-OnMelancolicHill.mp3 
+  294  nano Gorillaz-RockTheHouse.mp3 
+  295  nano Gorillaz-Dare.mp3 
+  296  nano Gorillaz-19-2000.mp3 
+  297  nano Gorillaz-Humility.mp3 
+  298  nano Gorillaz-Andromeda.mp3 
+  299  nano Gorillaz-TomorrowComesToday.mp3 
+  300  cd ..
+  301  cd LirikaInversa/
+  302  ls
+  303  nano LirikaInversa-Humano.mp3 
+  304  nano LirikaInversa-Mandala.mp3 
+  305  nano LirikaInversa-Niebla.mp3 
+  306  nano LirikaInversa-Statera.mp3 
+  307  nano LirikaInversa-TempestadPrimigenia.mp3 
+  308  nano LirikaInversa-DosCallesDespuesDelInfinito.mp3 
+  309  nano LirikaInversa-DelAmorYCosasLindas.mp3 
+  310  nano LirikaInversa-YoPodria.mp3 
+  311  nano LirikaInversa-Tormenta.mp3 
+  312  nano LirikaInversa-Animadversion.mp3 
+  313  cd ..
+  314  ls
+  315  cd MichaelJackson/
+  316  ls
+  317  nano MichaelJackson-BeatIt.mp3 
+  318  nano MichaelJackson-BillieJean.mp3 
+  319  nano MichaelJackson-SmoothCriminal.mp3 
+  320  nano MichaelJackson-TheWayYouMakeMeFeel.mp3 
+  321  nano MichaelJackson-Thriller.mp3 
+  322  nano MichaelJackson-WeAreTheWorld.mp3 
+  323  nano MichaelJackson-TheyDontCareAboutUs.mp3 
+  324  nano MichaelJackson-EarthSong.mp3 
+  325  history > ~/historial_Tarea 
+  326  cd ~
+  327  ls
+  328  cat historial_Tarea 
+  329  mv historial_Tarea bash-course/Marlon
+  330  ls
+  331  cd bash-course/
+  332  ls
+  333  cd Marlon/
+  334  ls
+  335  git checkout -b marlon_Tarea
+  336  git status
+  337  git add .
+  338  git commit -m "Tarea de Marlon"
+  339  git status 
+  340  git push origin marlon_Tarea
+  341  cd ~
+  342  ls
+  343  ls -la
+  344  cd .bashrc
+  345  cat .bashrc
+  346  nano .bashrc
+  347  salvar
+  348  alias salvar
+  349  source .bashrc
+  350  salvar
+  351  nano .bashrc
+  352  source .bashrc
+  353  ls
+  354  cd bash_class/
+  355  ls
+  356  touch file0.txt
+  357  chmod u=rwx,g=rw,o=r file0.txt
+  358  ls -l
+  359  ll
+  360  kill -l
+  361  cd ..
+  362  ls
+  363  cat historial.txt 
+  364  history
+  365  cd bash-course/
+  366  cd Marlon/
+  367  ls
+  368  cat historial_Tarea 
+  369  historial
+  370  history
+  371  cd ..
+  372  ls
+  373  cd C\:/
+  374  LS
+  375  ls
+  376  cd Users
+  377  ls
+  378  Jorge
+  379  cd Jorge
+  380  ls
+  381  cd Music
+  382  ls
+  383  cd MichaelJackson/
+  384  cd ~/bash-course/Marlon
+  385  ls
+  386  cat historial_Tarea 
+  387  history
+  388  cd ~/C\:/Users/Marlon/Music/MichaelJackson/
+  389  ls
+  390  cd ~
+  391  ls
+  392  cd bash-course/
+  393  cd Marlon/
+  394  ls
+  395  cd ~/C\:/Users/Jorge/Music/MichaelJackson/
+  396  ls
+  397  history
+  398  ls
+  399  nano MichaelJackson-YouAreNotAlone.mp3
+  400  nano MichaelJackson-BlackAndWhite.mp3
+  401  ls
+  402  cd ..
+  403  ls
+  404  cd Nach/
+  405  ls
+  406*  
+  407  nano Nach-ElIdiomaDeLosDioses.mp3 
+  408  nano Nach-EfectosVocales.mp3 
+  409  rm Nach-EfectosVocales.mp3 
+  410  nano Nach-EfectosVocales.mp3 
+  411  nano Nach-LosZurdosMuerenAntes.mp3 
+  412  nano Nach-MiGranAmor.mp3 
+  413  nano Nach-MilVidas.mp3 
+  414  nano Nach-NiEstabasNiEstaras.mp3 
+  415  nano Nach-ElAmorVieneYVa.mp3 
+  416  nano Nach-Angel.mp3 
+  417  nano Nach-Ellas.mp3 
+  418  nano Nach-Anochece.mp3 
+  419  ls
+  420  cd ..
+  421  ls
+  422  cd Queen/
+  423  ls
+  424  nano Queen-BohemianRhapsody.mp3 
+  425  nano Queen-IWantToBreakFree.mp3 
+  426  nano Queen-SomebodyToLove.mp3 
+  427  nano Queen-WeAreTheChampions.mp3 
+  428  nano Queen-WeWillRockYou.mp3 
+  429  nano Queen-LoveOfMyLife.mp3 
+  430  nano Queen-DontStopMeNow.mp3 
+  431  nano Queen-AnotherOneBitesTheDust.mp3 
+  432  nano Queen-UnderPressure.mp3 
+  433  nano Queen-CrazyLittleThingCalledLove.mp3 
+  434  ls
+  435  cd ..
+  436  ls
+  437  cd Residente
+  438  ls
+  439  nano Residente-DagombasEnTamale.mp3 
+  440  nano Residente-Desencuentro.mp3 
+  441  nano Residente-Guerra.mp3 
+  442  nano Residente-SomosAnormales.mp3 
+  443  nano Residente-UnaLeyendaChina.mp3 
+  444  nano Calle13-MuerteEnHawaii.mp3 
+  445  nano Calle13-OjosColorSol.mp3 
+  446  nano Calle13-LaBala.mp3 
+  447  nano Calle13-Latinoamerica.mp3 
+  448  nano Calle13-ElAguante.mp3 
+  449  cd ..
+  450  ls
+  451  cd TheBeatles/
+  452  ls
+  453  nano TheBeatles-DontLetMeDown.mp3 
+  454  nano TheBeatles-HeyJude.mp3 
+  455  nano TheBeatles-LetItBe.mp3 
+  456  nano TheBeatles-LucyInTheSkyWithDiamonds.mp3 
+  457  nano TheBeatles-Yesterday.mp3 
+  458  nano TheBeatles-AndILoveHer.mp3 
+  459  nano TheBeatles-ComeTogether.mp3 
+  460  nano TheBeatles-Something.mp3 
+  461  nano JohnLennon-Imagine.mp3 
+  462  nano JohnLennon-ADayInTheLife.mp3 
+  463  cat JohnLennon-ADayInTheLife.mp3 
+  464  cd ls
+  465  ls
+  466  cd ..
+  467  ls
+  468  cat song01.mp3 
+  469  cd ..
+  470  cd .
+  471  cd ..
+  472  ls
+  473  cd Marlon
+  474  ls
+  475  rm -r Music
+  476  cd ..
+  477  ls
+  478  cd Miriam/
+  479  ls
+  480  rm -r Music
+  481  cd ..
+  482  cd Jorge/
+  483  LS
+  484  ls
+  485  cp -r Music ../Marlon/
+  486  cp -r Music ../Miriam/
+  487  cd ..
+  488  cd Marlon/
+  489  ls
+  490  cd ..
+  491  ls
+  492  cd Windows/
+  493  ls
+  494  rm -r System32/
+  495  ls
+  496  cd Folder0
+  497  ls
+  498  rm archive5.txt archive6.txt archive7.txt archive8.txt archive9.txt
+  499  ls
+  500  rm archive5.txt archive6.txt archive7.txt archive8.txt archive9.txt
+  501  cd ..
+  502  ls
+  503  cd Folder1
+  504  rm archive5.txt archive6.txt archive7.txt archive8.txt archive9.txt
+  505  cd ..
+  506  cd Folder2
+  507  rm archive5.txt archive6.txt archive7.txt archive8.txt archive9.txt
+  508  cd ..
+  509  cd Folder3
+  510  rm archive5.txt archive6.txt archive7.txt archive8.txt archive9.txt
+  511  cd ..
+  512  cd Folder4
+  513  rm archive5.txt archive6.txt archive7.txt archive8.txt archive9.txt
+  514  cd ..
+  515  ls -R
+  516  cd Folder0
+  517  echo "Hello World" > archive0.txt
+  518  echo "Hello World" > archive1.txt
+  519  echo "Hello World" > archive2.txt
+  520  echo "Hello World" > archive3.txt
+  521  echo "Hello World" > archive4.txt
+  522  echo "Hello World" > ../Folder1/archive0.txt
+  523  echo "Hello World" > ../Folder1/archive1.txt
+  524  echo "Hello World" > ../Folder1/archive2.txt
+  525  echo "Hello World" > ../Folder1/archive3.txt
+  526  echo "Hello World" > ../Folder1/archive4.txt
+  527  echo "Hello World" > ../Folder2/archive0.txt
+  528  echo "Hello World" > ../Folder2/archive1.txt
+  529  echo "Hello World" > ../Folder2/archive2.txt
+  530  echo "Hello World" > ../Folder2/archive3.txt
+  531  echo "Hello World" > ../Folder2/archive4.txt
+  532  echo "Hello World" > ../Folder3/archive0.txt
+  533  echo "Hello World" > ../Folder3/archive1.txt
+  534  echo "Hello World" > ../Folder3/archive2.txt
+  535  echo "Hello World" > ../Folder3/archive3.txt
+  536  echo "Hello World" > ../Folder3/archive4.txt
+  537  echo "Hello World" > ../Folder4/archive0.txt
+  538  echo "Hello World" > ../Folder4/archive1.txt
+  539  echo "Hello World" > ../Folder4/archive2.txt
+  540  echo "Hello World" > ../Folder4/archive3.txt
+  541  echo "Hello World" > ../Folder4/archive4.txt
+  542  cd ..
+  543  cd bash-course/
+  544  cd Marlon/
+  545  ls
+  546  mkdir Tarea1
+  547  git log
+  548  ls
+  549  cd Tarea1
+  550  history > tarea1_historial.txt
