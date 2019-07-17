@@ -1,0 +1,689 @@
+    1  ls
+    2  cd C
+    3  ls
+    4  cd Programs/
+    5  ls
+    6  rm -r ares/
+    7  rm -r calendar/
+    8  rm -r edge/
+    9  rm -r word/
+   10  rm -r excel/
+   11  ls
+   12  cd calculator/
+   13  cd ..
+   14  cd Users/User1/
+   15  ls
+   16  rm -r BTS/
+   17  rm -r Books/
+   18  rm -r Games/
+   19  rm -r Videos/
+   20  ls
+   21  cd Desktop/
+   22  ls
+   23  rm AdobeReader 
+   24  rm Office 
+   25  rm Firefox 
+   26  rm Ubuntu 
+   27  rm Sketch 
+   28  rm Spotify 
+   29  rm Steam 
+   30  rm Photoshop 
+   31  rm Paint 
+   32  rm Blizzard 
+   33  ls
+   34  cd ..
+   35  ls
+   36  cd Documents/
+   37  ls
+   38  rm horarios.xlsx 
+   39  rm recetas-abuela.docx 
+   40  rm tesis-ahora-si-ya.docx 
+   41  rm tesis.docx 
+   42  rm tesis-no-se-controlar-versiones.docx 
+   43  rm tesis-final.docx 
+   44  rm tesis-final-final.docx 
+   45  rm tesis-este-si.docx 
+   46  rm tesis-ultimate-edition.docx 
+   47  rm pro-git.pdf 
+   48  ls
+   49  cd ..
+   50  ls
+   51  cd Downloads/
+   52  ls
+   53  rm chrome.exe 
+   54  rm slack.exe 
+   55  rm foto2.jpg 
+   56  rm foto3.jpg 
+   57  rm foto4.jpg 
+   58  rm foto.png 
+   59  rm tesis.pdf 
+   60  rm spotify.zip 
+   61  rm cmder.exe 
+   62  rm firacode.ttf 
+   63  ls
+   64  cd ..
+   65  cd Pictures/
+   66  ls
+   67  rm foto1.jpg 
+   68  rm foto2.jpg 
+   69  rm foto3.jpg 
+   70  rm foto4.jpg 
+   71  rm foto5.jpg 
+   72  rm foto6.jpg 
+   73  rm foto7.jpg 
+   74  rm foto8.jpg 
+   75  rm foto9.jpg 
+   76  rm foto10.jpg 
+   77  ls
+   78  cd ../Music/
+   79  ls
+   80  rm -r Dragonforce/
+   81  rm -r Steve_Aoki/
+   82  rm -r Rio_Roma/
+   83  rm -r Toto/
+   84  rm -r Franz_Ferdinand/
+   85  rm -r Avenged_Sevenfold/
+   86  rm -r Linkin_Park/
+   87  rm -r Eminem/
+   88  rm -r Pepe_Aguilar/
+   89  rm -r Ninja_Sex_Party/
+   90  ls
+   91  cd ../../User2/
+   92  ls
+   93  rm -r BTS/
+   94  rm -r Books/
+   95  rm -r Games/
+   96  rm -r Videos/
+   97  ls
+   98  cp -r ../User1/Desktop/ .
+   99  ls
+  100  cd Desktop/
+  101  ls
+  102  cd ..
+  103  rm -r Desktop/
+  104  rm -r Documents/
+  105  rm -r Downloads/
+  106  rm -r Music/
+  107  rm -r Pictures/
+  108  ls
+  109  cp -r ../User1/Desktop/ .
+  110  ls
+  111  cd Desktop/
+  112  ls
+  113  cd ..
+  114  cp -r ../User1/Documents/ .
+  115  cp -r ../User1/Downloads/ .
+  116  cp -r ../User1/Music/ .
+  117  cp -r ../User1/Pictures/ .
+  118  ls
+  119  cd ../User3
+  120  rm -r Desktop/
+  121  rm -r Documents/
+  122  rm -r Downloads/
+  123  rm -r Music/
+  124  rm -r Pictures/
+  125  ls
+  126  rm -r BTS/
+  127  rm -r Books/
+  128  rm -r Games/
+  129  rm -r Videos/
+  130  ls
+  131  cp -r ../User1/Documents/ .
+  132  cp -r ../User1/Desktop/ .
+  133  cp -r ../User1/Downloads/ .
+  134  cp -r ../User1/Music/ .
+  135  cp -r ../User1/Pictures/ .
+  136  ls
+  137  cd Pictures/
+  138  ls
+  139  cd ..
+  140  cd ../../
+  141  cd ..
+  142  history >> homework_1_history.txt
+    1  ls
+    2  cd C
+    3  ls
+    4  cd Programs/
+    5  ls
+    6  rm -r ares/
+    7  rm -r calendar/
+    8  rm -r edge/
+    9  rm -r word/
+   10  rm -r excel/
+   11  ls
+   12  cd calculator/
+   13  cd ..
+   14  cd Users/User1/
+   15  ls
+   16  rm -r BTS/
+   17  rm -r Books/
+   18  rm -r Games/
+   19  rm -r Videos/
+   20  ls
+   21  cd Desktop/
+   22  ls
+   23  rm AdobeReader 
+   24  rm Office 
+   25  rm Firefox 
+   26  rm Ubuntu 
+   27  rm Sketch 
+   28  rm Spotify 
+   29  rm Steam 
+   30  rm Photoshop 
+   31  rm Paint 
+   32  rm Blizzard 
+   33  ls
+   34  cd ..
+   35  ls
+   36  cd Documents/
+   37  ls
+   38  rm horarios.xlsx 
+   39  rm recetas-abuela.docx 
+   40  rm tesis-ahora-si-ya.docx 
+   41  rm tesis.docx 
+   42  rm tesis-no-se-controlar-versiones.docx 
+   43  rm tesis-final.docx 
+   44  rm tesis-final-final.docx 
+   45  rm tesis-este-si.docx 
+   46  rm tesis-ultimate-edition.docx 
+   47  rm pro-git.pdf 
+   48  ls
+   49  cd ..
+   50  ls
+   51  cd Downloads/
+   52  ls
+   53  rm chrome.exe 
+   54  rm slack.exe 
+   55  rm foto2.jpg 
+   56  rm foto3.jpg 
+   57  rm foto4.jpg 
+   58  rm foto.png 
+   59  rm tesis.pdf 
+   60  rm spotify.zip 
+   61  rm cmder.exe 
+   62  rm firacode.ttf 
+   63  ls
+   64  cd ..
+   65  cd Pictures/
+   66  ls
+   67  rm foto1.jpg 
+   68  rm foto2.jpg 
+   69  rm foto3.jpg 
+   70  rm foto4.jpg 
+   71  rm foto5.jpg 
+   72  rm foto6.jpg 
+   73  rm foto7.jpg 
+   74  rm foto8.jpg 
+   75  rm foto9.jpg 
+   76  rm foto10.jpg 
+   77  ls
+   78  cd ../Music/
+   79  ls
+   80  rm -r Dragonforce/
+   81  rm -r Steve_Aoki/
+   82  rm -r Rio_Roma/
+   83  rm -r Toto/
+   84  rm -r Franz_Ferdinand/
+   85  rm -r Avenged_Sevenfold/
+   86  rm -r Linkin_Park/
+   87  rm -r Eminem/
+   88  rm -r Pepe_Aguilar/
+   89  rm -r Ninja_Sex_Party/
+   90  ls
+   91  cd ../../User2/
+   92  ls
+   93  rm -r BTS/
+   94  rm -r Books/
+   95  rm -r Games/
+   96  rm -r Videos/
+   97  ls
+   98  cp -r ../User1/Desktop/ .
+   99  ls
+  100  cd Desktop/
+  101  ls
+  102  cd ..
+  103  rm -r Desktop/
+  104  rm -r Documents/
+  105  rm -r Downloads/
+  106  rm -r Music/
+  107  rm -r Pictures/
+  108  ls
+  109  cp -r ../User1/Desktop/ .
+  110  ls
+  111  cd Desktop/
+  112  ls
+  113  cd ..
+  114  cp -r ../User1/Documents/ .
+  115  cp -r ../User1/Downloads/ .
+  116  cp -r ../User1/Music/ .
+  117  cp -r ../User1/Pictures/ .
+  118  ls
+  119  cd ../User3
+  120  rm -r Desktop/
+  121  rm -r Documents/
+  122  rm -r Downloads/
+  123  rm -r Music/
+  124  rm -r Pictures/
+  125  ls
+  126  rm -r BTS/
+  127  rm -r Books/
+  128  rm -r Games/
+  129  rm -r Videos/
+  130  ls
+  131  cp -r ../User1/Documents/ .
+  132  cp -r ../User1/Desktop/ .
+  133  cp -r ../User1/Downloads/ .
+  134  cp -r ../User1/Music/ .
+  135  cp -r ../User1/Pictures/ .
+  136  ls
+  137  cd Pictures/
+  138  ls
+  139  cd ..
+  140  cd ../../
+  141  cd ..
+  142  history >> homework_1_history.txt
+  143  cd C/Windows/
+  144  ls
+  145  rm -r help/
+  146  ls
+  147  cd System32/
+  148  ls
+  149  rm file1
+  150  rm file2
+  151  rm file3
+  152  rm file4
+  153  rm file5
+  154  rm file6
+  155  rm file7
+  156  rm file8
+  157  rm file9
+  158  rm file10
+  159  ls
+  160  cd ..
+  161  ls
+  162  cd app/
+  163  ls
+  164  rm file1
+  165  rm file2
+  166  rm file3
+  167  rm file4
+  168  rm file5
+  169  ls
+  170  cd ..
+  171  cd boot/
+  172  ls
+  173  rm file1
+  174  rm file2
+  175  rm file3
+  176  rm file4
+  177  rm file5
+  178  ls
+  179  cd ..
+  180  ls
+  181  cd debug/
+  182  ls
+  183  rm file1
+  184  rm file2
+  185  rm file3
+  186  rm file4
+  187  rm file5
+  188  ls
+  189  cd ..
+  190  cd diagnostics/
+  191  ls
+  192  rm file1
+  193  rm file2
+  194  rm file3
+  195  rm file4
+  196  rm file5
+  197  ls
+  198  cd ..
+  199  ls
+  200  cd ..
+  201  history >> homework_1_history.txt 
+    1  cd Five_Finger_Death_Punch/
+    2  cat >> "Five Finger Death Punch - Wrong Side of Heaven"
+    3  ls
+    4  nano "Five Finger Death Punch - Wrong Side of Heaven"
+    5  cat >> "Five Finger Death Punch - Bad Company"
+    6  ls
+    7  nano "Five Finger Death Punch - Bad Company"
+    8  cat >> "Five Finger Death Punch - Wash It All Away"
+    9  cat >> "Five Finger Death Punch - Blue On Black"
+   10  cat >> "Five Finger Death Punch - The Bleeding"
+   11  cat >> "Five Finger Death Punch - Remember Everything"
+   12  cat >> "Five Finger Death Punch - Under and Over It"
+   13  cat >> "Five Finger Death Punch - Lift Me Up"
+   14  cat >> "Five Finger Death Punch - Coming Down"
+   15  cat >> "Five Finger Death Punch - I Apologize"
+   16  ls
+   17  cd ..
+   18  ls
+   19  cd AC_DC/
+   20  cat >> "AC/DC - Thunderstruck"
+   21  cat >> "AC\/DC - Thunderstruck"
+   22  cat >> "AC DC - Thunderstruck"
+   23  cat >> "AC DC - Highway to Hell"
+   24  cat >> "AC DC - Back In Black"
+   25  cat >> "AC DC - You Shook Me All Night Long"
+   26  cat >> "AC DC - Hells Bells"
+   27  cat >> "AC DC - Let There Be Rock"
+   28  cat >> "AC DC - Shoot to Thrill"
+   29  cat >> "AC DC - Whole Lotta Rosie"
+   30  cat >> "AC DC - It's a Long Way to the Top"
+   31  cat >> "AC DC - Moneytalks"
+   32  ls
+   33  cd ..
+   34  ls
+   35  cd Avenged_Sevenfold/
+   36  cat >> "Avenged Sevenfold - Dear God"
+   37  cat >> "Avenged Sevenfold - So Far Away"
+   38  cat >> "Avenged Sevenfold - Seize the Day"
+   39  cat >> "Avenged Sevenfold - Hail to the King"
+   40  cat >> "Avenged Sevenfold - A Little Piece of Heaven"
+   41  cat >> "Avenged Sevenfold - Bat Country"
+   42  cat >> "Avenged Sevenfold - Afterlife"
+   43  cat >> "Avenged Sevenfold - Buried Alive"
+   44  cat >> "Avenged Sevenfold - Sheperd of Fire"
+   45  cat >> "Avenged Sevenfold - Unholy Confessions"
+   46  ls
+   47  cd ..
+   48  ls
+   49  cd Daft_Punk/
+   50  ls
+   51  cat >> "Daft Punk - Get Lucky"
+   52  cat >> "Daft Punk - Harder, Better, Faster, Stronger"
+   53  cat >> "Daft Punk - One More Time"
+   54  cat >> "Daft Punk - Around the World"
+   55  cat >> "Daft Punk - Lose Yourself to Dance"
+   56  cat >> "Daft Punk - Something About Us"
+   57  cat >> "Daft Punk - Instant Crush"
+   58  cat >> "Daft Punk - Da Funk"
+   59  cat >> "Daft Punk - Robot Rock"
+   60  cat >> "Daft Punk - Digital Love"
+   61  ls
+   62  cd ..
+   63  ls
+   64  cd Fall_Out_Boy/
+   65  cat >> "Fall Out Boy - Centuries"
+   66  cat >> "Fall Out Boy - My Songs Know What You Did in the Dark"
+   67  cat >> "Fall Out Boy - Sugar, We're Going Down"
+   68  cat >> "Fall Out Boy - Dance, Dance"
+   69  cat >> "Fall Out Boy - Thnks fr th Mmrs"
+   70  cat >> "Fall Out Boy - The Phoenix"
+   71  cat >> "Fall Out Boy - Uma Thurman"
+   72  cat >> "Fall Out Boy - This Ain't a Scene, It's a Goddamn Arms Race"
+   73  cat >> "Fall Out Boy - Immortals"
+   74  cat >> "Fall Out Boy - Irresistible"
+   75  ls
+   76  cd ..
+   77  ls
+   78  cd Luis_Miguel/
+   79  cat >> "Luis Miguel - La Incondicional"
+   80  cat >> "Luis Miguel - Ahora Te Puedes Marchar"
+   81  cat >> "Luis Miguel - Hasta Que Me Olvides"
+   82  cat >> "Luis Miguel - Tengo Todo Excepto a Ti"
+   83  cat >> "Luis Miguel - La Bikina"
+   84  cat >> "Luis Miguel - Entregate"
+   85  cat >> "Luis Miguel - La Media Vuelta"
+   86  cat >> "Luis Miguel - No Se Tu"
+   87  cat >> "Luis Miguel - Fria Como el Viento"
+   88  cat >> "Luis Miguel - Amarte Es Un Placer"
+   89  ls
+   90  cd ..
+   91  ls
+   92  cd Queen/
+   93  cat >> "Queen - Bohemian Rhapsody"
+   94  cat >> "Queen - We Will Rock You"
+   95  cat >> "Queen - Don't Stop Me Now"
+   96  cat >> "Queen - Another One Bites The Dust"
+   97  cat >> "Queen - We Are the Champions"
+   98  cat >> "Queen - Radio Ga Ga"
+   99  cat >> "Queen - Somebody To Love"
+  100  cat >> "Queen - I Want To Break Free"
+  101  cat >> "Queen - Killer Queen"
+  102  cat >> "Queen - Love of My Life"
+  103  ls
+  104  cd ..
+  105  ls
+  106  cd Romeo_Santos/
+  107  cat >> "Romeo Santos - Aullando"
+  108  cat >> "Romeo Santos - You"
+  109  cat >> "Romeo Santos - Propuesta Indecente"
+  110  cat >> "Romeo Santos - Eres Mia"
+  111  cat >> "Romeo Santos - Enseñame a Olvidar"
+  112  cat >> "Romeo Santos - Ella Y Yo"
+  113  cat >> "Romeo Santos - Sobredosis"
+  114  cat >> "Romeo Santos - Imitadora"
+  115  cat >> "Romeo Santos - Amor de Madre"
+  116  cat >> "Romeo Santos - La Diabla"
+  117  ls
+  118  cd ..
+  119  ls
+  120  cd Skillet/
+  121  cat >> "Skillet - Monster"
+  122  cat >> "Skillet - Hero"
+  123  cat >> "Skillet - Feel Invincible"
+  124  cat >> "Skillet - Awake and Alive"
+  125  cat >> "Skillet - Not Gonna Die"
+  126  cat >> "Skillet - Whispers in the Dark"
+  127  cat >> "Skillet - The Resistance"
+  128  cat >> "Skillet - Rebirthing"
+  129  cat >> "Skillet - Sick of It"
+  130  cat >> "Skillet - Legendary"
+  131  ls
+  132  cd ..
+  133  ls
+  134  cd TWRP/
+  135  cat >> "TWRP - Starlight Brigade"
+  136  cat >> "TWRP - Atomic Karate"
+  137  cat >> "TWRP - The No Pants Dance"
+  138  cat >> "TWRP - Synthesize Her"
+  139  cat >> "TWRP - The Hit"
+  140  cat >> "TWRP - Phantom Racer"
+  141  cat >> "TWRP - Rock N Roll Best Friends"
+  142  cat >> "TWRP - Makin' a Move"
+  143  cat >> "TWRP - Groove Crusaders"
+  144  cat >> "TWRP - FOOD BAR"
+  145  cat >> "TWRP - Body Image"
+  146  ls
+  147  rm -rf "TWRP - FOOD BAR"
+  148  ls
+  149  cd ..
+  150  cd User1/Music/
+  151  ls
+  152  cd Avenged_Sevenfold/
+  153  ls
+  154  cd ..
+  155  cd Five_Finger_Death_Punch/
+  156  ls
+  157  cd ..
+  158  cd User2/
+  159  cd Music/
+  160  ls
+  161  cd Five_Finger_Death_Punch/
+  162  ls
+  163  nano "Five Finger Death Punch - Bad Company"
+  164  cd ..
+  165  cp -r Five_Finger_Death_Punch/ ../../User1/Music/
+  166  cd ..
+  167  cd User1/
+  168  cd Music/
+  169  ls
+  170  cd Five_Finger_Death_Punch/
+  171  ls
+  172  cd ..
+  173  cd User2/Music/
+  174  ls
+  175  cp -r AC_DC/ ../../User1/Music/
+  176  cp -r Avenged_Sevenfold/ ../../User1/Music/
+  177  cp -r Daft_Punk/ ../../User1/Music/
+  178  cp -r Fall_Out_Boy/ ../../User1/Music/
+  179  cp -r Luis_Miguel/ ../../User1/Music/
+  180  cp -r Queen/ ../../User1/Music/
+  181  cp -r Romeo_Santos/ ../../User1/Music/
+  182  cp -r Skillet/ ../../User1/Music/
+  183  cp -r TWRP/ ../../User1/Music/
+  184  cd ..
+  185  cd User1/Music/Luis_Miguel/
+  186  ls
+  187  nano "Luis Miguel - Ahora Te Puedes Marchar"
+  188  cd ..
+  189  cd Music/
+  190  cp -r Five_Finger_Death_Punch/ ../../User3/Music/
+  191  cp -r AC_DC/ ../../User3/Music/
+  192  cp -r Avenged_Sevenfold/ ../../User3/Music/
+  193  cp -r Daft_Punk/ ../../User3/Music/
+  194  cp -r Fall_Out_Boy/ ../../User3/Music/
+  195  cp -r Luis_Miguel/ ../../User3/Music/
+  196  cp -r Queen/ ../../User3/Music/
+  197  cp -r Romeo_Santos/ ../../User3/Music/
+  198  cp -r Skillet/ ../../User3/Music/
+  199  cp -r TWRP/ ../../User3/Music/
+  200  cd ..
+  201  cd User3/Music/Queen/
+  202  ls
+  203  nano "Queen - Radio Ga Ga"
+  204  cd ..
+    1  cd C/Programs/access/
+    2  nano file1
+    3  cat file1 > file2
+    4  nano file2
+    5  cat file1 > ../calculator/file1
+    6  cat file1 > ../calculator/file2
+    7  cat file1 > ../chrome/file1
+    8  cat file1 > ../chrome/file2
+    9  cat file1 > ../powerpoint/file1
+   10  cat file1 > ../powerpoint/file2
+   11  cat file1 > ../spotify/file1
+   12  cat file1 > ../spotify/file2
+   13  nano ../spotify/file2
+   14  cat file1 > ../../Users/User1/Desktop/AdobeXD 
+   15  cat file1 > ../../Users/User1/Desktop/Chrome 
+   16  cat file1 > ../../Users/User1/Desktop/Drive
+   17  cat file1 > ../../Users/User1/Desktop/Postman
+   18  cat file1 > ../../Users/User1/Desktop/RecycleBin 
+   19  cat file1 > ../../Users/User1/Documents/pragmatic-programmer.pdf 
+   20  nano ../../Users/User1/Documents/pragmatic-programmer.pdf 
+   21  cat file1 > ../../Users/User1/Documents/presupuesto.xlsx 
+   22  cat file1 > ../../Users/User1/Documents/registro-aprendizaje.xlsx 
+   23  cat file1 > ../../Users/User1/Documents/registro-ocio.xlsx 
+   24  cat file1 > ../../Users/User1/Documents/tesis-entrega-final.docx 
+   25  cat file1 > ../../Users/User1/Downloads/feedback-asesor.docx 
+   26  cat file1 > ../../Users/User1/Downloads/index.html 
+   27  cat file1 > ../../Users/User1/Downloads/filezilla.zip 
+   28  nano ../../Users/User1/Downloads/filezilla.zip 
+   29  cat file1 > ../../Users/User1/Downloads/node-v-10.zip 
+   30  cat file1 > ../../Users/User1/Downloads/xampp.zip 
+   31  cat file1 > ../../Users/User1/Pictures/foto11.jpg 
+   32  cat file1 > ../../Users/User1/Pictures/foto12.jpg 
+   33  cat file1 > ../../Users/User1/Pictures/foto13.jpg 
+   34  cat file1 > ../../Users/User1/Pictures/foto14.jpg 
+   35  cat file1 > ../../Users/User1/Pictures/foto15.jpg 
+   36  cd ../../
+   37  cd Users/
+   38  cp -r User1/Desktop/ User2/Desktop/
+   39  cd User2/
+   40  ls
+   41  cd Desktop/
+   42  ls
+   43  cd ..
+   44  rm -r Desktop/
+   45  ls
+   46  cp -r User1/Desktop/ User2/
+   47  cd ..
+   48  cp -r User1/Desktop/ User2/
+   49  cd User2/
+   50  ls
+   51  cd Desktop/
+   52  ls
+   53  nano AdobeXD 
+   54  cd ..
+   55  cp -r User1/Documents/ User2/
+   56  cd User2/Documents/
+   57  ls
+   58  nano tesis-entrega-final.docx 
+   59  cd ..
+   60  ls
+   61  cd..
+   62  cd ..
+   63  cp -r User1/Downloads/ User2/
+   64  cp -r User1/Pictures/ User2/
+   65  cp -r User1/Desktop/ User3/
+   66  cp -r User1/Documents/ User3/
+   67  cp -r User1/Downloads/ User3/
+   68  cp -r User1/Pictures/ User3/
+   69  cd User3/
+   70  cd Downloads/
+   71  nano filezilla.zip 
+   72  cd ..
+   73  cd Windows/app/
+   74  cd .. 
+   75  cat ../Programs/access/file1 > app/file6
+   76  cat ../Programs/access/file1 > app/file7
+   77  cat ../Programs/access/file1 > app/file8
+   78  cat ../Programs/access/file1 > app/file9
+   79  cat ../Programs/access/file1 > app/file10
+   80  nano app/file8
+   81  cat ../Programs/access/file1 > boot/file6
+   82  cat ../Programs/access/file1 > boot/file7
+   83  cat ../Programs/access/file1 > boot/file8
+   84  cat ../Programs/access/file1 > boot/file9
+   85  cat ../Programs/access/file1 > boot/file10
+   86  nano boot/file10
+   87  cat ../Programs/access/file1 > debug/file6
+   88  cat ../Programs/access/file1 > debug/file7
+   89  cat ../Programs/access/file1 > debug/file8
+   90  cat ../Programs/access/file1 > debug/file9
+   91  cat ../Programs/access/file1 > debug/file10
+   92  nano debug/file6
+   93  cat ../Programs/access/file1 > diagnostics/file6 
+   94  cat ../Programs/access/file1 > diagnostics/file7
+   95  cat ../Programs/access/file1 > diagnostics/file8
+   96  cat ../Programs/access/file1 > diagnostics/file9
+   97  cat ../Programs/access/file1 > diagnostics/file10
+   98  nano diagnostics/file7
+   99  cat ../Programs/access/file1 > System32/file11
+  100  cat ../Programs/access/file1 > System32/file12
+  101  cat ../Programs/access/file1 > System32/file13
+  102  cat ../Programs/access/file1 > System32/file14
+  103  cat ../Programs/access/file1 > System32/file15
+  104  nano System32/file13
+  105  cp -r app/ System32/
+  106  nano System32/app/file1
+  107  nano System32/app/file6
+  108  rm System32/app/file1
+  109  rm System32/app/file2
+  110  rm System32/app/file3
+  111  rm System32/app/file4
+  112  rm System32/app/file5
+  113  cp -r boot/ System32/
+  114  cp -r debug/ System32/
+  115  cp -r diagnostics/ System32/
+  116  rm System32/boot/file1
+  117  rm System32/boot/file2
+  118  rm System32/boot/file3
+  119  rm System32/boot/file4
+  120  rm System32/boot/file5
+  121  rm System32/debug/file1
+  122  rm System32/debug/file2
+  123  rm System32/debug/file3
+  124  rm System32/debug/file4
+  125  rm System32/debug/file5
+  126  rm System32/diagnostics/file1
+  127  rm System32/diagnostics/file2
+  128  rm System32/diagnostics/file3
+  129  rm System32/diagnostics/file4
+  130  rm System32/diagnostics/file5
+  131  nano System32/diagnostics/file7
+  132  rm System32/help/file1
+  133  rm System32/help/file2
+  134  rm System32/help/file3
+  135  rm System32/help/file4
+  136  rm System32/help/file5
+  137  cat ../Programs/access/file1 > System32/help/file6
+  138  cat ../Programs/access/file1 > System32/help/file7
+  139  cat ../Programs/access/file1 > System32/help/file8
+  140  cat ../Programs/access/file1 > System32/help/file9
+  141  cat ../Programs/access/file1 > System32/help/file10
+  142  nano System32/help/file8
