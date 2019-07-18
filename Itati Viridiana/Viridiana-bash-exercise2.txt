@@ -1,0 +1,131 @@
+clrear
+clear
+sudo groupadd admin2
+sudo groupadd guest
+
+sudo adduser Ana admin2
+sudo useradd Juan
+sudo useradd Ana
+sudo useradd Viri
+sudo useradd owner
+sudo useradd Owner
+sudo nano /etc/default/useradd
+cat /etc/useradd
+cat /etc/user
+sudo chown -R Owner:admin2 Programs/
+ls -la
+cd Programs/
+ls -la
+cd ..
+sudo chown -R Owner Programs/
+ls -la
+cd Programs/
+ls
+sudo chown -R Owner:admin2 Windows/
+cd ..
+sudo chown -R Owner:admin2 Windows/
+sudo chown -R Owner:admin2 Users/
+ls -l
+cd Programs/
+ls -l
+cd ..
+cd Users/
+ls -l
+sudo chown -R Juan:guest Juan/
+sudo chown -R Viri:guest Viri
+cd ..
+cd /
+cd home/
+ls
+cd /
+ls
+cd mnt/
+ls
+cd c
+ls
+cd User
+cd Users/
+ls
+cd 'Lenovo 1'/
+ls
+cd Documents/
+cp -r C /home/Viridiana
+cp -r C /home/viridiana
+cd /
+cd home/
+ls
+cd viridiana/
+ls
+
+sudo useradd Juan
+ls
+cd Users/
+sudo chown -R Juan:guest Juan/
+cd ..
+sudo chown -R Owner Programs/
+sudo chown -R Owner:admin2 Programs/
+sudo chown -R Owner:admin2 Windows/
+sudo chown -R Owner:admin2 Users/
+ls -l
+cd Programs/
+ls -l
+cd ..
+cd Users/
+ls -l
+sudo chown -R Juan:guest Juan/
+sudo chown -R Juan:guest UserOne/
+sudo chown -R Ana:guest UserTwo/
+sudo chown -R Viri:guest UseThree/
+ls -l
+cd UserTwo/
+ls -l
+cd Music/
+ls .l
+ls -l
+cd ..
+sudo groupadd Ana
+cd ..
+ls
+cd UserOne/
+cd Music/
+ls
+cd Chayanne/
+ls
+ls -l
+chmod u=0, o=0 'Chayanne-Atado a tu amor.txt' 
+chmod u=0,g=0,o=0 'Chayanne-Atado a tu amor.txt' 
+sudo chmod 000 'Chayanne-Atado a tu amor.txt' 
+ls -l
+sudo chmod 400 'Chayanne-Me enamore de ti.txt' 
+ls -l
+sudo chmod 400 'Chayanne-Lo dejaria todo.txt' 
+ls -l
+sudo chmod 600 'Chayanne-Me enamore de ti.txt' 
+ls -l
+sudo chmod 700 'Chayanne-Te pido perdon.txt' 
+ls -l
+sudo chmod 740 'Chayanne-Un siglo sin ti.txt' 
+ls -l
+cd ..
+Lady_Gaga/
+cd Lady_Gaga/
+cd ..
+cd..
+cd ..
+ls
+cd ..
+ls
+cd /
+ls
+cd mnt/
+ls
+cd c
+ls
+cd Users/
+ls
+cd 'Lenovo 1'/
+ls
+cd Documents/
+history Viridiana-bash-exersice2.txt
+history Viridiana-bash-exercise2.txt
+history -w Viridiana-bash-exercise2.txt
