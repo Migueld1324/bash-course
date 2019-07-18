@@ -317,7 +317,7 @@
   317* 
   318  cat >> 'Lady Gaga-Always Remember Us This Way.txt' 
   319  mv track3.mp3 'Lady Gaga-I'll Never Love Again.txt'
-cat >> 'Lady Gaga-I'll Never Love Again.txt' 
+       cat >> 'Lady Gaga-I'll Never Love Again.txt' 
   320  mv track3.mp3 'Lady Gaga-I'll Never Love Again.txt'
 
   321* mv track3.mp3 'Lady Gaga-I'll Never
@@ -420,5 +420,106 @@ cat >> 'Lady Gaga-I'll Never Love Again.txt'
   418* cat >> 'Wisin_Yandel-estoy enamorado.txt'
   419  mv 'Shakira-inevitable.txt' 'el telefono.txt'
   420  cd ..
-  421  history > ../../../
-  422  history > ../../../Viridiana-bash-homework1.txt
+ls
+cd Chayanne/
+ls
+mv 'Amada amante.txt'
+cat >> 'Chayanne-Amada amante.txt'
+cat >> 'Chayanne-Un siglo sin ti.txt'
+cat >> 'Chayanne-A donde van tus sueños.txt
+cat >> 'Chayanne-A donde van tus sueños.txt'
+cat >> 'Chayanne-Madre tierra.txt'
+cat >> 'Chayanne-Torero.txt'
+cat >> 'Chayanne-Ay Mama.txt'
+cd ..
+
+ls
+cat >> 'Gloria_Trevi-A media calle.txt'
+cat >> 'Gloria_Trevi-Bipolar.txt'
+cat >> 'Gloria_Trevi-Cama y mesa.txt.
+cat >> 'Gloria_Trevi-Cama y mesa.txt'
+cat >> 'Gloria_Trevi-Aurora.txt'
+cat >> 'Gloria_Trevi-Caro.txt'
+cd ..
+cd Lady_Gaga/
+cat >> 'Lady Gaga-Alejandro.txt'
+cat >> 'Lady Gaga-Love Game.txt
+cat >> 'Lady Gaga-Love Game.txt'
+cat >> 'Lady Gaga-You and I.txt'
+cat >> 'Lady Gaga-Appause.txt'
+cat >> 'Lady Gaga-The cure.txt'
+cd ..
+cd Marc_Anthony/
+cat >> 'Marc_Anthony-Abrazame muy fuerte.txt
+cat >> 'Marc_Anthony-Abrazame muy fuerte.txt'
+cat >> 'Marc_Anthony-Celos.txt
+cat >> 'Marc_Anthony-Celos.txt'
+cat >> 'Marc_Anthony-Aunque me voy.txt'
+cat >> 'Marc_Anthony-Caminar.txt'
+cat >> 'Marc_Anthony-De la vuelta.txt
+cat >> 'Marc_Anthony-De la vuelta.txt'
+ls
+cd ..
+cd Michael_jackson/
+cat >> 'Michael_jackson-Beat it.txt'
+cat >> 'Michael_jackson-All I need.txt'
+cat >> 'Michael_jackson-
+cat >> 'Michael_jackson-2000 watts.txt'
+ls
+cat >> 'Michael_jackson-Al capone.txt'
+ls
+cd ..
+cd Pablo_Montero/
+cat >> 'Pablo_Montero-Con ganas de amar.txt'
+cat >> 'Pablo_Montero-Despreciame.txt'
+cat >> 'Pablo_Montero-Entrega total.txt'
+cat >> 'Pablo_Montero-Doce rosas.txt'
+cat >> 'Pablo_Montero-Te odio.txt'
+cd ..
+cd Paulina_Rubio/
+cat >> 'Paulina_Rubio-Algo de ti.txt'
+cat >> 'Paulina_Rubio-Algo tienes.txt'
+cat >> 'Paulina_Rubio-Amor secreto.txt'
+cat >> 'Paulina_Rubio-Aun.txt'
+cat >> 'Paulina_Rubio-Compañia.txt'
+cd ..
+cd Ricky_Martin/
+ls
+cat >> 'Ricky_Martin-Ayudame.txt'
+cat >> 'Ricky_Martin-Corazon.txt'
+cat >> 'Ricky_Martin-Buenos aires.txt'
+cat >> 'Ricky_Martin-Diana.txt'
+cat >> 'Ricky_Martin-El ultimo adios.txt'
+cd..
+cd ..
+cd Shakira/
+cat >> 'Shakira-Brujeria.txt'
+cat >> 'Shakira-Cazador de amor.txt'
+cat >> 'Shakira-Dia de enero.txt'
+cat >> 'Shakira-Amor.txt'
+cat >> 'Shakira-El oasis.txt'
+cd ..
+cd Wisin_Yandel/
+cat >> 'Wisin_Yandel-El telefono.txt'
+cat >> 'Wisin_Yandel-Algo paso.txt'
+cat >> 'Wisin_Yandel-Adrenalina.txt'
+cat >> 'Wisin_Yandel-Avanza.txt'
+cat >> 'Wisin_Yandel-Bailame.txt'
+cat >> 'Wisin_Yandel-Ahora es.txt'
+cd..
+cd ..
+ls
+cd ..
+history -w Viridiana-bash-excercise2.1.txt
+clear
+cd ..
+rm -r UserTwo/
+rm -r UseThree/
+ls
+cp -r UserOne/. UserTwo/
+cp -r UserOne/. UserThree/
+ls
+cd ..
+history Viridiana-bash-homework.tx
+history -w Viridiana-bash-homework.tx
+history -w Viridiana-bash-homework.txt
