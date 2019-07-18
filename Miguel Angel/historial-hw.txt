@@ -1,0 +1,338 @@
+cd C:
+ls -l
+cd Users
+ls -l
+cd Maeda
+ls -l
+cd 3D-Objects
+ls -l
+rm baby.3ds bike.3ds car.3ds cat.3ds child.3ds flower.3ds person.3ds rock.3ds tree.3ds wall.3ds
+ls -l
+cat > ball.3ds
+cat > cone.3ds
+cat > cube.3ds
+cat > donut.3ds
+cat > pyramid.3ds
+cat cube.3ds 
+cd ..
+cd Anime
+ls -l
+touch 'Naruto.docx' 'Bleach.docx' 'One Punch Man.docx' 'Death Note.docx' 'Dragon Ball.docx'
+ls -l
+cat > Bleach.docx 
+cat > 'Death Note.docx' 
+cat > 'Dragon Ball.docx' 
+cat > Naruto.docx 
+cat > 'One Punch Man.docx' 
+cd ..
+cd Apps
+ls -l
+rm candycrush.exe clashroyale.exe dragoncity.exe hayday.exe subwaysurfers.exe supermariones.exe crashbandicout.exe kof2002.exe pokemon.exe dragonquest.exe 
+ls -l
+cat > dbztb3.exe 
+cat > ffvii.exe
+cat > ffviii.exe
+cat > kh.exe 
+cat > narutostorm.exe
+cd ..
+cd Desktop
+ls -l
+rm 'TAREA PA MAÑANA.docx' dragonquest.lnk avast.lnk estrella.png firefox.lnk index.html medge.lnk principal.html style.css untitled.png 
+ls -l
+cat > 'LISTA DE ANIMES.docx' 
+cat > chrome.lnk 
+cat > ffvii.lnk 
+cat > kh.lnk 
+cat > spotify.lnk 
+cd ..
+cd Documents
+ls -l
+rm Practica1.docx Practica2.docx Practica3.docx Practica4.docx Practica5.docx Practica6.docx Practica7.docx Practica8.docx Practica9.docx Practica10.docx
+ls -l
+cat > Practica11.docx 
+cat > Practica12.docx 
+cat > Practica13.docx 
+cat > Practica14.docx 
+cat > Practica15.docx 
+cd ..
+cd Downloads
+ls -l
+rm 127-32.mp4 Presentacion.pptx adpjfcxttdhhvoutwamrs72.jpg example.txt f01im32dcpo88st52900rwpqn125.jpg fantasma.pdf bushido.pdf sekigahara.pdf shinobi.pdf installer_opera.exe 
+ls -l
+cat > fundamentosBasicosParaDesarrollarSistemasOrientadosAObjetosv2.pdf 
+cat > installer_chrome.exe 
+cat > installer_mozilla.exe 
+cat > installer_spotify.exe 
+cat > installer_vlc.exe 
+cd ..
+cd Pictures
+ls -l
+rm h6wh37gdv73ydf7wey37f7g736gdde7h.gif screenshot.jpg narutovssasuke32.jpg gokuss3-1005423gd42f.jpg squall-sword-12.jpg keyblade.jpg destiny-islands.png zack.png vegeta.jpg aerith-204.jpg 
+ls -l
+cat > cloud.png 
+cat > finalfantasy-screenboard.jpg 
+cat > heartless.jpg 
+cat > madara-uchiha1021.jpg 
+cat > sephiroth-42.jpg 
+cd ..
+cd Videos
+ls -l
+rm 'Naruto ep 84.mp4' 'Naruto ep 85.mp4' 'Naruto ep 86.mp4' 'Naruto ep 87.mp4' 'Naruto ep 88.mp4' 'Naruto ep 89.mp4' 'Naruto ep 90.mp4' 'Naruto ep 91.mp4' 'Naruto ep 92.mp4' 'Naruto ep 93.mp4'
+ls -l
+cat > 'Dissidia Final Fantasy.mp4' 
+cat > 'Kingdom Hearts Opening.mp4' 
+cat > 'Naruto Opening 2.mp4' 
+cat > 'Naruto ep 94.mp4' 
+cat > dbz-opening.mp4 
+cd ..
+cd Music
+ls -l
+cd 'Linkin Park'/
+ls -l
+cd ..
+rm Daft\ Punk\ -\ Around\ the\ World.mp3 Queen\ -\ We\ Will\ Rock\ You.mp3 Gorillaz\ -\ Feel\ Good\ Inc.mp3 Bruno\ Mars\ -\ The\ Lazy\ Song.mp3 Train\ -\ Hey\,\ Soul\ Sister.mp3 
+ls -l
+rm -r The\ Strokes/ Red\ Hot\ Chili\ Peppers/ Bloc\ Party/ ELLEGARDEN/ SUPER\ BEAVER/ Coldplay/ BABYMETAL/ MAN\ WITH\ A\ MISSION/ Paramore/ Panic\!\ At\ the\ Disco/
+ls -l
+cd 30\ Seconds\ to\ Mars/
+ls -l
+touch '30 Seconds to Mars - A Beautifu Lie.mp3' '30 Seconds to Mars - City of Angels.mp3' '30 Seconds to Mars - Closer to the Edge.mp3' '30 Seconds to Mars - The Mission.mp3' '30 Seconds to Mars - Hurricane.mp3'
+ls -l
+cd ..
+cd ASIAN\ KUNG-FU\ GENERATION/
+ls -l
+touch 'ASIAN KUNG-FU GENERATION - Piece of the Future.mp3' 'ASIAN KUNG-FU GENERATION - Solanin.mp3' 'ASIAN KUNG-FU GENERATION - Kimi to Iu Hana.mp3' 'ASIAN KUNG-FU GENERATION - A Town in Blue.mp3' 'ASIAN KUNG-FU GENERATION - Loop & Loop.mp3'
+ls -l
+cd ..
+cd Abingdon\ Boys\ School/
+ls -l
+touch 'Abingdon Boys School - Strength.mp3' 'Abingdon Boys School - Nephilim.mp3' 'Abingdon Boys School - Dress.mp3' 'Abingdon Boys School - We Are.mp3' 'Abingdon Boys School - Down to You.mp3'
+ls -l
+cd ..
+cd FLOW/
+ls -l
+touch 'FLOW - Days.mp3' 'FLOW - 7.mp3' 'FLOW - Hero Kibou No Uta.mp3' 'FLOW - Niji no Sora.mp3' 'FLOW - CHA-LA HEAD-CHA-LA.mp3'
+ls -l
+cd ..
+cd Fear\ and\ Loathing\ in\ Las\ Vegas/
+ls -l
+touch 'Fear and Loathing in Las Vegas - Beyond the End.mp3' 'Fear and Loathing in Las Vegas - Virtue and Vice.mp3' 'Fear and Loathing in Las Vegas - Thunderclap.mp3' 'Fear and Loathing in Las Vegas - LLLD.mp3' 'Fear and Loathing in Las Vegas - Cast Your Shield.mp3'
+ls -l
+cd ..
+cd Linkin\ Park/
+ls -l
+touch 'Linkin Park - Until its gone.mp3' 'Linkin Park - Waiting For the End.mp3' 'Linkin Park - Somewhere I Belong.mp3' 'Linkin Park - One Step Closer.mp3' 'Linkin Park - Breaking the Habit.mp3'
+ls -l
+cd ..
+cd ONE\ OK\ ROCK/
+ls -l
+touch 'ONE OK ROCK - Mighty Long Fall.mp3' 'ONE OK ROCK - We Are.mp3' 'ONE OK ROCK - Kanzen Kankaku Dreamer.mp3' 'ONE OK ROCK - Be the Light.mp3' 'ONE OK ROCK - Kimishadai Ressha.mp3'
+ls -l
+cd ..
+T.M.\ Revolution/
+cd T.M.\ Revolution/
+ls -l
+touch 'T.M. Revolution - Hesoshukujo.mp3' 'T.M. Revolution - Naked Arms.mp3' 'T.M. Revolution -Save the One, Save the All.mp3' 'T.M. Revolution - Ignited.mp3' 'T.M. Revolution - Vestige.mp3'
+ls -l
+rm 'T.M. Revolution -Save the One, Save the All.mp3' 
+touch 'T.M. Revolution - Save the One, Save the All.mp3'
+ls -l
+cd ..
+cd TK\ From\ Ling\ Tosite\ Sigure/
+ls -l
+touch 'TK From Ling Tosite Sigure - Fantastic Magic.mp3' 'TK From Ling Tosite Sigure - Furetefureru.mp3' 'TK From Ling Tosite Sigure - Contrast.mp3' 'TK From Ling Tosite Sigure - Secret Sensation.mp3' 'TK From Ling Tosite Sigure - Acoustic Installation.mp3'
+ls -l
+cd ..
+cd Wagakki\ Band/
+ls -l
+touch 'Wagakki Band - Yoshiwara Lament.mp3' 'Wagakki Band - Tsuki Kage Mai Ka.mp3' 'Wagakki Band - Akatsuki no Ito.mp3' 'Wagakki Band - Hangeki no Yaiba.mp3' 'Wagakki Band - Strong Fate.mp3' 
+ls -l
+cd ..
+cd 30\ Seconds\ to\ Mars/
+ls -l
+nano '30 Seconds to Mars - A Beautifu Lie.mp3' 
+cat '30 Seconds to Mars - A Beautifu Lie.mp3' 
+cat '30 Seconds to Mars - Attack.mp3' 
+nano '30 Seconds to Mars - Attack.mp3' 
+cat '30 Seconds to Mars - Attack.mp3' 
+nano '30 Seconds to Mars - City of Angels.mp3' 
+nano '30 Seconds to Mars - Closer to the Edge.mp3' 
+nano '30 Seconds to Mars - From Yesterday.mp3' 
+nano '30 Seconds to Mars - Hurricane.mp3' 
+rm '30 Seconds to Mars - The Killer.mp3' 
+touch '30 Seconds to Mars - The Kill.mp3' 
+ls -l
+nano '30 Seconds to Mars - The Kill.mp3' 
+nano '30 Seconds to Mars - The Mission.mp3' 
+nano '30 Seconds to Mars - This is War.mp3' 
+nano '30 Seconds to Mars - Up In the Air.mp3' 
+cat '30 Seconds to Mars - A Beautifu Lie.mp3' 
+cat '30 Seconds to Mars - Attack.mp3' 
+cat '30 Seconds to Mars - City of Angels.mp3' 
+cat '30 Seconds to Mars - Closer to the Edge.mp3' 
+cat '30 Seconds to Mars - From Yesterday.mp3' 
+cat '30 Seconds to Mars - Hurricane.mp3' 
+cat '30 Seconds to Mars - The Kill.mp3' 
+cat '30 Seconds to Mars - The Mission.mp3' 
+cat '30 Seconds to Mars - This is War.mp3' 
+cat '30 Seconds to Mars - Up In the Air.mp3' 
+cd ..
+ls -l
+cd ASIAN\ KUNG-FU\ GENERATION/
+ls -l
+nano 'ASIAN KUNG-FU GENERATION - A Town in Blue.mp3' 
+nano 'ASIAN KUNG-FU GENERATION - After Dark.mp3' 
+nano 'ASIAN KUNG-FU GENERATION - Blood Circulator.mp3' 
+nano 'ASIAN KUNG-FU GENERATION - Haruka Kanata.mp3' 
+nano 'ASIAN KUNG-FU GENERATION - Kimi to Iu Hana.mp3' 
+nano 'ASIAN KUNG-FU GENERATION - Loop & Loop.mp3' 
+nano 'ASIAN KUNG-FU GENERATION - Piece of the Future.mp3' 
+cat > 'ASIAN KUNG-FU GENERATION - Piece of the Future.mp3' 
+cat 'ASIAN KUNG-FU GENERATION - Piece of the Future.mp3' 
+nano 'ASIAN KUNG-FU GENERATION - Piece of the Future.mp3' 
+cat 'ASIAN KUNG-FU GENERATION - Piece of the Future.mp3' 
+nano 'ASIAN KUNG-FU GENERATION - Re:Re:.mp3' 
+nano 'ASIAN KUNG-FU GENERATION - Rewrite.mp3' 
+nano 'ASIAN KUNG-FU GENERATION - Solanin.mp3' 
+cat 'ASIAN KUNG-FU GENERATION - A Town in Blue.mp3' 
+cat 'ASIAN KUNG-FU GENERATION - After Dark.mp3' 
+cat 'ASIAN KUNG-FU GENERATION - Blood Circulator.mp3' 
+cat 'ASIAN KUNG-FU GENERATION - Haruka Kanata.mp3' 
+cat 'ASIAN KUNG-FU GENERATION - Kimi to Iu Hana.mp3' 
+cat 'ASIAN KUNG-FU GENERATION - Loop & Loop.mp3' 
+cat 'ASIAN KUNG-FU GENERATION - Piece of the Future.mp3' 
+cat 'ASIAN KUNG-FU GENERATION - Re:Re:.mp3' 
+cat 'ASIAN KUNG-FU GENERATION - Rewrite.mp3' 
+cat 'ASIAN KUNG-FU GENERATION - Solanin.mp3' 
+cd ..
+ls -l
+cd Abingdon\ Boys\ School/
+ls -l
+nano 'Abingdon Boys School - Blade Chord.mp3' 
+nano 'Abingdon Boys School - Down to You.mp3' 
+nano 'Abingdon Boys School - Dress.mp3' 
+nano 'Abingdon Boys School - Howling.mp3' 
+nano 'Abingdon Boys School - Innocent Sorrow.mp3' 
+nano 'Abingdon Boys School - JAP.mp3' 
+nano 'Abingdon Boys School - Kimi no Uta.mp3' 
+nano 'Abingdon Boys School - Nephilim.mp3' 
+nano 'Abingdon Boys School - Strength.mp3' 
+nano 'Abingdon Boys School - We Are.mp3' 
+cat 'Abingdon Boys School - Blade Chord.mp3' 
+cat 'Abingdon Boys School - Down to You.mp3' 
+cat 'Abingdon Boys School - Dress.mp3' 
+cat 'Abingdon Boys School - Howling.mp3' 
+cat 'Abingdon Boys School - Innocent Sorrow.mp3' 
+cat 'Abingdon Boys School - JAP.mp3' 
+cat 'Abingdon Boys School - Kimi no Uta.mp3' 
+cat 'Abingdon Boys School - Nephilim.mp3' 
+cat 'Abingdon Boys School - Strength.mp3' 
+cat 'Abingdon Boys School - We Are.mp3' 
+cd ..
+ls -l
+cd FLOW
+ls -l
+nano 'FLOW - 7.mp3' 
+nano 'FLOW - CHA-LA HEAD-CHA-LA.mp3' 
+nano 'FLOW - Colors.mp3' 
+nano 'FLOW - Days.mp3' 
+nano 'FLOW - Go!!!.mp3' 
+nano 'FLOW - Hero Kibou No Uta.mp3' 
+nano 'FLOW - Howling.mp3' 
+nano 'FLOW - Niji no Sora.mp3'
+nano 'FLOW - Re:member.mp3' 
+nano 'FLOW - Sign.mp3' 
+cd ..
+cd Fear\ and\ Loathing\ in\ Las\ Vegas/
+ls -l
+nano 'Fear and Loathing in Las Vegas - Beyond the End.mp3' 
+nano 'Fear and Loathing in Las Vegas - Cast Your Shield.mp3' 
+nano 'Fear and Loathing in Las Vegas - Chase the Light!.mp3' 
+nano 'Fear and Loathing in Las Vegas - Jump Around.mp3' 
+nano 'Fear and Loathing in Las Vegas - Just Awake.mp3' 
+nano 'Fear and Loathing in Las Vegas - LLLD.mp3' 
+nano 'Fear and Loathing in Las Vegas - Let me Hear.mp3' 
+nano 'Fear and Loathing in Las Vegas - Swing It!!.mp3' 
+nano 'Fear and Loathing in Las Vegas - Thunderclap.mp3' 
+nano 'Fear and Loathing in Las Vegas - Virtue and Vice.mp3' 
+cd ..
+cd Linkin\ Park/
+ls -l
+nano 'Linkin Park - BURN IT DOWN.mp3' 
+nano 'Linkin Park - Breaking the Habit.mp3' 
+nano 'Linkin Park - Castle of Glass.mp3' 
+nano 'Linkin Park - In the End.mp3' 
+nano 'Linkin Park - Numb.mp3' 
+nano 'Linkin Park - One Step Closer.mp3' 
+nano 'Linkin Park - Somewhere I Belong.mp3' 
+nano 'Linkin Park - Until its gone.mp3' 
+nano 'Linkin Park - Waiting For the End.mp3' 
+nano 'Linkin Park - What Ive Done.mp3' 
+cd ..
+cd ONE\ OK\ ROCK/
+ls -l
+nano 'ONE OK ROCK - Be the Light.mp3' 
+nano 'ONE OK ROCK - Clock Strikes.mp3' 
+nano 'ONE OK ROCK - Kanzen Kankaku Dreamer.mp3' 
+nano 'ONE OK ROCK - Kimishadai Ressha.mp3' 
+nano 'ONE OK ROCK - Mighty Long Fall.mp3' 
+nano 'ONE OK ROCK - Stand Out Fit In.mp3' 
+nano 'ONE OK ROCK - The Beginning.mp3' 
+nano 'ONE OK ROCK - Wasted Nights.mp3' 
+nano 'ONE OK ROCK - We Are.mp3' 
+nano 'ONE OK ROCK - Wherever you are.mp3' 
+cd ..
+ls -l
+cd T.M.\ Revolution/
+ls -l
+nano 'T.M. Revolution - Heart of Sword.mp3' 
+nano 'T.M. Revolution - Hesoshukujo.mp3' 
+nano 'T.M. Revolution - Hot Limit.mp3' 
+nano 'T.M. Revolution - Ignited.mp3' 
+nano 'T.M. Revolution - Invoke.mp3' 
+nano 'T.M. Revolution - Naked Arms.mp3' 
+nano 'T.M. Revolution - Resonance.mp3' 
+nano 'T.M. Revolution - Save the One, Save the All.mp3' }
+ls -l
+cat T.M.\ Revolution\ -\ Save\ the\ One\,\ Save\ the\ All.mp3 
+rm T.M.\ Revolution\ -\ Save\ the\ One\ Save\ the\ All.mp3 
+ls -l
+nano 'T.M. Revolution - Vestige.mp3' 
+nano 'T.M. Revolution - White Breath.mp3' 
+cd ..
+cd TK\ From\ Ling\ Tosite\ Sigure/
+ls -l
+nano 'TK From Ling Tosite Sigure - Acoustic Installation.mp3' 
+rm 'TK From Ling Tosite Sigure - Acoustic Installation.mp3' 
+touch 'TK From Ling Tosite Sigure - White Out.mp3' 
+ls -l
+nano 'TK From Ling Tosite Sigure - Contrast.mp3' 
+nano 'TK From Ling Tosite Sigure - Fantastic Magic.mp3' 
+nano 'TK From Ling Tosite Sigure - Furetefureru.mp3' 
+nano 'TK From Ling Tosite Sigure - Katharsis.mp3' 
+nano 'TK From Ling Tosite Sigure - P.S. Red I.mp3' 
+nano 'TK From Ling Tosite Sigure - Secret Sensation.mp3' 
+nano 'TK From Ling Tosite Sigure - Signal.mp3' 
+nano 'TK From Ling Tosite Sigure - Unravel.mp3' 
+nano 'TK From Ling Tosite Sigure - White Out.mp3' 
+nano 'TK From Ling Tosite Sigure - White Silence.mp3' 
+cd ..
+cd Wagakki\ Band/
+ls -l
+nano 'Wagakki Band - Akatsuki no Ito.mp3' 
+nano 'Wagakki Band - Hangeki no Yaiba.mp3' 
+nano 'Wagakki Band - Kishikaisei.mp3' 
+nano 'Wagakki Band - Rokuchounen to Ichiya Monogatari.mp3' 
+nano 'Wagakki Band - Senbonzakura.mp3' 
+nano 'Wagakki Band - Strong Fate.mp3' 
+nano 'Wagakki Band - Tengaku.mp3' 
+nano 'Wagakki Band - Tsuki Kage Mai Ka.mp3' 
+nano 'Wagakki Band - Valkyrie Ikusa Otome.mp3' 
+nano 'Wagakki Band - Yoshiwara Lament.mp3' 
+cd ..
+history
+cd ..
+cd ../..
+ls -l
+hystory -w historial-hw.txt
+history -w historial-hw.txt
