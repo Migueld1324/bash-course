@@ -1,0 +1,5 @@
+
+‘chown’ changes the user and/or group ownership of each given FILE to
+NEW-OWNER or to the user and group of an existing reference file.
+Synopsis:
+

@@ -1,0 +1,5 @@
+
+‘cat’ copies each FILE (‘-’ means standard input), or standard input if
+none are given, to standard output.  Synopsis:
+
+     cat [OPTION] [FILE]...

@@ -1,0 +1,5 @@
+
+‘mv’ moves or renames files (or directories).  Synopses:
+
+     mv [OPTION]... [-T] SOURCE DEST
+     mv [OPTION]... SOURCE... DIRECTORY

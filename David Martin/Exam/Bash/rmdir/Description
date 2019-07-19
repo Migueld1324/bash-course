@@ -1,0 +1,5 @@
+
+‘rmdir’ removes empty directories.  Synopsis:
+
+     rmdir [OPTION]... DIRECTORY...
+

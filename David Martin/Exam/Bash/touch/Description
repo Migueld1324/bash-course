@@ -1,0 +1,5 @@
+
+‘touch’ changes the access and/or modification timestamps of the
+specified files.  Synopsis:
+
+     touch [OPTION]... FILE...

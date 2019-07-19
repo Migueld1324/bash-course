@@ -1,0 +1,5 @@
+
+‘mkdir’ creates directories with the specified names.  Synopsis:
+
+     mkdir [OPTION]... NAME...
+

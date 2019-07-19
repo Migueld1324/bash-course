@@ -1,0 +1,5 @@
+
+The ‘kill’ command sends a signal to processes, causing them to
+terminate or otherwise act upon receiving the signal in some way.
+Alternatively, it lists information about signals.  Synopses:
+

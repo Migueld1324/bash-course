@@ -1,0 +1,5 @@
+
+     locate [OPTION...] PATTERN...
+
+   For each PATTERN given 'locate' searches one or more file name
+databases returning each match of PATTERN.
