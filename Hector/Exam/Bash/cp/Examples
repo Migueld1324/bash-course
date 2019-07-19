@@ -1,0 +1,1 @@
+cp -r folder/ newfolder/; cp file1 dest/; cp -r dir/ new/; cp -r folder/ ../../folder; cp file4.txt dest/

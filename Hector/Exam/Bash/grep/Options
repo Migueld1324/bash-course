@@ -1,0 +1,1 @@
+-i ignore case distinctions; -R read all files under each directory, recursively; -c count the amount of matching ocurrences

@@ -1,0 +1,1 @@
+rm file.txt; rm file2.docx; rm -r folder/; rm -r C/; rm file3.xlsx

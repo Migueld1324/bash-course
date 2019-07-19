@@ -1,0 +1,1 @@
+locate myfile; locate *.js; locate hello; locate anotherfile; locate *.css

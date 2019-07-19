@@ -1,0 +1,1 @@
+chgrp admin C/; chgrp admin2 file.txt; chgrp guest folder/; chgrp admin file.txt; chgrp admin3 folder

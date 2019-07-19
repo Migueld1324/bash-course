@@ -1,0 +1,1 @@
+mv folder/ C/; mv myfile.txt folder/; mv oldname.txt newname.txt; mv dir/ newdir/; mv old.docx new.docx

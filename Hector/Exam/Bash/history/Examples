@@ -1,0 +1,1 @@
+history -w historyfile.txt; history -10; history -c; history
