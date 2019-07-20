@@ -402,3 +402,89 @@ rm C:/Windows/System32/file12.txt
 rm C:/Windows/System32/file13.txt
 rm C:/Windows/System32/file14.txt
 rm C:/Windows/System32/file15.txt
+
+cd C:/
+cd Programs/
+
+PROGRAMS="GoogleChrome LeagueofLegends Skype Spotify VisualStudioCode"
+for PROGRAM in $PROGRAMS
+do
+  cd $PROGRAM
+  echo "Hello World!" > file1.txt
+  echo "Hello World!" > file2.txt
+  cd ..
+done
+
+cd ..
+cd Windows/
+WINDOWS="Apps Containers Cursors Debug System32"
+for FOLDER in $WINDOWS
+do
+  cd $FOLDER
+  echo "Hello World!" > file1.txt
+  echo "Hello World!" > file2.txt
+  echo "Hello World!" > file3.txt
+  echo "Hello World!" > file4.txt
+  echo "Hello World!" > file5.txt
+  cd ..
+done
+
+cd ..
+cd Users/
+USERS="User1 User2 User3"
+ARTIST="GunsNRoses IronMaiden JimiHendrix Journey Kansas LedZeppelin Megadeth Metallica Pantera PinkFloyd"
+for USER in $USERS
+do
+  cd $USER
+
+  cd Desktop/
+  echo "Hello World!" > file1.txt
+  echo "Hello World!" > file2.txt
+  echo "Hello World!" > file3.txt
+  echo "Hello World!" > file4.txt
+  echo "Hello World!" > file5.txt
+  cd ..
+
+  cd Documents/
+  echo "Hello World!" > file1.docx
+  echo "Hello World!" > file2.docx
+  echo "Hello World!" > file3.docx
+  echo "Hello World!" > file4.docx
+  echo "Hello World!" > file5.docx
+  cd ..
+  
+  cd Pictures/
+  echo "Hello World!" > file1.jpg
+  echo "Hello World!" > file2.jpg
+  echo "Hello World!" > file3.jpg
+  echo "Hello World!" > file4.jpg
+  echo "Hello World!" > file5.jpg
+  cd ..
+  
+  cd Pictures/
+  echo "Hello World!" > file1.mp4
+  echo "Hello World!" > file2.mp4
+  echo "Hello World!" > file3.mp4
+  echo "Hello World!" > file4.mp4
+  echo "Hello World!" > file5.mp4
+  cd ..
+
+  cd Music/
+  for ARTIST in $ARTISTS
+  do
+    cd $ARTIST 
+    echo "Hello World!" > song1.mp3
+    echo "Hello World!" > song2.mp3
+    echo "Hello World!" > song3.mp3
+    echo "Hello World!" > song4.mp3
+    echo "Hello World!" > song5.mp3
+    echo "Hello World!" > song6.mp3
+    echo "Hello World!" > song7.mp3
+    echo "Hello World!" > song8.mp3
+    echo "Hello World!" > song9.mp3
+    echo "Hello World!" > song10.mp3
+    cd..
+  done
+  cd ..
+  cd ..
+done
