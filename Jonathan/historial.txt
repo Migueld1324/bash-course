@@ -1,0 +1,348 @@
+: 1563297928:0;mkdir C:
+: 1563297996:0;mkdir Programs
+: 1563298003:0;mk dir Windows USers
+: 1563298013:0;mkdir Windows
+: 1563298022:0;mkdir Users
+: 1563298054:0;mkdir file1
+: 1563298072:0;cp file1
+: 1563298086:0;cp -r file1
+: 1563298091:0;cp r file1
+: 1563298101:0;cp file1 -r
+: 1563298127:0;mkdir file2
+: 1563298130:0;mkdir file3
+: 1563298134:0;mkdir file4
+: 1563298139:0;mkdir file5
+: 1563298141:0;mkdir file6
+: 1563298144:0;mkdir file7
+: 1563298146:0;mkdir file8
+: 1563298149:0;mkdir file9
+: 1563298151:0;mkdir file10
+: 1563298176:0;cd file1
+: 1563298252:0;rm -r file10
+: 1563298258:0;rm -r file2
+: 1563298267:0;rm -r file3
+: 1563298273:0;rm -r file4
+: 1563298277:0;rm -r file5
+: 1563298283:0;rm -r file6
+: 1563298289:0;rm -r file7
+: 1563298298:0;rm -r file8
+: 1563298306:0;rm -r file9
+: 1563298324:0;mkdir folder1
+: 1563298327:0;mkdir folder2
+: 1563298329:0;mkdir folder3
+: 1563298331:0;mkdir folder4
+: 1563298334:0;mkdir folder5
+: 1563298336:0;mkdir folder6
+: 1563298338:0;mkdir folder7
+: 1563298340:0;mkdir folder8
+: 1563298342:0;mkdir folder9
+: 1563298345:0;mkdir folder10
+: 1563298389:0;touch file1.txt
+: 1563298392:0;touch file2.txt
+: 1563299018:0;cp folder1 folder2
+: 1563299058:0;cd folder1
+: 1563299079:0;copy file1 folder2
+: 1563299086:0;cp file1 folder2
+: 1563299118:0;cp folder1/file1 folder2
+: 1563299127:0;cp folder1/file1 folder2/
+: 1563299170:0;cp folder1/file1.txt folder2/
+: 1563299189:0;cp folder1/file2.txt folder2/
+: 1563299195:0;ls folder2/
+: 1563299232:0;cp folder2/file1.txt folder3 
+: 1563299236:0;cp folder2/file2.txt folder3 
+: 1563299241:0;ls folder3
+: 1563299258:0;cp folder3/file1.txt folder4
+: 1563299262:0;cp folder3/file2.txt folder4
+: 1563299268:0;ls folder 4
+: 1563299272:0;ls folder4
+: 1563299287:0;cp folder4/file2.txt folder5
+: 1563299292:0;cp folder4/file1.txt folder5
+: 1563299302:0;cp folder5/file1.txt folder6
+: 1563299308:0;cp folder5/file2.txt folder6
+: 1563299316:0;cp folder7/file2.txt folder7
+: 1563299323:0;cp folder6/file2.txt folder7
+: 1563299329:0;cp folder6/file1.txt folder7
+: 1563299336:0;cp folder6/file1.txt folder8
+: 1563299341:0;cp folder6/file2.txt folder8
+: 1563299353:0;cp folder6/file2.txt folder9
+: 1563299357:0;cp folder6/file1.txt folder9
+: 1563299362:0;cp folder6/file1.txt folder10
+: 1563299368:0;cp folder6/file2.txt folder10
+: 1563299372:0;ls folder 9
+: 1563299374:0;ls folder9
+: 1563299514:0;mkdir etc
+: 1563299518:0;mkdir log
+: 1563299524:0;mkdir green
+: 1563299534:0;cd etc
+: 1563299557:0;touch file2
+: 1563299582:0;cp etc/file1 log
+: 1563299587:0;cp etc/file2 log
+: 1563299595:0;cp etc/file2 green
+: 1563299644:0;mkdir blue cp green/file1 blue
+: 1563299686:0;cd green
+: 1563299697:0;rm -r file1
+: 1563299704:0;touch file1
+: 1563303071:0;LS
+: 1563303197:0;cp blue/file1,file2 blue
+: 1563303204:0;cp blue/file1/file2 blue
+: 1563303218:0;cp blue/(file1,file2) blue
+: 1563303228:0;cp blue/file1 blue
+: 1563303236:0;cp log/file1 blue
+: 1563303240:0;cp log/file2 blue
+: 1563303260:0;cp log/file2 cp
+: 1563303262:0;cp log/file1 cp
+: 1563303275:0;clear
+: 1563303343:0;mkdir System32
+: 1563303435:0;System32/{file1,file2,file3,file4,file5,file6,file7,file8,file9,file10,file11,file12,file13,file14,file15}
+: 1563303506:0;touch System32/{file1,file2,file3,file4,file5,file6,file7,file8,file9,file10,file11,file12,file13,file14,file15}
+: 1563303561:0;mkdir System32/{dir1,dir2,dir3,dir4,dir5}
+: 1563303575:0;cd System32
+: 1563303613:0;touch dir1/{file1,file2,file3,file4,file5,file6,file7,file8,file9,file10}
+: 1563304096:0;ls dir1
+: 1563304155:0;cp dir1/{file1,file2,file3,file4,file5,file6,file7,file8,file9,file10} dir2
+: 1563304159:0;ls dir2
+: 1563304176:0;cp dir2/{file1,file2,file3,file4,file5,file6,file7,file8,file9,file10} dir3
+: 1563304266:0;cp dir3/{file1,file2,file3,file4,file5,file6,file7,file8,file9,file10} dir4
+: 1563304278:0;cp dir4/{file1,file2,file3,file4,file5,file6,file7,file8,file9,file10} dir5
+: 1563304281:0;ls dir5
+: 1563304285:0;ls dir4
+: 1563304386:0;cd ../..
+: 1563304414:0;ls -la
+: 1563304544:0;mkdir {Desktop,Documents,Downloads,Music,Pictures,Videos,Taxes,Porn,Puppies}
+: 1563304605:0;cd Downloads
+: 1563304628:0;cd Porn
+: 1563304810:0;touch Desktop/{document,document2,tesis,tesisOK,tesisOK1,tesisOKfinal,excel,spreadsheet,powerpoint,slides,publisher,image,jsonfile,note,notepad}
+: 1563305088:0;touch Documents/{file.word,file2.word,file1.ppt,file2.ppt,file3.pptx,file3.pbs,file.xls,file.vcs,file.txt,file.json,file2.mp4,file.rar,file.zip,file.ntp,files.*}
+: 1563305284:0;touch Downloads/{pelicula.mov,pelicula.mp4,pelicula.vcd,pelicula.avi,pelicula.mkv,song.mp3,song.avi,song.3gp,canciones.rar,programa.rar,aplicacion.iso,imagen.jpg,imagen.png,libro.pdf,revista.rev}
+: 1563328321:0;Windows
+: 1563328398:0;cd ls
+: 1563328404:0;cd cp
+: 1563328468:0;ls folder 2
+: 1563328473:0;ls folder2
+: 1563328684:0;cp System32/dir1 cp
+: 1563328693:0;cp System32 cp
+: 1563328707:0;cp System32 /cp
+: 1563330512:0;pwd
+: 1563330531:0;cd Programs
+: 1563330555:0;cd Windows
+: 1563330595:0;ls System32/dir1
+: 1563330708:0;cd blue
+: 1563330760:0;touch etc/{file3,file4,file5}
+: 1563330805:0;cp etc/{file3,file4,file5} blue
+: 1563331178:0;cp etc/{file3,file4,file5} cp
+: 1563331183:0;ls cp
+: 1563331197:0;cp etc/{file3,file4,file5} green
+: 1563331224:0;cp etc/{file3,file4,file5} log
+: 1563331272:0;touch log/{file6,file7,file8,file9,file10}
+: 1563331274:0;ls log
+: 1563331321:0;cp log/{file6,file7,file8,file9,file10}e3,file4,file5} green
+: 1563331337:0;cp log/{file6,file7,file8,file9,file10} green
+: 1563331340:0;ls green
+: 1563331350:0;cp log/{file6,file7,file8,file9,file10} etc
+: 1563331354:0;cp log/{file6,file7,file8,file9,file10} cp
+: 1563331358:0;cp log/{file6,file7,file8,file9,file10} blue
+: 1563331362:0;ls etc
+: 1563331365:0;ls blue
+: 1563331404:0;ls System32
+: 1563331469:0;cd Desktop
+: 1563331500:0;la Downloads
+: 1563331727:0;touch Pictures/{imagen1.jpg,image2.png,img3.psd,imagen4.pic,img5.dib,img6.atcd,playa.img,torre.jpeg,vacaciones.png,verano10.png,casa.rgb,familia.png,test.jpg,invierno.jpeg,tacos.png}
+: 1563333125:0;cd projects
+: 1563333129:0;history
+: 1563333154:0;cd cursoBash
+: 1563333159:0;cd C:
+: 1563333171:0;cd Users
+: 1563333228:0;ls Documents
+: 1563333232:0;ls Downloads
+: 1563333238:0;ls Pictures
+: 1563333538:0;touch Music/{vuelve1.mp3,toxicity2.mp3,chop_suey3.mp3,bed_of_roses4.mp3,torn5.mp3,getout6.mp3,rastamandita7.mp3,controlMachete8.mp3,la_mordidita9.mp3,veneno10.mp3,malherido11.mp3,crazy12.mp3,carencia13.mp3,frijolero14.mp3,despacito15.mp3}
+: 1563333542:0;ls music
+: 1563333586:0;ls Desktop
+: 1563333600:0;lsman history
+: 1563333603:0;man history
+: 1563333681:0;history -W
+: 1563333696:0;ls 
+: 1563334215:0;touch Videos/{lord_of_the_rings.mp4,Vanilla_sky.avi,big_hero_6.vcd,Avengers.mp4,robocop.avi,terminator.mp4,terminator2.avi,terminator3.mkv,the_revenant.mp4,spiderman.mp4,thor.avi,shazam.vcd,the_lion_king.mp4,aladdin.avi}
+: 1563334263:0;touch Videos/{tron.mp4,queen.avi}
+: 1563334267:0;ls Videos
+: 1563334488:0;touch Porn/{asa_akira,alexis_texas,brandi_love,lisa_ann,abella_danger,capri,holly_michaels,ava_addams,arianna_knight,lanny_barbie,esperanza_gomez,angela_white,valerie_key,franceska_james,jayden_james}
+: 1563334491:0;ls Porn
+: 1563334633:0;touch Puppies/{rothwiller,cody,mastin,labrador,220,mestizo,petra,catrina,pastor_aleman,husky,lobo,bulldog,salchicha,lassie,beethoven,k9}
+: 1563334641:0;ls Puppies
+: 1563334785:0;touch Taxes/{taxesYear2000,taxesYear2001,taxesYear2002,taxesYear2004,taxesYear2005,taxesYear2006,taxesYear2008,taxesYear2010,taxesYear2011,taxesYear2012,taxesYear2014,taxesYear2015,taxesYear2016,taxesYear2017,taxesYear2018}
+: 1563334790:0;ls Taxes
+: 1563334875:0;mkdir Music/{molotov,juanga,chepe_chepe,la_arrolladora_banda_limon,creed}
+: 1563334890:0;ls -a
+: 1563334904:0;ls -l Music
+: 1563334911:0;ls -a Music
+: 1563335066:0;touch chepe_chepe/{payaso.mp3,farolero.mp3,la_nave_del_olvido.mp3,anda_y_ve.mp3,el_triste.mp3}
+: 1563335323:0;touch {kabah,fey,rock_en_tu_idioma,joan_sebastian,valentin_elizalde,juanes,cranberries,ricky,laura paussini,cors,michael jackson,calo,velvet revolver,naruto OST,caifanes}
+: 1563335341:0;cd ..
+: 1563335350:0;touch Music/{kabah,fey,rock_en_tu_idioma,joan_sebastian,valentin_elizalde,juanes,cranberries,ricky,laura paussini,cors,michael jackson,calo,velvet revolver,naruto OST,caifanes}
+: 1563335377:0;touch Music/{kabah,fey,rock_en_tu_idioma,joan_sebastian,valentin_elizalde,juanes,cranberries,ricky,laura_paussini,cors,michael_jackson,calo,velvet_revolver,naruto_OST,caifanes}
+: 1563335382:0;cd Music
+: 1563335424:0;mkdir Music/{kabah,fey,rock_en_tu_idioma,joan_sebastian,valentin_elizalde,juanes,cranberries,ricky,laura_paussini,cors,michael_jackson,calo,velvet_revolver,naruto_OST,caifanes}
+: 1563335430:0;ls Music
+: 1563335484:0;mv Music/{kabah,fey,rock_en_tu_idioma,joan_sebastian,valentin_elizalde,juanes,cranberries,ricky,laura paussini,cors,michael jackson,calo,velvet revolver,naruto OST,caifanes} ../Music
+: 1563335561:0;rm -r Music
+: 1563335625:0;rm -r Music/{kabah,fey,rock_en_tu_idioma,joan_sebastian,valentin_elizalde,juanes,cranberries,ricky,laura_paussini,cors,michael_jackson,calo,velvet_revolver,naruto_OST,caifanes}
+: 1563335648:0;rm -r {kabah,fey,rock_en_tu_idioma,joan_sebastian,valentin_elizalde,juanes,cranberries,ricky,laura_paussini,cors,michael_jackson,calo,velvet_revolver,naruto_OST,caifanes}
+: 1563335656:0;y
+: 1563335686:0;mkdir {kabah,fey,rock_en_tu_idioma,joan_sebastian,valentin_elizalde,juanes,cranberries,ricky,laura_paussini,cors,michael_jackson,calo,velvet_revolver,naruto_OST,caifanes}
+: 1563335687:0;ls
+: 1563335695:0;ls -l
+: 1563335928:0;touch caifanes/{la_celula_que_explota.mp3,mi_ojo_de_venado.mp3,la_negra_tomasa.mp3,viento.mp3,matenme_porque_me_muero.mp3}
+: 1563336023:0;touch calo/{formas_de_amor.mp3,el_cubo.mp3,ponte_atento.mp3,no_puedo_mas.mp3,colegiala.mp3}
+: 1563336033:0;ls chepe_chepe
+: 1563336136:0;touch cors/{breathless.mp3,what_can_i_do.mp3,all_the_love_in_the_world.mp3,runaway.mp3,radio.mp3}
+: 1563336139:0;ls cors
+: 1563336219:0;touch cranberries/{zombie.mp3,dreams.mp3,linger.mp3,promises.mp3,why?.mp3}
+: 1563336228:0;ls cranberries
+: 1563336294:0;touch creed/{my_sacrifice.mp3,lullaby.mp3,higher.mp3,one.mp3,bullets.mp3}
+: 1563336361:0;touch fey/{azucar_amargo.mp3,popocatepetl.mp3,muevelo.mp3,frio.mp3,subidon.mp3}
+: 1563336439:0;touch joan_sebastian/{25rosas.mp3,idiota.mp3,me_gustas.mp3,rumores.mp3,juliantla.mp3}
+: 1563336497:0;touch juanes/{la_camisa_negra.mp3,no_creo_en_el_jamas.mp3,yerbatero.mp3,la_paga.mp3,mala_gente.mp3}
+: 1563336555:0;touch juanga/{abrazame_muy_fuerte.mp3,querida.mp3,caray.mp3,asi_fue.mp3,amor_eterno.mp3}
+: 1563336606:0;touch kabah/{la_calle_de_las_sirenas.mp3,vive.mp3,antro.mp3,estare.mp3,al_pasar.mp3}
+: 1563336699:0;touch la_arrolladora_banda_limon/{sobre_mis_pies.mp3,huele_a_peligro.mp3,cabecita_dura.mp3,y_que_quede_claro.mp3,mas_adelante.mp3}
+: 1563336778:0;touch laura_paussini/{viveme.mp3,en_cambio_no.mp3,laura.mp3,bienvenido.mp3,vive_ya.mp3}
+: 1563336833:0;touch michael_jackson/{thriller.mp3,billie_jean.mp3,beat_it.mp3,bad.mp3,dangerous.mp3}
+: 1563336877:0;touch molotov/{puto.mp3,cerdo.mp3,frijolero.mp3,rastamandita.mp3,gimme_the_power.mp3}
+: 1563336991:0;cd projects
+: 1563336994:0;cd cursoBash
+: 1563336998:0;cd C:
+: 1563337001:0;cd Users
+: 1563337003:0;cd Music
+: 1563337004:0;ls
+: 1563337015:0;ls -l
+: 1563337057:0;touch naruto_OST/{flow.mp3,haruka_kanata.mp3,go.mp3,guren.mp3,heros_come_back.mp3}
+: 1563337096:0;touch ricky/{la_copa_de_la_vida.mp3,vuelve.mp3,volveras.mp3,pegadito.mp3,maria.mp3}
+: 1563337156:0;touch rock_en_tu_idioma/{musica_ligera.mp3,plastico_fino.mp3,mi_aguita_amarilla.mp3,sin_aliento.mp3,la_ciudad_de_la_furia.mp3}
+: 1563337214:0;touch valentin_elizalde/{lobo_domesticado.mp3,satisfaccion.mp3,volvere_a_amar.mp3,vencedor.mp3,soy_asi.mp3}
+: 1563337286:0;touch velvet_revolver/{the_last_fight.mp3,big_machine.mp3,let_it_rol.mp3,she_mine.mp3,spectacle.mp3}
+: 1563337295:0;history
+: 1563337433:0;rm -r {bed_of_roses4.mp3,carencia13.mp3,chop_suey3.mp3,controlMachete8.mp3,crazy12.mp3,despacito15.mp3,frijolero14.mp3,getout6.mp3,la_mordidita9.mp3,malherido11.mp3,rastamandita7.mp3,torn5.mp3,toxicity2.mp3,veneno10.mp3,vuelve1.mp3}
+: 1563337442:0;ls
+: 1563337451:0;cd ../..
+: 1563337452:0;ls
+: 1563337461:0;cd users
+: 1563337463:0;ls
+: 1563337783:0;cd ..
+: 1563337786:0;cd Users
+: 1563338035:0;mkdir {admi,elJona,guest}
+: 1563338037:0;ls
+: 1563338074:0;mv Desktop admi
+: 1563338077:0;ls
+: 1563338167:0;mv {Documents/,Downloads,Music/,Pictures/,Porn/,Puppies/,Taxes/,Videos/} admi
+: 1563338169:0;ls
+: 1563338175:0;ls admi
+: 1563338282:0;cp admi/{Documents/,Downloads,Music/,Pictures/,Porn/,Puppies/,Taxes/,Videos/} elJona
+: 1563338301:0;cp admi elJona
+: 1563338309:0;ls elJona
+: 1563338313:0;ls admi
+: 1563338375:0;cp -r admi/{Documents/,Downloads,Music/,Pictures/,Porn/,Puppies/,Taxes/,Videos/} elJona
+: 1563338379:0;ls admi
+: 1563338381:0;ls elJona
+: 1563338409:0;ls
+: 1563338417:0;rm -r elJona
+: 1563338465:0;y
+: 1563338470:0;ls elJona
+: 1563338473:0;ls
+: 1563338482:0;rm -r elJona
+: 1563338505:0;y
+: 1563338513:0;rm -r elJona
+: 1563338518:0;y
+: 1563338525:0;rm -r elJona
+: 1563338528:0;;s
+: 1563338530:0;ls
+: 1563338593:0;ls admi
+: 1563338603:0;mkdir elJona
+: 1563338620:0;cp admi/Documents elJona
+: 1563338633:0;cp admi/Desktop elJona
+: 1563338671:0;cp -r admi/Desktop elJona
+: 1563338674:0;ls elJona
+: 1563338689:0;cp -r admi/Downloads elJona
+: 1563338712:0;cp -r admi guest
+: 1563338716:0;ls guest
+: 1563338737:0;ls
+: 1563338743:0;cd guest
+: 1563338751:0;cd ..
+: 1563338766:0;rm -r guest/admi
+: 1563338840:0;y
+: 1563338847:0;rm -r guest/admi
+: 1563338869:0;y
+: 1563338872:0;rm -r guest/admi
+: 1563338874:0;ls
+: 1563338879:0;ls guest
+: 1563338897:0;ls admi
+: 1563338925:0;cp -r admi/Desktop guest
+: 1563338928:0;ls guest
+: 1563338938:0;cp -r admi/Documents guest
+: 1563338944:0;cp -r admi/Downloads guest
+: 1563338951:0;cp -r admi/Music guest
+: 1563338958:0;cp -r admi/Pictures guest
+: 1563338964:0;cp -r admi/Porn guest
+: 1563338970:0;cp -r admi/Puppies guest
+: 1563338976:0;cp -r admi/Taxes guest
+: 1563338981:0;cp -r admi/Videos guest
+: 1563339018:0;ls elJona
+: 1563339026:0;ls guest
+: 1563339046:0;cp -r admi/Documents elJona
+: 1563339058:0;cp -r admi/Music elJona
+: 1563339064:0;cp -r admi/Pictures elJona
+: 1563339071:0;cp -r admi/Porn elJona
+: 1563339078:0;cp -r admi/Puppies elJona
+: 1563339085:0;cp -r admi/Taxes elJona
+: 1563339092:0;cp -r admi/Videos elJona
+: 1563339096:0;ls
+: 1563339100:0;ls admi
+: 1563339104:0;ls guest
+: 1563339107:0;ls elJona
+: 1563339323:0;history > historial.txt
+: 1563339330:0;cat historial.txt
+: 1563339451:0;export HISTTIMEFORMAT='%F %T : '
+: 1563339457:0;history
+: 1563339488:0;echo "export HISTTIMEFORMAT='%F %T : '" >> $HOME/.bashrc
+: 1563339490:0;history
+: 1563339515:0;history -a
+: 1563339603:0;history | tail 200
+: 1563339608:0;history | tail -200
+: 1563339619:0;history | tail -2000
+: 1563339757:0;cat historial.txt
+: 1563339783:0;history
+: 1563339829:0;cat ~/.zsh_history
+: 1563339849:0;locate bash_history
+: 1563339860:0;cat ~/.bash_history
+: 1563339886:0;locate _history
+: 1563339928:0;history
+: 1563339947:0;vim ~/.bash_history
+: 1563339969:0;vim ~/.zsh_history
+: 1563340027:0;ls -al ~/
+: 1563340058:0;vim ~/.zhistory
+: 1563340206:0;cat ~/.zhistory | tail -200
+: 1563340283:0;vim ~/.zhistory
+: 1563340397:0;cat ~/.zhistory > historial.txt
+: 1563340405:0;cat historial.txt
+: 1563340413:0;rm -r historial.txt
+: 1563340417:0;cat ~/.zhistory > historial.txt
+: 1563340422:0;cat historial.txt
+: 1563340435:0;nano historial.txt
+: 1563340571:0;vim historial.txt
+: 1563340854:0;cd ..
+: 1563340890:0;git clone git@github.com:Migueld1324/bash-course.git
+: 1563340894:0;ls
+: 1563340903:0;cd bash-course
+: 1563340904:0;ls
+: 1563341065:0;git branch -b elJona-bash-exercise1
+: 1563341111:0;git checkout -b elJona-bash-exercise1
+: 1563341114:0;ls
+: 1563341124:0;git branch
+: 1563341222:0;ls Jonathan
+: 1563341226:0;git branch
+: 1563341264:0;cd ..
+: 1563341265:0;ls
+: 1563341279:0;cd bash-course
+: 1563341283:0;ls
+: 1563341287:0;git branch
+: 1563341324:0;cd Jonathan
+: 1563341342:0;cat ~/.zhistory > historial.txt
