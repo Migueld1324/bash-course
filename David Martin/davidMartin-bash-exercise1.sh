@@ -1,12 +1,14 @@
-cd /
-ls
-cd mnt/c/Users/silva/Desktop/cmder
-git clone https://github.com/Migueld1324/bash-course.git
-ls
-cd bash-course
-git checkout -b silva
-ls
-cd 'David Martin'/
+#!/bin/bash
+
+# cd /
+# ls
+# cd mnt/c/Users/silva/Desktop/cmder
+# git clone https://github.com/Migueld1324/bash-course.git
+# ls
+# cd bash-course
+# git checkout -b silva
+# ls
+# cd 'David Martin'/
 mkdir -p C/{Programs,Windows,Users,move}
 cd C
 cd Programs
@@ -40,7 +42,7 @@ mv move/folder* Windows
 rm -r move
 cd Windows/Systems32
 touch file1 file2 file3 file4 file5 file6 file7 file8 file9 file10 file11 file12 file13 file14 file15
-cd ..
+cd ../../Users
 mkdir -p User1/{Desktop,Documents,Pictures,Videos,Comics,Videogames,Books}
 cd User1
 mkdir Downloads Music
@@ -88,11 +90,10 @@ cp -r Artist1/. Artist2/
 cp -r Artist1/. Artist3/
 cp -r Artist1/. Artist4/
 cp -r Artist1/. Artist5/
-cd ..
+cd ../../
 ls
-cp -r User1/. Users/User1/
-cp -r User1/. Users/User2/
-cp -r User1/. Users/User3/
-rm -r User1
+cp -r User1/. User1/
+cp -r User1/. User2/
+cp -r User1/. User3/
 ls
 history -w silva-bash-exercise1.txt
