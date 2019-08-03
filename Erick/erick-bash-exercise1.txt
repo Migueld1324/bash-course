@@ -1,0 +1,96 @@
+    1  mkdir -p C/{Programs,Windows,Users} 
+    2  cd C/Programs
+    3  mkdir install | touch install/{bin,src}
+    4  ls
+    5  cp -r install htdocs
+    6  cp -r install img
+    7  cp -r install locale
+    8  cp -r install mysql
+    9  cp -r install anonymous
+   10  cp -r install src
+   11  cp -r install contrib
+   12  cp -r install cgi-bin
+   13  ls
+   14  cat img
+   15  img ls
+   16  ls instal/
+   17  cd install
+   18  ls
+   19  cd ..
+   20  cd Windows/
+   21  mkdir addins | touch addins/{acRes.dll,drvmain.sbd,frxmain.sdc,pcamain.sdb,sysmain.sdb,system,twain_32.dll,win,readme.txt,write}
+   22  ls
+   23  cd -r addins appcompat
+   24  cp -r addins appcompat 
+   25  cp -r addins apppatch
+   26  cp -r addins apppatchAppReadiness
+   27  cp -r addins Boot
+   28  ls
+   29  mkdir System32 | touch System32/{alg,amsi.dll,apphelp.dll,amsiproxy.dll,apds.dll,appdapi.dll,readme.txt,aeevts.dll,AdvancedEmojiDS.dll,at,attrib,atl.dll,AtBroker}
+   30  cd System32/
+   31  mkdir 0409 | touch /0409{driver,bootcat.cache,comandmin.dll,comempty.dat,comrepl,MigRegDB,mtsadmin.tlb,MoIME_ps.dll,ResourceDII.dll}
+   32  mkdir 0409 | touch /0409{file1,file2,file3,file4,file5,file6,file7,file8,file9,file10}
+   33  mkdir Folder1 
+   34  touch Folder1/{file1,file2,file3,file4,file5,file6,file7,file8,file9,file10}
+   35  cp -r Folder1 AppLocker
+   36  cp -r Folder1 Configuration
+   37  cp -r Folder1 config
+   38  cp -r Folder1 com
+   39  cd ..
+   40  cd Users
+   41  mkdir -p Erick{Desktop,Documents,Downloads,Music,Pictures,Videos,School,Personal,Code}
+   42  cd Erick
+   43  ls
+   44  cd ..
+   45  rm -r Users
+   46  mkdir Users
+   47  cd Users
+   48  mkdir -p Erick/{Desktop,Documents,Downloads,Music,Pictures,Videos,School,Personal,Code}
+   49  ls
+   50  cd Erick
+   51  touch Desktop/{MiPc,Spotify,Trash,VSC,Skype,Chrome,Ubuntu,Cmder,Directories,MyDocuments,AntiVirus,Store,Whatsapp,Slack}
+   52  touch Documents/{Katas,node,apache,tesis,tesis2,homework,expo,repo,repo2,repomalo,repoPruebas,shit,shit2,finishedHomeWorkNeverdonexD}
+   53  touch Downloads/{song,cmder.exe,ubuntu_install,skype.exe,VSC.exe,readmeagain,readmenow,readmenot.exe,notavirus.exe,notporn.exe,isporn.exe,stolenhomework,tomorrowExam,pics,landscapePics,nudepics}
+   54  touch Pictures/{me.png,you.png,hi.png,she.png,it.png,us.png,they.png,those.png,mom.png,dad.png,wife.png,son.png,son2.png,bikes.png,jumps.png}
+   55  ls
+   56  touch Videos/{gatitos,perritos,tutoriales,clases,lecciones,opera,lotr,lotr2,lotr3,harry_potter1,2,3,4,5,6,7}
+   57  touch School/{lastyearexam,exam1,exam2,tommorrowsexam,girlsnumber,teachersnumber,math,spanish,ingles,quimica,fisica,trigonometria,theory,teoria}
+   58  touch Code/{kata1,kata2,kata2nuevo,kata1implemented,kata3,kata4,kata5,kata1again,kata2,kata7,kata9,kata12,kata13,kata14,kata15}
+   59  touch Personal/{ife,curp,rfc,birthact,cv,cv2,cvelbueno,cvparaotracosa,cvantiguo,biografia,cartilla,militar,certificado,de,nacimiento,jeje}
+   60  cd Music/
+   61  mkdir -p{Opeth,StevenWilson,Blink182,Beethoven,Berlioz,Brahms,Chopin,Sibelius,Tool,SteveVai,GaryClarkJr,TomMorello,PorcupineTree,AshesDivide,APerfectCircle,TheProdigy,RageAgainsttheMachine,RedHotChilliPeppers,Radiohead,Ratatat}
+   62  mkdir {Opeth,StevenWilson,Blink182,Beethoven,Berlioz,Brahms,Chopin,Sibelius,Tool,SteveVai,GaryClarkJr,TomMorello,PorcupineTree,AshesDivide,APerfectCircle,TheProdigy,RageAgainsttheMachine,RedHotChilliPeppers,Radiohead,Ratatat}
+   63  ls
+   64  touch APerfectCircle/{Judith.mp3,TheOutsider.mp3,3Libras.mp3,TheDoomed.mp3,Passive.mp3}
+   65  touch AshesDivide/{TheStone.mp3,StrippedAway.mp3,ForeverCanBe.mp3,Sword.mp3,DenialWaits.mp3}
+   66  touch Beethoven/{Symphonyno1.mp3,SonataPiano.mp3,sonataviolin.mp3,sonatacello.mp3,conciertoviolin.mp3}
+   67  touch Berlioz/{FantasticSymphony,RomeoyJulieta.mp3,LesTroyens.mp3,fantasiadramatica.mp3,condenaciondefausto.mp3}
+   68  touch Blink182/{AllTheSmallThings.mp3,IMissYou.mp3,Adamssong.mp3,FirstDate.mp3,StayTogetherForTheKids.mp3}
+   69  touch Brahms/{Sinfonia1.mp3,sinfonia2.mp3,sinfonia3.mp3,sinfonia4.mp3,requiemaleman.mp3}
+   70  touch Chopin/{nocturno.mp3,diurno,concierto,waltz,etude}
+   71  touch GaryClarkJr/ComeTogether.mp3,CantStopTheBleeding.mp3,LowDownRollingStone.mp3,ThisLand,PearlCadillac.mp3}
+   72  cd GaryClarkJr/
+   73  ls
+   74  rm ComeTogether.mp3,CantStopTheBleeding.mp3,LowDownRollingStone.mp3,ThisLand,PearlCadillac.mp3} 
+   75  cd ..
+   76  touch GaryClarkJr/{ComeTogether.mp3,CantStopTheBleeding.mp3,LowDownRollingStone.mp3,ThisLand,PearlCadillac.mp3}
+   77  touch Opeth/{Windowpane.mp3,InMyTimeofNeed.mp3,Burden.mp3,GhostofPerdition.mp3,Sorceress.mp3}
+   78  touch PorcupineTree/{Trains.mp3,BlackestEyes.mp3,Lazarus.mp3,TheSoundOfMuzak.mp3,ArrivingSomewhereButNotHere.mp3}
+   79  touch Radiohead/{Creep.mp3,KarmaPolice.mp3,HighAndDry.mp3,NoSurprises.mp3,FakePlasticTrees.mp3}
+   80  touch RageAgainsttheMachine/{KillingInTheName.mp3,BulsOnParade.mp3,GuerrillaRadio.mp3,Testify.mp3,SleepNowIntheFire.mp3}
+   81  touch Ratatat/{LoudPipes.mp3,Wildcat.mp3,CreamOnChrome.mp3,SeventeenYears.mp3,Lex.mp3}
+   82  touch RedHotChilliPeppers/{Californication.mp3,UndertheBridge.mp3,CantStop.mp3,Snow.mp3,Otherside.mp3}
+   83  touch Sibelius/{Valsetriste.mp3,conciertoviolin.mp3,sinfonia1.mp3,sinfonia2.mp3,sinfonia3.mp3}
+   84  touch SteveVai/{ForTheLoveOfGod.mp3,TenderSurrender.mp3,HaloThemeGungnirMix.mp3,BadHorsie.mp3,EroticNightmares.mp3}
+   85  touch StevenWilson/{Pariah.mp3,DriveHome.mp3,TheSameAsylum.mp3,ToTheBone.mp3,Permanating.mp3}
+   86  touch TheProdigy/{Brathe.mp3,SmackMyBitchUp.mp3,Firestarter.mp3,OutofSpace.mp3,Omen.mp3}
+   87  touch TomMorello/{CantStopTheBleeding.mp3,PacificRim.mp3,ThisTrainisBoundforGlory.mp3,Blood.mp3,EveryStepThatITake.mp3}
+   88  touche Tool/{Vicarious.mp3,ThePot.mp3,TheSober.mp3,RightinTwo.mp3}
+   89  touch Tool/{Vicarious.mp3,ThePot.mp3,TheSober.mp3,RightinTwo.mp3}
+   90  cd ..
+   91  cp -r Erick Algren
+   92  cp -r Erick Arun
+   93  cd ..
+   94  ls
+   95  rm erick-bash-exercise1.txt 
+   96  history > erick-bash-exercise1.txt
