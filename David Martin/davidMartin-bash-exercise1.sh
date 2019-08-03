@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream:David Martin/davidMartin-bash-exercise1.sh
 #!/bin/bash
 
 # cd /
@@ -9,6 +10,17 @@
 # git checkout -b silva
 # ls
 # cd 'David Martin'/
+=======
+cd / 
+ls
+cd mnt/c/Users/silva/Desktop/cmder
+git clone https://github.com/Migueld1324/bash-course.git
+ls
+cd bash-course
+git checkout -b silva
+ls
+cd 'David Martin'/
+>>>>>>> Stashed changes:David Martin/davidMartin-bash-exercise1.txt
 mkdir -p C/{Programs,Windows,Users,move}
 cd C
 cd Programs
