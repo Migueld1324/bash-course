@@ -1,0 +1,219 @@
+    1  mkdir C C/Programs C/Windows C/Users
+    2  cd C
+    3  ls
+    4  mkdir Programs/Dolby Programs/GIT Programs/Intel Programs/Iexplorer Programs/Lenovo Programs/Mcafee Programs/nodejs Programs/Realtek Programs/Synaptics Programs/rempl
+    5  touch C/Programs/Dolby/Demo.txt C/Programs/Dolby logo.png
+    6  cd Programs
+    7  ls
+    8  touch Dolby/demo.txt Dolby/logo.png
+    9  touch GIT/license.txt GIT/notes.txt
+   10  touch Ixplorer/notes.txt Iexplorer/export.js
+   11  touch Iexplorer/notes.txt
+   12  touch Intel/license.txt Intel/ver.dll
+   13  touch Lenovo/modern.txt Lenovo/winmd.dll
+   14  touch Mcafee/viewer.png Mcafee/license.txt
+   15  touch Realtek/license.txt Realtek/adctl.png
+   16  touch Synaptics/tap.txt Synaptics/cortana.png
+   17  touch nodejs/license.txt nodejs/notes.dll
+   18  touch rempl/logo.png rempl/sedsvc.dll
+   19  cd ..
+   20  cd Windows
+   21  mkdir Boot Fonts Branding Help IME
+   22  ls
+   23  touch Boot/boot1.txt Boot/boot2.txt Boot/boot3.txt Boot/boot4.txt Boot/boot5.txt Boot/boot6.dll Boot/boot7.dll Boot/boot8.dll Boot/boot9.dll Boot/boot10.dll
+   24  touch Branding/Br1.txt Branding/BR2.txt Branding/Br3.txt Branding/Br4.txt Branding/br5.txt Branding/Br6.dll Branding/Br7.dll Branding/Br8.dll Branding/Br9.dll Branding/Br10.dll
+   25  touch Fonts/1.dll Fonts/2.dll Fonts/3.dll Fonts/4.dll Fonts/5.dll Fonts/6.txt Fonts/7.txt Fonts/8.txt Fonts/9.txt Fonts/10.txt
+   26  touch Help/H1.dll Help/H2.dll Help/H3.dll Help/H4.dll Help/H5.dll Help/H6.txt Help/H7.txt Help/H8.txt Help/H9.txt Help/H10.txt
+   27  touch IME/1.txt IME/2.txt IME/3.txt IME/4.txt IME/5.txt IME/6.dll IME/7.dll IME/8.dllIME/9.dll IME/10.dll
+   28  touch IME/8.dll IME/9.dll
+   29  mkdir System32
+   30  cd System32
+   31  touch 1.txt 2.txt 3.txt 4.txt 5.txt 6.txt 7.txt 8.txt 9.txt 10.txt 11.txt 13.txt 13.txt 14.txt 15.txt
+   32  mkdir 1 2 3 4 5 
+   33  touch 1/1.txt 1/2.txt 1/3.txt 1/4.txt 1/5.txt 1/6.txt 1/7.txt 1/8.txt 1/9.txt 1/10.txt
+   34  touch 2/1.dll 2/2.dll 2/3.dll 2/4.dll 2/5.dll 2/6.dll 2/7.dll 2/8.dll 2/9.dll 2/19.dll
+   35  touch 3/1.txt 3/2.txt 3/3.txt 3/4.txt 3/5.txt 3/6.txt 3/7.txt 3/8.txt 3/9.txt 3/10.txt
+   36  touch 4/1.dll 4/2.dll 4/3.dll 4/5.dll 4/6.dll 4/7.dll 4/8.dll 4/9.dll 4/10.dll
+   37  touch 5/1.dll 5/2.txt 5/3.dll 5/4.txt 5/5.dll 5/6.txt 5/7.dll 5/8.txt 5/9.dll 5/10.txt
+   38  ls
+   39  cd 3
+   40  ls
+   41  cd ..
+   42  cd Users
+   43  cd User
+   44  cd ..
+   45  cd Users
+   46  mkdir user1 user2 user3
+   47  cd user1
+   48  mkdir Desktop Documents Downloads Music Pictures Video tarea git bash
+   49  touch Desktop/1.ico Desktop/2.ico Desktop/3.ico Desktop/4.ico Desktop/5.ico Desktop/6.ico Desktop/7.ico Desktop/8.ico Desktop/9.ico Desktop/10.ico Desktop/11.ico Desktop/12.ico Desktop/13.ico Desktop/14.ico Dekstop/15.ico
+   50  touck Desktop/15.ico
+   51  touch Desktop/15.ico
+   52  touch Documents/tarea1.pdf Documents/tarea2.pdf Documents/tarea3.pdf Documents/tarea4.pdf Documents/tarea5.pdf Documents/expo1.ppt Documents/expo2.ppt Documents/expo3.ppt Documents/expo4.ppt Documents/expo5.ppt Documents/inv1.doc Documents/inv2.doc Documents/inv3.doc Documents/inv4.doc Documents/inv5.doc
+   53  touch Downloads/1.png Downloads/2.png Downloads/3.png Downloads/4.png Downloads/5.png Downloads/p1.exe Downloads/p2.exe Downloads/p3.exe Downloads/94.exe Downloads/p5.exe Downloads/1.doc Downloads/2.xls Downloads/3.ppt Downloads/4.pdf Downloads/5.txt
+   54  touch Pictures/1.png Pictures/2.png Pictures/2.png Pictures/3.png Pictures/4.png Pictures/5.png Pictures/6.jpg Pictures/7.jpg Pictures/8.jpg Pictures/9.jpg Pictures/10.jpg Pictures/11.gif Pictures/12.gif Pictures/13.gif Pictures/14.gif Pictures/15.gif
+   55  ls 
+   56  cd bash
+   57  touch 1.SH 2.SH 3.SH 4.SH 5.SH 6.SH 7.SH 8.SH 9.SH 10.SH 11.SH 12.SH 13.SH 14.SH 15.SH
+   58  cd ..
+   59  cd git
+   60  touch 1.git 2.git 3.git 4.git 5.git 6.git 7.git 8.git 9.git 10.git 11.git 12.git 13.git 14.git 15.git
+   61  cd ..
+   62  cd tarea
+   63  touch tarea1.doc tarea2.doc tarea3.doc tarea4.doc tarea5.doc tarea6.pdf tarea7.pdf tarea8.pdf tarea9.pdf tarea10.pdf tarea11.xls tarea12.xls tarea13.xls tarea14.xls tarea15.xls
+   64  cd ..
+   65  cd Video
+   66  touch antman.mp4 avengers.mp4 thor.mp4 ironman.mp4 hulk.mp4 captainamerica.mp4 ageofultron.mp4 infinitywar.mp4 endgame.mp4 blackpanther.mp4 spiderman.mp4 civilwar.mp4 ragnarok.mp4 wintersoldier.mp4 drstrange.mp4
+   67  cd ..
+   68  cd Music
+   69  mkdir caifanes jaguares fobia sabaton disturbed atreyu greenday linkinpark paparoach limpbizkit korn metallica mudvayne heroesdelsilencio panda ozzy malditavecindad cuca cafetacvba sodastereo
+   70  ls
+   71  cd atreyu
+   72  tocuch lipglossandblack.mp3 rightsideofthebed.mp3 oursickstory.mp3 whentwoareone.mp3 blow.mp3
+   73  touch lipglossandone.mp3 rightsideofthebed.mp3 oursickstory.mp3 whentwoareone.mp3 blow.mp3
+   74  cd ..
+   75  cd cuca 
+   76  touch elsondeldolor.mp3 elmamondelapistola.mp3 labalada.mp3 señoritacaradepizza.mp3 implacable.mp3
+   77  cd ..
+   78  cd greenday
+   79  touch waiting.mp3 warning.mp3 minority.mp3 holiday.mp3 americanidiot.mp3
+   80  cd .. 
+   81  cd korn
+   82  touch adidas.mp3 twist.mp3 makemebad.mp3 gotthelife.mp3 thougtless.mp3
+   83  cd ..
+   84  cd malditavecindad
+   85  touch morenaza.mp3 pachuco.mp3 solin.mp3 mojado.mp3 kumbala.mp3 
+   86  cd ..
+   87  cd ozzy
+   88  touch crazytrain.mp3 mrcrowley.mp3 ironman.mp3 paranoid.mp3 dreamer.mp3 
+   89  cd ..
+   90  cd sabaton
+   91  touch panzerkampf.mp3 nightwitches.mp3 whitedeath.mp3 carolusrex.mp3 lionfromthenorth.mp3
+   92  cd ..
+   93  cd cafetacvba
+   94  touch eres.mp3 ingrata.mp3 esanoche.mp3 maria.mp3 lasflores.mp3
+   95  cd ..
+   96  cd disturbed
+   97  touch stupify.mp3 imalive.mp3 thenight.mp3 serpentine.mp3 stricken.mp3
+   98  cd ..
+   99  cd heroesdelsilencio
+  100  touch avalancha.mp3 bendecida.mp3 tesoro.mp3 agosto.mp3 nuestrosnombres.mp3
+  101  cd ..
+  102  cd limpbizkit
+  103  touch rearrenged.mp3 nookie.mp3 9teen99.mp3 myway.mp3 faith.mp3
+  104  cd ..
+  105  cd metallica
+  106  touch unforgiven.mp3 unforgiven2.mp3 unforgiven3.mp3 untilitsleeps.mp3 batery.mp3 
+  107  cd ..
+  108  cd panda
+  109  touch pathetica.mp3 nuestraafliccion.mp3 usted.mp3 ilasha.mp3 muñeca.mp3
+  110  cd ..
+  111  cd sodastereo
+  112  touch nadapersonal.mp3 demusicaligera.mp3 laciudaddelafuria.mp3 persianaamericana.mp3 signos.mp3
+  113  cd ..
+  114  cd caifanes
+  115  touch amanece.mp3 miedo.mp3 avientame.mp3 tortuga.mp3 mariquita.mp3
+  116  cd ..
+  117  cd fobia
+  118  touch microbito.mp3 venenovil.mp3 camila.mp3 hipnotizame.mp3 elcrucifijo.mp3
+  119  cd ..
+  120  cd jaguares
+  121  touch huracan.mp3 imaginame.mp3 parpadea.mp3 adios.mp3 derritete.mp3
+  122  cd ..
+  123  cd linkinpark
+  124  touch numb.mp3 papercut.mp3 whativedone.mp3 crawling.mp3 newdivide.mp3
+  125  cd ..
+  126  cd mudvayne
+  127  touch dig.mp3 deathblooms.mp3 happy.mp3 notfalling.mp3 forgettoremember.mp3
+  128  cd ..
+  129  cd paparoach
+  130  touch infest.mp3 lastresort.mp3 binge.mp3 revenge.mp3 snakes.mp3
+  131  cd ..
+  132  cd user1
+  133  copy /* /C/Users/user1
+  134  cp /* /C/Users/user1
+  135  cp /* C/Users/user1
+  136  cp /* /C/Users/user2
+  137  cp /* C/Users/user2
+  138  cd ..
+  139  cp /user1/* /C/Users/user2
+  140  ls
+  141  cd user
+  142  cd user1
+  143  cp /* /C/Users/user2
+  144  cp -r user1/ C/Users/user2
+  145  cp -r /* /C/Users/user2
+  146  cd ..
+  147  cp -r user1/ C/Users/user2
+  148  cp -r user1/ C/Users/user2/
+  149  cp -r C/Users/user1/ C/Users/user2/
+  150  cp -r -a user1/ /C/Users/user2
+  151  cd user1
+  152  cp -r /* /C/Users/user2
+  153  cp -r /* /C/Users/user2/
+  154  cd ..
+  155  ls
+  156  cd user1
+  157  ls
+  158  cp -r user1/ C/Users/user2
+  159  cd ..
+  160  cp -r user1/ C/Users/user2
+  161  cp -r user1/ Users/user2
+  162  cp -r user1/ user2
+  163  cp -r user1/ user3
+  164  cd user3
+  165  ls
+  166  rm -f user1
+  167  rm -f -r user1
+  168  rm -r user1
+  169  cd ..
+  170  cd user2
+  171  ls
+  172  rm -r user2/user1
+  173  rmdir -r user1
+  174  rm -R user1
+  175  ls
+  176  cd ..
+  177  cd user3 
+  178  rm -R user1
+  179  ls
+  180  cd ..
+  181  cd user1
+  182  ls
+  183  cp Desktop/ Documents/ Downloads/ Music/ Pictures/ Video/ bash/ git/ tarea/ user2
+  184  cp Desktop/ Documents/ Downloads/ Music/ Pictures/ Video/ bash/ git/ tarea/ C/Users/user2
+  185  cp Desktop/ ../user2
+  186  cp -r Desktop ../user2
+  187  cd ..
+  188  cd user2
+  189  ls
+  190  cd ..
+  191  cd user1
+  192  cd ..
+  193  cd user2
+  194  ls
+  195  cd Desktop
+  196  ls
+  197  cd ..
+  198  cd user1
+  199  cp -r Documents/ Downloads/ Music/ Pictures/ Video/ bash/ git/ tarea/ ../user2
+  200  cp -r Desktop/ Documents/ Downloads/ Pictures/ Video/ bash/ git/ tarea/ ..user3
+  201  cd -r Desktop/ Documents/ Downloads/ Pictures/ Video/ bash/ git/ tarea/ ../user3
+  202  cp -r Desktop/ Documents/ Downloads/ Pictures/ Video/ bash/ git/ tarea/ ../user3
+  203  cd ..
+  204  cd user3
+  205  ls
+  206  cd ..
+  207  cd user1
+  208  cp -r Music/ ../user3
+  209  cd ..
+  210  cd user2
+  211  ls
+  212  cd ..
+  213  cd user3
+  214  ls
+  215  cd music
+  216  cd Music
+  217  ls
+  218  cd ..
+  219  history > exercise.txt
