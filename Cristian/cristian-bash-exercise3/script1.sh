@@ -23,7 +23,7 @@ EAGLE="HotelCalifornia TakeItEasy TakeLimit PrettyMaids LyinEyes TequilaSunrise 
 EUROPE="Carrie IllCryforYou HeartofStone ScreamofAnger TheFinalCountdown OPENYOURHEART Tomorrow TimeHasCome RockTheNight Cherokee"
 
 
-
+cd C:
 cd Programs
 echo "Borrando Carpeta de Programs"
 for CARPETA in $PROGRAM_FOLDERS_ERASE
