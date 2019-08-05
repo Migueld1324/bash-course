@@ -1,0 +1,1 @@
+ sudo, sudoedit — execute a command as another user
