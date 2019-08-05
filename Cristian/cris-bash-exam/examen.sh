@@ -1,5 +1,6 @@
 #!/bin/bash
-
+mkdir Bash
+cd Bash
 mkdir ls
 cd ls
 echo "Listado">>ls.txt
@@ -34,7 +35,7 @@ echo "Cambiar de directorio. Se puede cambiar la ruta completa o ir una carpeta 
 echo "">>Options.txt
 echo ".. carpeta atras o la ruta de directorio espesifico">>Arguments.txt
 echo "cd .., cd Users/ cd Windows/System32">>Examples.txt
-cd..
+cd ..
 
 mkdir history
 cd history
@@ -43,7 +44,7 @@ echo "Muestra el historial de comandos que se han usado en una consola">>Descrip
 echo "-c borrar hisotiral. \n -w crear archivo con historial \n n numero para ver el numero de comandos de abajo haciarriba n comandos">> Options.txt
 echo "Solo al usar -w para poner nombre al archivo del historial">>Arguments.txt
 echo "history \n history -c \n history -w Historiadecomandos.txt">>Examples.txt
-cd..
+cd ..
 
 mkdir pushdpopd
 cd pushdpopd
@@ -79,7 +80,7 @@ echo "Muestra la descripcion del comando">>Description.txt
 echo "">>Options.txt
 echo "Comando a espesificar">>Arguments.txt
 echo "whatis nano \n whatis touch \n whatis rm">>Examples.txt
-cd..
+cd ..
 
 mkdir MKDIR
 cd MKDIR
@@ -88,7 +89,7 @@ echo "Crear un forlder o directorio">>Description.txt
 echo "">>Options.txt
 echo "Nombre del directorio o directorios a crear">>Arguments.txt
 echo "mkdir directorio1 \n mkdir dir/opt/algo">>Examples.txt
-cd..
+cd ..
 
 mkdir TOUCH
 cd TOUCH
@@ -97,7 +98,7 @@ echo "Crea un nuevo archivo o cambia fecha de archivo">>Description.txt
 echo "-a cambia de fecha">>Options.txt
 echo "Nombre del archivo ">>Arguments.txt
 echo "touch archivo.txt touch -a archivo.txt">>Examples.txt
-cd..
+cd ..
 
 mkdir MV
 cd MV
@@ -106,7 +107,7 @@ echo "Mueve archivo de carpeta o cambia de nombre archivo">>Description.txt
 echo "-f nom pregunta al sobreescribir">>Options.txt
 echo "Nombre del archivo y ruta a mover o nombre del archivo viejo y nombre del archivo nuevo">>Arguments.txt
 echo "mv archivo.txt /User1 \n mv archivo1 archivo2">>Examples.txt
-cd..
+cd ..
 
 mkdir man
 cd man
@@ -115,7 +116,7 @@ echo "Manual del comando">>Description.txt
 echo "">>Options.txt
 echo "nombre del comando a explicar">>Arguments.txt
 echo "man nano \n man touch \n man mv">>Examples.txt
-cd..
+cd ..
 
 mkdir RM
 cd RM
@@ -124,7 +125,7 @@ echo "Elimina archivos y directorios con cosas">>Description.txt
 echo "-R eliminar de forma recursiba -f Forzar">>Options.txt
 echo "Nombre de archivo o directorio">>Arguments.txt
 echo "rm archivo1.txt \n rm -r /User1 \n rm -rf /User2">>Examples.txt
-cd..
+cd ..
 
 mkdir RMDIR
 cd RMDIR
@@ -132,12 +133,12 @@ echo "Remover directorio">>RMDIR
 echo "Remueve directorios vacios">>Description.txt
 echo "">>Options.txt
 echo "Nombre de directorio a borrar">>Arguments.txt
-echo "rmdir /emptydirectori"
+echo "rmdir /emptydirectori" >> Examples.txt
 cd ..
 
 mkdir greep
 cd greep
-cd..
+cd ..
 
 mkdir find
 mkdir psaux
