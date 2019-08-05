@@ -1,0 +1,1 @@
+sudo chmod 777 file.txt; sudo chown owner folder/; sudo cp file folder/; sudo rm -r folder; sudo chgrp admin folder/

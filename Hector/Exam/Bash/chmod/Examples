@@ -1,0 +1,1 @@
+chmod u=rwx,g=rwx,o=rwx file.txt; chmod 000 folder/; chmod 740 file.txt; chmod 444 folder/; chmod 666 file.exe

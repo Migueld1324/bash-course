@@ -1,0 +1,1 @@
+cat file1; cat file1 > file2; cat file2 >> file3; cat file3 > file1; cat file1 >> file2

@@ -1,0 +1,1 @@
+grep word file.txt; grep -i Word file2.txt; grep -R text; grep -c word; grep this thisfile.txt
