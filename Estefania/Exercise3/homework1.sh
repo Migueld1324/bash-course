@@ -2,7 +2,7 @@
 PROGRAM_FOLDERS="Calendar Firefox Skype Spotify VisualStudioCode"
 WINDOWS_FOLDERS="Apps Containers Cursors Debug"
 WINDOWS_FILES="file1.txt file2.txt file3.txt file4.txt file5.txt"
-SYSTEM_FILES= "file11.txt file12.txt file13.txt file14.txt file15.txt"
+SYSTEM_FILES="file11.txt file12.txt file13.txt file14.txt file15.txt"
 USER_FOLDERS="Desktop Documents Downloads Stuff"
 MUSIC_FOLDERS="ACDC Aerosmith BlackSabbath CCR Cream DeepPurple Dio Dokken Eagles Europe"
 PICTURE_FILES="image6.jpg image7.jpg image8.jpg image9.jpg image10.jpg image11.jpg image12.jpg image13.jpg image14.jpg image15.jpg"
@@ -12,7 +12,7 @@ VIDEOS_FILES="video1.mp4 video2.mp4 video3.mp4 video4.mp4 video5.mp4 video6.mp4 
 MUSIC_LIST="song6.mp3 song7.mp3 song8.mp3 song9.mp3 song10.mp3"
 NEW_MUSIC="GunsNRoses IronMaiden JimiHendrix Journey Kansas PinkFloyd LedZeppelin Megadeth Metallica Pantera"
 
-
+cd C:
 cd Programs
 
 echo "Delete Programs"
@@ -27,7 +27,7 @@ cd Windows
 rm -r root
 
 echo "Delete files on Windows"
-  for FOLDER in $WINDOWS_FILES
+  for FOLDER in $WINDOWS_FOLDERS
    do
     cd $FOLDER
     rm $WINDOWS_FILES
@@ -36,12 +36,12 @@ done
 
 echo "Borrando arvhivos de System32"
 cd System32
-for FOLDER in $WINDOWS_FILES
- do
-  cd $FOLDER
-  rm $WINDOWS_FILES
-  cd ..
-done
+# for FOLDER in $WINDOWS_FILES
+#  do
+#   cd $FOLDER
+#   rm $WINDOWS_FILES
+#   cd ..
+# done
 
 for FILE in $SYSTEM_FILES
  do
