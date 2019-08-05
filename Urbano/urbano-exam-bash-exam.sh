@@ -1,16 +1,16 @@
 #!/bin/bash
 COMMANDS="ls pwd cd clear history pushd popd locate wich whatis mkdir touch mv man rm rmdir cp cat find greb ps sudo chmode chown chgrp kill echo"
 FILES_NAME="Description Option Arguments Examples"
-# mkdir "Bash"
+mkdir "Bash"
 cd Bash
-# for COMMAND in $COMMANDS
-#     do
-#     mkdir $COMMAND
-#     cd $COMMAND
-#     touch $COMMAND
-#     touch $FILES_NAME
-#     cd ../
-# done
+for COMMAND in $COMMANDS
+    do
+    mkdir $COMMAND
+    cd $COMMAND
+    touch $COMMAND
+    touch $FILES_NAME
+    cd ../
+done
 for COMMAND in $COMMANDS
     do
     cd $COMMAND
