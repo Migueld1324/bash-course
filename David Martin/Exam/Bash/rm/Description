@@ -1,0 +1,5 @@
+
+‘rm’ removes each given FILE.  By default, it does not remove
+directories.  Synopsis:
+
+     rm [OPTION]... [FILE]...

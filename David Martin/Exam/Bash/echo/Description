@@ -1,0 +1,5 @@
+
+‘echo’ writes each given STRING to standard output, with a space between
+each and a newline after the last one.  Synopsis:
+
+     echo [OPTION]... [STRING]...

@@ -1,0 +1,5 @@
+
+‘cp’ copies files (or, optionally, directories).  The copy is completely
+independent of the original.  You can either copy one file to another,
+or copy arbitrarily many files to a destination directory.  Synopses:
+

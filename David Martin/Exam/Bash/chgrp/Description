@@ -1,0 +1,5 @@
+
+‘chgrp’ changes the group ownership of each given FILE to GROUP (which
+can be either a group name or a numeric group ID) or to the group of an
+existing reference file.  *Note chown invocation::.  Synopsis:
+

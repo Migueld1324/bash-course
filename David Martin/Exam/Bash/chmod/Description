@@ -1,0 +1,5 @@
+
+‘chmod’ changes the access permissions of the named files.  Synopsis:
+
+     chmod [OPTION]... {MODE | --reference=REF_FILE} FILE...
+

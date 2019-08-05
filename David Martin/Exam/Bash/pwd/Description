@@ -1,0 +1,5 @@
+
+‘pwd’ prints the name of the current directory.  Synopsis:
+
+     pwd [OPTION]...
+
